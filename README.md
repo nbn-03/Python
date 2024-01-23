@@ -12,6 +12,7 @@
   - xem đường dẫn hiện tại: pwd
 - tải Python: youtube.
 - cách chạy trên terminal: cd đến đường dẫn đó sau đó => python ten_file.py
+## 2
 - ![image](https://github.com/nbn-03/Python/assets/98254107/d2a250f1-ab95-464d-9e04-74733103a6c6)
 - 
 
