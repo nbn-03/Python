@@ -23,7 +23,16 @@
 - gán biến: a = 5 | a = 46 | a =4.5 các quy tắc đặt tên: không bắt đầu bằng số; không có space; không có ' " , < > / ? | \ ( ) ! @ # $ % ^ & * ~ - + và tránh tên những từ có nghĩa trong python
 - trong python sử dụng tính năng Dynamic Typing. nghĩa là có thể gán lại biến cho các loại kiểu dữ liệu khác nhau hay không cần khai báo kiểu dữ liệu cho biến. điều này làm cho việc gán kiểu dữ liệu rất linh hoạt so với các ngôn ngữ khác. ưu điểm: dễ làm việc; thời gian nhanh. nhược điểm: có thể gây ra lỗi đối với kiểu dữ liệu dữ liệu không mong muốn. để xác định kiểu dữ liệu ta dùng hàm: **type()**
 ### c.String
- là chuỗi kí tự đặt trong " " hoặc ' ' 
+- là chuỗi kí tự đặt trong " " hoặc ' '
+- chú ý: để in ra dấu ' hoặc " <br>
+![image](https://github.com/nbn-03/Python/assets/98254107/fb0db2cf-6bb9-43d9-a900-ef342dc12264)
+- trong các chuỗi có số thứ tự gọi là chỉ mục chúng ta có thể sử dụng chỉ mục (mỗi phần tử trong chuỗi đều có 1 số thứ tự bắt đầu từ 0) để lấy hoặc cắt các phần con của chuỗi
+- ví dụ: <br>![image](https://github.com/nbn-03/Python/assets/98254107/338e4117-5c62-4997-b3d6-b64ecee92cd3)
+- chỉ mục được đặt trong [ ]
+- ví dụ: <br>![image](https://github.com/nbn-03/Python/assets/98254107/aa1c8be9-1471-4ac9-90d1-fe7db1f5c530)<br>![image](https://github.com/nbn-03/Python/assets/98254107/a36583f0-6f36-4c55-aef2-b8e0b12fe409)
+- slicing cho phép bạn lấy 1 phần gồm nhiều kí tự. lệnh: [start:stop:step]. nếu không truyền đối số cho stop và step nó sẽ tự động stop: hết chuỗi. step: 1 
+- câu lệnh để in ra màn hình: **print()**. print sẽ tự động xuống dòng khi thực hiện câu lệnh. \n - xuống dòng. \t sử dụng tab
+- câu lệnh đo độ dài của chuỗi: **len()**  
 
 
 
