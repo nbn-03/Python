@@ -30,9 +30,10 @@
 - ví dụ: <br>![image](https://github.com/nbn-03/Python/assets/98254107/338e4117-5c62-4997-b3d6-b64ecee92cd3)
 - chỉ mục được đặt trong [ ]
 - ví dụ: <br>![image](https://github.com/nbn-03/Python/assets/98254107/aa1c8be9-1471-4ac9-90d1-fe7db1f5c530)<br>![image](https://github.com/nbn-03/Python/assets/98254107/a36583f0-6f36-4c55-aef2-b8e0b12fe409)
-- slicing cho phép bạn lấy 1 phần gồm nhiều kí tự. lệnh: [start:stop:step]. nếu không truyền đối số cho stop và step và start nó sẽ tự động stop: vị trí cuối của chuỗi, step: 1, start: vị trí bắt đầu
+- slicing cho phép bạn lấy 1 phần gồm nhiều kí tự. lệnh: [start:stop:step]. nếu không truyền đối số cho stop và step và start nó sẽ tự động stop: vị trí cuối của chuỗi, step: 1, start: vị trí bắt đầu. đảo ngược chuỗi thì step là số âm.
 - câu lệnh để in ra màn hình: **print()**. print sẽ tự động xuống dòng khi thực hiện câu lệnh. \n - xuống dòng. \t sử dụng tab
-- câu lệnh đo độ dài của chuỗi: **len()**  
+- câu lệnh đo độ dài của chuỗi: **len()**
+- 
 
 
 
