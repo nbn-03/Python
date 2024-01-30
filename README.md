@@ -13,6 +13,7 @@
   - xem đường dẫn hiện tại: pwd
 - tải Python: youtube.
 - cách chạy trên terminal: cd đến đường dẫn đó sau đó => python ten_file.py
+**trong python và java khi tổng hợp lí thuyết có thể viết hàm với phương thức lẫn lộn nhau. hiểu đơn giản là hàm chỉ cần gọi trực tiếp còn phương thức là dùng qua đối tượng để gọi như: ten.phuong_thuc()**
 ## 2. Python object and data structure basics
 - ![image](https://github.com/nbn-03/Python/assets/98254107/d2a250f1-ab95-464d-9e04-74733103a6c6)
 ### a.Numbers
@@ -50,5 +51,27 @@
 - **truy xuất phần tử trong list sẽ giống với các phần tử trong chuỗi**
 - nối list sư dụng phép công "+". ví dụ:  ![image](https://github.com/nbn-03/Python/assets/98254107/116b3167-5512-4872-a447-32aa265a4548)
 - có sự khác biệt là với chuỗi không thể thay đổi được phần tử trong chuỗi nhưng tại list thì có tể thay đối các phần tử. ví dụ: ![image](https://github.com/nbn-03/Python/assets/98254107/6741ca7f-c82f-46e8-aa6c-169b82a4471c)
-- thêm vào cuối list: **ten_list.append(gia_tri_can_them)**
-- loại bỏ phần tử trong
+- thêm vào cuối list: **ten_list.append(gia_tri_can_them)**.
+- lấy phần tử và loại bỏ chính phần tử đó trong list: **ten_list.pop(vi_tri_bo)** nếu không truyền vị trí sẽ auto là vị trí cuối
+- sắp xếp các phần tử trong list theo thứ tự tăng dần: **ten_list.sort()**
+- sắp xếp các phần tử trong list theo thứ tự giảm dần: **ten_list.reverse()**
+- **còn rất nhiều phương thức hỗ trợ khác...**
+- chú ý:<br> ![image](https://github.com/nbn-03/Python/assets/98254107/21113fd2-06c4-404d-bf9c-d40a328116f0)
+### f. Dictionary
+- là 1 tập hợp các cặp **key-value với key là chỉ mục** không có thứ tự, không thể sắp xếp, có thể thay đổi (key cố định và value được thay đổi).
+- trong dictionary sử dụng dấu { } để tập hợp tạo nên dic phân cách các phần tử bằng dấu , còn giữa key và value là dấu :
+- ví dụ: <br> ![image](https://github.com/nbn-03/Python/assets/98254107/a9b3e6e4-1c6a-4303-8115-22e5d8e9864c)
+- cách lấy dược value: **ten_dic[ten_key]** <br> ví dụ: <br> ![image](https://github.com/nbn-03/Python/assets/98254107/a2cfc5a2-eefa-43c6-b81f-f4c28ec70a5e) <br> ![image](https://github.com/nbn-03/Python/assets/98254107/29ef3c3f-6e35-4d00-8ad5-d6e9ba16fa6b)
+- thêm 1 cặp vào dic: **ten_dic[key_moi] = value_moi** ví dụ: <br> ![image](https://github.com/nbn-03/Python/assets/98254107/9620b047-d929-48eb-83f8-4ae4b971e763)
+- thay đổi value: **ten_dic[key_can_thay] = value_moi** ví dụ: <br> ![image](https://github.com/nbn-03/Python/assets/98254107/f3f91c8a-5839-4763-b50a-840e96f1400d)
+- xem tên các key: **ten_dic.keys()**
+- xem giá trị các value: **ten_dic.values()**
+- xem cả tên key và các giá trị value tương ứng: **ten_dic.items()**
+- kiểm tra số bộ trong dic: **len(ten_dic)**
+### g. tuple
+- rất giống với **list** nhưng chúng có tính **bất biến - không thể thay đổi**
+- dùng dấu ( ) để nhóm các phần tử và các phần tử ngăn cách nhau bởi dấu ,
+- kiểm tra số phần tử: **len(ten_tuple)**
+- truy xuất: **tương tự list**
+- đếm số lần phần tử có trong tuple: **ten_tuple.count(gia_tri_phan_tu)**
+- trả về chỉ mục đầu tiên mà phần tử đó xuất hiện: **ten_tuple.index(gia_tri_phan_tu)**
