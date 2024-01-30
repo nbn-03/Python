@@ -75,3 +75,12 @@
 - truy xuất: **tương tự list**
 - đếm số lần phần tử có trong tuple: **ten_tuple.count(gia_tri_phan_tu)**
 - trả về chỉ mục đầu tiên mà phần tử đó xuất hiện: **ten_tuple.index(gia_tri_phan_tu)**
+### h. set
+- là 1 bộ không có thứ tự <không có chỉ mục>, không cho phép dữ liệu trùng lặp
+- dùng dấu { } để tập hợp các phần tử, các phần tử phân cách nhau bởi dấu ,
+- thêm phần tử vào set: **ten_set.add(gia_tri)**
+- thường dùng để lọc các giá trị trùng nhau trong list
+### i. file
+- bắt đầu làm việc đơn giản với file .txt
+- với phương pháp đơn giản ở đây sẽ là cơ sở mở rộng hơn nữa để làm việc với các tệp khác như: âm thanh, excel,...
+- 
