@@ -1,6 +1,7 @@
 # Python
 ## 1. tổng quan cho người mới với python
 - https://github.com/Pierian-Data/Complete-Python-3-Bootcamp
+- **vì là tổng quát lại nên sẽ không nhắc đươc hết các hàm, các phương thức vì vậy còn rất nhiều hàm, phương thức khác nhau (GPT; Google)**
 - windows command line:
   - hiển thị các thư mục và file trong đường dẫn: dir
   - xóa màn hình: cls
@@ -14,6 +15,7 @@
 - tải Python: youtube.
 - cách chạy trên terminal: cd đến đường dẫn đó sau đó => python ten_file.py
 **trong python và java khi tổng hợp lí thuyết có thể viết hàm với phương thức lẫn lộn nhau. hiểu đơn giản là hàm chỉ cần gọi trực tiếp còn phương thức là dùng qua đối tượng để gọi như: ten.phuong_thuc()**
+**trong python không có { } để nhóm câu lệnh lại như C và Javaa nên ta sử dụng thụt lề (tab) để nhóm câu lệnh**
 ## 2. Python object and data structure basics
 - ![image](https://github.com/nbn-03/Python/assets/98254107/d2a250f1-ab95-464d-9e04-74733103a6c6)
 ### a.Numbers
@@ -25,9 +27,7 @@
 - trong python sử dụng tính năng Dynamic Typing. nghĩa là có thể gán lại biến cho các loại kiểu dữ liệu khác nhau hay không cần khai báo kiểu dữ liệu cho biến. điều này làm cho việc gán kiểu dữ liệu rất linh hoạt so với các ngôn ngữ khác. ưu điểm: dễ làm việc; thời gian nhanh. nhược điểm: có thể gây ra lỗi đối với kiểu dữ liệu dữ liệu không mong muốn. để xác định kiểu dữ liệu ta dùng hàm: **type()**
 ### c.String
 - là chuỗi kí tự đặt trong " " hoặc ' '
-- chú ý: để in ra dấu ' hoặc " <br>
-![image](https://github.com/nbn-03/Python/assets/98254107/fb0db2cf-6bb9-43d9-a900-ef342dc12264)
-- chú ý: với truy xuất phần tử trong String ở java không dùng truy xuất như python mà dùng: **ten_chuoi.charAt(chi_muc)**
+- chú ý: với truy xuất phần tử trong String ở java không dùng truy xuất như python mà dùng: **ten_chuoi.charAt(chi_muc)** =>> tương tác trên chuỗi của java đều thông qua phương thức đa phần sẽ khác với python (vẫn tồn tại 1 số giống nhau giữa 2 ngôn ngữ)
 - trong các chuỗi có số thứ tự gọi là chỉ mục chúng ta có thể sử dụng chỉ mục (mỗi phần tử trong chuỗi đều có 1 số thứ tự bắt đầu từ 0) để lấy hoặc cắt các phần con của chuỗi
 - ví dụ: <br>![image](https://github.com/nbn-03/Python/assets/98254107/338e4117-5c62-4997-b3d6-b64ecee92cd3)
 - chỉ mục được đặt trong [ ]
@@ -55,7 +55,6 @@
 - lấy phần tử và loại bỏ chính phần tử đó trong list: **ten_list.pop(vi_tri_bo)** nếu không truyền vị trí sẽ auto là vị trí cuối
 - sắp xếp các phần tử trong list theo thứ tự tăng dần: **ten_list.sort()**
 - sắp xếp các phần tử trong list theo thứ tự giảm dần: **ten_list.reverse()**
-- **còn rất nhiều phương thức hỗ trợ khác...**
 - chú ý:<br> ![image](https://github.com/nbn-03/Python/assets/98254107/21113fd2-06c4-404d-bf9c-d40a328116f0)
 ### f. Dictionary
 - là 1 tập hợp các cặp **key-value với key là chỉ mục** không có thứ tự, không thể sắp xếp, có thể thay đổi (key cố định và value được thay đổi).
@@ -83,4 +82,17 @@
 ### i. file
 - bắt đầu làm việc đơn giản với file .txt
 - với phương pháp đơn giản ở đây sẽ là cơ sở mở rộng hơn nữa để làm việc với các tệp khác như: âm thanh, excel,...
-- 
+- mở file: **ten_doi_tuong = open("duong_dan_den_file")** ví dụ: <br> ![image](https://github.com/nbn-03/Python/assets/98254107/6aa06394-27cf-4470-b3b1-1b3ca6d38d53) <br> chú ý: <br> ![image](https://github.com/nbn-03/Python/assets/98254107/f6dbdfe1-244a-4126-9e25-5dc0221cae37) <br> ![image](https://github.com/nbn-03/Python/assets/98254107/1bf1b6d9-1131-47b3-b101-3c3ec1caac58) <br> ![image](https://github.com/nbn-03/Python/assets/98254107/caa72150-2209-4819-a824-e2fe43e479b0)
+- đóng file: **ten_doi_tuong.close()**
+- các tối ưu thường dùng kết hợp mở và đóng file: **with open("duong_dan_den_file") as ten_doi_tuong** các câu lệnh thao tác với file đều nằm trong with. ví dụ: <br> ![image](https://github.com/nbn-03/Python/assets/98254107/08eb961e-401e-481a-bce6-cf0c3e7f5164)
+- để thao tác đọc và ghi file thì cần thêm mode khi mở file: **open("duong_dan","mode")**
+- các mode: **giống với C**
+  - **r**: chỉ được phép đọc, nếu file không tồn tại sẽ trả về lỗi
+  - **w**: chỉ cho phép ghi, nếu file đã tồn tại thì sẽ ghi đè, nếu chưa tồn tại sẽ được tạo tự động
+  - **a**: cho ghi thêm dữ liệu vào cuối file (con trỏ ở cuối file), nếu file không tồn tại sẽ được tạo mới
+  - **rb, wb, ab**: mode ở chế độ nhị phân
+  - **mode thêm dấu +**: cho phép cả đọc và ghi
+- đọc file: **ten_doi_tuong.read()** tại đây khi đọc nó sẽ xuất hiện kí tự \n đó chính là xuống dòng trong file
+- ghi file: **ten_doi_tuong.write(noi_dung)**
+- đọc toàn bộ file và lưu mỗi dòng là 1 phần tử của list: **ten_doi_tuong.readlines()** chú ý lưu cả dấu xuống dòng
+- tại trong file cũng sẽ có chỉ mục bắt đầu từ 0 vì vậy các phương thức có thể sử dụng đến chỉ mục
