@@ -99,4 +99,17 @@
 - tại trong file cũng sẽ có chỉ mục bắt đầu từ 0 vì vậy các phương thức có thể sử dụng đến chỉ mục
 ## 3. toán tủ so sánh trong python
 - ![image](https://github.com/nbn-03/Python/assets/98254107/b16ca2df-5443-4303-8700-b2d8ff73a576)
-- **and**: và; **or**: hoặc
+- **and**: và; **or**: hoặc; **not**: phủ định (giống với ! trong java và C)
+## 4. câu lệnh trong python
+### a. if; elif; else
+- là câu lệnh điều kiện nếu-thì. ví dụ: <br> ![image](https://github.com/nbn-03/Python/assets/98254107/70833ec2-0897-4c0c-bf38-941fe976e05f) <br> ![image](https://github.com/nbn-03/Python/assets/98254107/073e464c-062f-43b9-ab07-46101facf222)
+### b. for loop
+- là lặp lại thực hiện câu lệnh dưới vòng lặp.
+- ví dụ: <br> ![image](https://github.com/nbn-03/Python/assets/98254107/4b54bc45-1e35-43b4-8f0a-d4ca79f1db6a) <br> ![image](https://github.com/nbn-03/Python/assets/98254107/3a56153d-cd54-44bf-8be9-f626979158df) <br> ![image](https://github.com/nbn-03/Python/assets/98254107/d0e5cdf0-96f6-4139-a81b-b0e9da2eab34) <br> ![image](https://github.com/nbn-03/Python/assets/98254107/f5a1e1fc-d4d2-4214-8185-41b495792c52) <br> ![image](https://github.com/nbn-03/Python/assets/98254107/b14c386f-8d95-457e-a4e5-73274ab94464) <br> ![image](https://github.com/nbn-03/Python/assets/98254107/8b28f1fc-0993-461c-b1a2-870388f701e0) <br> ![image](https://github.com/nbn-03/Python/assets/98254107/3cb3b1d4-060a-4d6e-9807-b98f2557ac02) <br> ![image](https://github.com/nbn-03/Python/assets/98254107/4f9a31ae-7516-48bd-b781-216796f3220e) <br> ![image](https://github.com/nbn-03/Python/assets/98254107/b4620112-1559-4be2-af7f-6d09f9e3151e) <br> ![image](https://github.com/nbn-03/Python/assets/98254107/b0f1de9f-b56b-4ef5-834b-975cb856fa87)
+### c. while loop
+- là lặp lại câu lệnh dưới điều kiện nào đó (khác với for là tại while không biết được số lần lặp lại)
+- ví dụ: <br> ![image](https://github.com/nbn-03/Python/assets/98254107/4da63b0f-9732-47cc-b40c-79af4b2d6751)
+- trong python không có do while nhưng lại có while else. ví dụ: <br> ![image](https://github.com/nbn-03/Python/assets/98254107/73f49073-214e-49ff-a859-db183e8ebe92)
+- tại vòng lặp sẽ có 2 từ khóa hay dùng là: **break**-dùng để kết thúc vòng lặp; **continue**-bỏ qua vòng lặp này đến vòng lặp tiếp.
+### d. toán tử hữu ích
+- 
