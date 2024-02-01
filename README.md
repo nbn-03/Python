@@ -36,7 +36,7 @@
 - câu lệnh để in ra màn hình: **print()**. print sẽ tự động xuống dòng khi thực hiện câu lệnh. \n - xuống dòng. \t sử dụng tab
 - câu lệnh đo độ dài của chuỗi: **len(ten_chuoi)**
 - xử lí chuỗi trong python khác java là với java có thể dùng dấu cộng "+" để nối các kiểu dữ liệu với nhau để tạo thành 1 chuỗi. với python để nối chuỗi cần phải ép kiểu thành KDL String để nối chuỗi. ngoài ra trong python còn có phép nhân "*" => để nhân các chuỗi giống nhau; phép so sánh "< > <= >= ==" để so sánh chuỗi (với java so sánh chuỗi cần phương thức hỗ trợ).
-- ép kiểu: (KDL)ten_bien <br> ví dụ: <br> ![image](https://github.com/nbn-03/Python/assets/98254107/3cf9b24f-8994-46a1-82f5-6d771b352245)
+- ép kiểu: KDL(ten_bien) <br> ví dụ: <br> ![image](https://github.com/nbn-03/Python/assets/98254107/3cf9b24f-8994-46a1-82f5-6d771b352245)
 - chuyển thành chũ hoa: **ten_chuoi.upper()**
 - chuyển thành chữ thường: **ten_chuoi.lower()**
 - tách 1 chuỗi thành 1 list: **ten_chuoi.split("vi_tri_tach")**. chú ý đối số của hàm split không có gì sẽ auto là dấu cách.
@@ -105,11 +105,18 @@
 - là câu lệnh điều kiện nếu-thì. ví dụ: <br> ![image](https://github.com/nbn-03/Python/assets/98254107/70833ec2-0897-4c0c-bf38-941fe976e05f) <br> ![image](https://github.com/nbn-03/Python/assets/98254107/073e464c-062f-43b9-ab07-46101facf222)
 ### b. for loop
 - là lặp lại thực hiện câu lệnh dưới vòng lặp.
-- ví dụ: <br> ![image](https://github.com/nbn-03/Python/assets/98254107/4b54bc45-1e35-43b4-8f0a-d4ca79f1db6a) <br> ![image](https://github.com/nbn-03/Python/assets/98254107/3a56153d-cd54-44bf-8be9-f626979158df) <br> ![image](https://github.com/nbn-03/Python/assets/98254107/d0e5cdf0-96f6-4139-a81b-b0e9da2eab34) <br> ![image](https://github.com/nbn-03/Python/assets/98254107/f5a1e1fc-d4d2-4214-8185-41b495792c52) <br> ![image](https://github.com/nbn-03/Python/assets/98254107/b14c386f-8d95-457e-a4e5-73274ab94464) <br> ![image](https://github.com/nbn-03/Python/assets/98254107/8b28f1fc-0993-461c-b1a2-870388f701e0) <br> ![image](https://github.com/nbn-03/Python/assets/98254107/3cb3b1d4-060a-4d6e-9807-b98f2557ac02) <br> ![image](https://github.com/nbn-03/Python/assets/98254107/4f9a31ae-7516-48bd-b781-216796f3220e) <br> ![image](https://github.com/nbn-03/Python/assets/98254107/b4620112-1559-4be2-af7f-6d09f9e3151e) <br> ![image](https://github.com/nbn-03/Python/assets/98254107/b0f1de9f-b56b-4ef5-834b-975cb856fa87)
+- ví dụ: <br> ![image](https://github.com/nbn-03/Python/assets/98254107/4b54bc45-1e35-43b4-8f0a-d4ca79f1db6a) <br> ![image](https://github.com/nbn-03/Python/assets/98254107/3a56153d-cd54-44bf-8be9-f626979158df) <br> ![image](https://github.com/nbn-03/Python/assets/98254107/d0e5cdf0-96f6-4139-a81b-b0e9da2eab34) <br> ![image](https://github.com/nbn-03/Python/assets/98254107/f5a1e1fc-d4d2-4214-8185-41b495792c52) <br> ![image](https://github.com/nbn-03/Python/assets/98254107/b14c386f-8d95-457e-a4e5-73274ab94464) <br> ![image](https://github.com/nbn-03/Python/assets/98254107/8b28f1fc-0993-461c-b1a2-870388f701e0) <br> ![image](https://github.com/nbn-03/Python/assets/98254107/3cb3b1d4-060a-4d6e-9807-b98f2557ac02) <br> ![image](https://github.com/nbn-03/Python/assets/98254107/4f9a31ae-7516-48bd-b781-216796f3220e) <br> ![image](https://github.com/nbn-03/Python/assets/98254107/b4620112-1559-4be2-af7f-6d09f9e3151e) <br> ![image](https://github.com/nbn-03/Python/assets/98254107/b0f1de9f-b56b-4ef5-834b-975cb856fa87) <br> **vòng for giống C và Java** <br> ![image](https://github.com/nbn-03/Python/assets/98254107/73976048-2e8a-4d11-b1da-a1e0c4ff2c78)
+- **các ví dụ trên có thể thấy tại python vòng lặp for nó khác với Java và C không chỉ dừng lại là for(int i=0;i<n;i++)**
 ### c. while loop
 - là lặp lại câu lệnh dưới điều kiện nào đó (khác với for là tại while không biết được số lần lặp lại)
 - ví dụ: <br> ![image](https://github.com/nbn-03/Python/assets/98254107/4da63b0f-9732-47cc-b40c-79af4b2d6751)
 - trong python không có do while nhưng lại có while else. ví dụ: <br> ![image](https://github.com/nbn-03/Python/assets/98254107/73f49073-214e-49ff-a859-db183e8ebe92)
 - tại vòng lặp sẽ có 2 từ khóa hay dùng là: **break**-dùng để kết thúc vòng lặp; **continue**-bỏ qua vòng lặp này đến vòng lặp tiếp.
-### d. toán tử hữu ích
-- 
+### d. mở rộng
+- **range(start,stop,step)**. nếu chỉ có stop thì start = 0 và step = 1. lưu ý: **< stop**.
+- từ câu lệnh range tạo thành 1 list, set, tuple: **loai(range(strat,stop,step))**
+- tích hợp truy xuất ra cả chỉ số và giá trị: <br> ![image](https://github.com/nbn-03/Python/assets/98254107/ba4f1325-defc-4fb2-afb6-9cbfa0825dc4) <br> **không chỉ chuỗi mà còn list, tuple, set, dictionary**
+- <br> ![image](https://github.com/nbn-03/Python/assets/98254107/747070a7-b015-48ee-a6f7-bd107fc155ca) <br> ![image](https://github.com/nbn-03/Python/assets/98254107/70406ac3-d397-4c69-a2d9-d5d12bc10b67)
+- có thể dung **in** để kiểm tra phân tử có nằm trong chuỗi, list,... hay không. ví dụ: <br> ![image](https://github.com/nbn-03/Python/assets/98254107/492a201c-6997-48c4-913b-9bc9b5b7090c)
+- max, min trong chuỗi, list,...: **max(ten)**' **min(ten)**
+- **nhập từ bàn phím** câu lệnh: **input()**. ví dụ: <br> ![image](https://github.com/nbn-03/Python/assets/98254107/1a330537-f3ca-450c-ad49-17323b9879b7) <br> ![image](https://github.com/nbn-03/Python/assets/98254107/2a4f2fb9-2b01-4110-b989-16371be05de8) <br> **vì nhập vào từ bàn phím kiểu dữ liệu lúc nào cũng là String vì vậy có thể ép kiểu từ khi nhập** <br> ![image](https://github.com/nbn-03/Python/assets/98254107/bb955ff9-7ac2-4b20-b396-cf67cd78d0dd)
