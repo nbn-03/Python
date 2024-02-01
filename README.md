@@ -36,7 +36,7 @@
 - câu lệnh để in ra màn hình: **print()**. print sẽ tự động xuống dòng khi thực hiện câu lệnh. \n - xuống dòng. \t sử dụng tab
 - câu lệnh đo độ dài của chuỗi: **len(ten_chuoi)**
 - xử lí chuỗi trong python khác java là với java có thể dùng dấu cộng "+" để nối các kiểu dữ liệu với nhau để tạo thành 1 chuỗi. với python để nối chuỗi cần phải ép kiểu thành KDL String để nối chuỗi. ngoài ra trong python còn có phép nhân "*" => để nhân các chuỗi giống nhau; phép so sánh "< > <= >= ==" để so sánh chuỗi (với java so sánh chuỗi cần phương thức hỗ trợ).
-- ép kiểu: KDL(ten_bien) <br> ví dụ: <br> ![image](https://github.com/nbn-03/Python/assets/98254107/3cf9b24f-8994-46a1-82f5-6d771b352245)
+- ép kiểu: **KDL(ten_bien)** <br> ví dụ: <br> ![image](https://github.com/nbn-03/Python/assets/98254107/3cf9b24f-8994-46a1-82f5-6d771b352245)
 - chuyển thành chũ hoa: **ten_chuoi.upper()**
 - chuyển thành chữ thường: **ten_chuoi.lower()**
 - tách 1 chuỗi thành 1 list: **ten_chuoi.split("vi_tri_tach")**. chú ý đối số của hàm split không có gì sẽ auto là dấu cách.
@@ -120,3 +120,5 @@
 - có thể dung **in** để kiểm tra phân tử có nằm trong chuỗi, list,... hay không. ví dụ: <br> ![image](https://github.com/nbn-03/Python/assets/98254107/492a201c-6997-48c4-913b-9bc9b5b7090c)
 - max, min trong chuỗi, list,...: **max(ten)**' **min(ten)**
 - **nhập từ bàn phím** câu lệnh: **input()**. ví dụ: <br> ![image](https://github.com/nbn-03/Python/assets/98254107/1a330537-f3ca-450c-ad49-17323b9879b7) <br> ![image](https://github.com/nbn-03/Python/assets/98254107/2a4f2fb9-2b01-4110-b989-16371be05de8) <br> **vì nhập vào từ bàn phím kiểu dữ liệu lúc nào cũng là String vì vậy có thể ép kiểu từ khi nhập** <br> ![image](https://github.com/nbn-03/Python/assets/98254107/bb955ff9-7ac2-4b20-b396-cf67cd78d0dd)
+- **khuyến cáo nên dùng cách tường mình cách này nên đọc cho biết** <br> ![image](https://github.com/nbn-03/Python/assets/98254107/ceae7e86-7d39-43b0-8946-dc20a1bcad31) <br> ![image](https://github.com/nbn-03/Python/assets/98254107/df97b9b0-ab63-42e8-9f7d-99d94c952096) <br> ![image](https://github.com/nbn-03/Python/assets/98254107/d0676e94-2cdb-48c5-a635-3fd8c5b360ea) <br> ![image](https://github.com/nbn-03/Python/assets/98254107/2d8748e0-08d6-4a13-bf34-6ed9ab52c6f2) <br> ![image](https://github.com/nbn-03/Python/assets/98254107/4d39c05d-1767-4801-b892-10a48251abea) <br> ![image](https://github.com/nbn-03/Python/assets/98254107/b15fadc5-dd6f-408c-9897-26b49aae27a1) <br> ![image](https://github.com/nbn-03/Python/assets/98254107/b2156a6e-0fc3-4f10-88b1-079cc9ecc3ab)
+## 5.
