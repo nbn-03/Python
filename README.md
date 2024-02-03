@@ -147,3 +147,9 @@
  -  trong C và Java: <br> ![image](https://github.com/nbn-03/Python/assets/98254107/ee3a6ebe-7282-4e14-b593-3ad676e25009) <br> ![image](https://github.com/nbn-03/Python/assets/98254107/8a6a2177-31ee-4f35-8139-5f9da477142c)
  -  **chú ý**: đặc biệt tại python khi đặt tên hàm có thể trùng tên với những câu lệnh có sẵn vì vậy tại phạm vi sẽ xuất thêm mức thứ 4 **built-in**. ví dụ: <br> ![image](https://github.com/nbn-03/Python/assets/98254107/fa4744f5-813a-44b8-8763-1dfe6e86e18b)
  -  **chú ý** khác với C và Java khi truy cập đến mức độ thấp hơn để thay đổi giá trị có thể thay đổi **trực tiếp** giá trị biến đấy nhưng với python khi thay đổi giá trị biến ở mức độ thấp hơn cần phải gọi ra. cách gọi với global: **global** ten_bien <br> ![image](https://github.com/nbn-03/Python/assets/98254107/15e2c7cb-650a-4cd7-a055-c6536ae4804f) <br> với enclosing: **nonlocal** ten_bien <br> ![image](https://github.com/nbn-03/Python/assets/98254107/00f5b79b-67a1-4b97-a77c-1e34b960c453)
+## 6. lập trình hướng đối tượng
+- khái niệm: OOP là gì, lớp, đối tượng, phương thức, thuộc tính, ưu điểm nhìn lại java
+- cấu trúc lệnh <br> ![image](https://github.com/nbn-03/Python/assets/98254107/fde26f95-e476-4021-ba41-611d04a3ea00)
+- 4 tính chất của OOP trong java (tính đóng gói, kế thừa, đa hình, trừu tượng) đều có ở python giống nhau về nội dung tuy nhiên cách thể hiện có 1 vài tự khác biệt
+- chú ý vì tính chất của python (không cần khai báo KDL) nên **không cần** khai bao thuộc tính
+- 
