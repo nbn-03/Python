@@ -139,4 +139,11 @@
   - hàm **filter**: kết quả trả về sẽ tương tự hàm **map** nhưng chức năng: được sử dụng để lọc các phần tử trên một hàm điều kiện. ví dụ: ![image](https://github.com/nbn-03/Python/assets/98254107/4a9a8da6-4cdc-4c3f-9adc-527f26ffa4ad)
   - **lambda**: được gọi hàm vô danh, là một loại hàm không tên và thường được sử dụng để định nghĩa các hàm ngắn gọn, đơn giản mà không cần phải dùng từ khoá **def**. ví dụ: <br> ![image](https://github.com/nbn-03/Python/assets/98254107/19c242db-8ece-4008-9f61-1ea402836b9f) <br> ![image](https://github.com/nbn-03/Python/assets/98254107/9bda9b04-f808-4027-987c-4d1be29962c5)
   - kết hợp: <br> ![image](https://github.com/nbn-03/Python/assets/98254107/6680ead9-44b0-4e06-ae92-7991e47f8c89)
-- 
+- các phạm vi thứ tự tìm kiếm trong python:
+ -  **local**:  Phạm vi local chứa các biến được định nghĩa trong hàm hiện tại. Biến local chỉ có thể truy cập được từ bên trong hàm đó.
+ -  **Enclosing**: Phạm vi enclosing là phạm vi bên ngoài hàm hiện tại, chứa các biến của hàm bao bọc hàm hiện tại (nếu có). Nó thường xuất hiện trong trường hợp các hàm lồng nhau
+ -  **Global**: Phạm vi global chứa các biến được định nghĩa ở mức module hoặc ở mức toàn cục của chương trình. Các biến global có thể truy cập được từ bất kỳ nơi nào trong chương trình
+ -  ví dụ: <br> ![image](https://github.com/nbn-03/Python/assets/98254107/4690853e-114d-4ec6-b4a3-22a557f2937d)
+ -  trong C và Java: <br> ![image](https://github.com/nbn-03/Python/assets/98254107/ee3a6ebe-7282-4e14-b593-3ad676e25009) <br> ![image](https://github.com/nbn-03/Python/assets/98254107/8a6a2177-31ee-4f35-8139-5f9da477142c)
+ -  **chú ý**: đặc biệt tại python khi đặt tên hàm có thể trùng tên với những câu lệnh có sẵn vì vậy tại phạm vi sẽ xuất thêm mức thứ 4 **built-in**. ví dụ: <br> ![image](https://github.com/nbn-03/Python/assets/98254107/fa4744f5-813a-44b8-8763-1dfe6e86e18b)
+ -  **chú ý** khác với C và Java khi truy cập đến mức độ thấp hơn để thay đổi giá trị có thể thay đổi **trực tiếp** giá trị biến đấy nhưng với python khi thay đổi giá trị biến ở mức độ thấp hơn cần phải gọi ra. cách gọi global: gọi **global** ten_bien <br> ![image](https://github.com/nbn-03/Python/assets/98254107/15e2c7cb-650a-4cd7-a055-c6536ae4804f) <br> enclosing: gọi **nonlocal** ten_bien <br> ![image](https://github.com/nbn-03/Python/assets/98254107/00f5b79b-67a1-4b97-a77c-1e34b960c453)
