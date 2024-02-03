@@ -135,4 +135,8 @@
  - trả về giá trị tuyệt đối: **abs(ten)**
  - ví dụ bài tập về hàm: <br> ![image](https://github.com/nbn-03/Python/assets/98254107/63d3cfc9-6944-4578-b6b6-9ef328e371f3)
  - Lambda Expressions, Map, and Filter:
-  - hàm **map**:  là một hàm tích hợp sẵn được sử dụng để áp dụng một hàm lên mỗi phần tử của một hoặc nhiều chuỗi, list, tuple,... kết quả trả về sẽ là 1 địa chỉ bộ nhớ của 1 dãy phần tử. để hiện thị dãy phần tử đó ta *thông thường* ép kiểu nó về 1 list hoặc tuple. ví dụ: <br> ![image](https://github.com/nbn-03/Python/assets/98254107/10c1faf5-8ac3-40d1-8c74-755edc82660f)
+  - hàm **map**:  là một hàm tích hợp sẵn được sử dụng để áp dụng một hàm lên mỗi phần tử của một hoặc nhiều chuỗi, list, tuple,... kết quả trả về sẽ là 1 địa chỉ bộ nhớ của 1 dãy phần tử. để hiện thị dãy phần tử đó ta **thông thường** ép kiểu nó về 1 list hoặc tuple. ví dụ: <br> ![image](https://github.com/nbn-03/Python/assets/98254107/10c1faf5-8ac3-40d1-8c74-755edc82660f)
+  - hàm **filter**: kết quả trả về sẽ tương tự hàm **map** nhưng chức năng: được sử dụng để lọc các phần tử trên một hàm điều kiện. ví dụ: ![image](https://github.com/nbn-03/Python/assets/98254107/4a9a8da6-4cdc-4c3f-9adc-527f26ffa4ad)
+  - **lambda**: được gọi hàm vô danh, là một loại hàm không tên và thường được sử dụng để định nghĩa các hàm ngắn gọn, đơn giản mà không cần phải dùng từ khoá **def**. ví dụ: <br> ![image](https://github.com/nbn-03/Python/assets/98254107/19c242db-8ece-4008-9f61-1ea402836b9f) <br> ![image](https://github.com/nbn-03/Python/assets/98254107/9bda9b04-f808-4027-987c-4d1be29962c5)
+  - kết hợp: <br> ![image](https://github.com/nbn-03/Python/assets/98254107/6680ead9-44b0-4e06-ae92-7991e47f8c89)
+- 
