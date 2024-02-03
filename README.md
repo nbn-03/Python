@@ -152,4 +152,6 @@
 - cấu trúc lệnh <br> ![image](https://github.com/nbn-03/Python/assets/98254107/fde26f95-e476-4021-ba41-611d04a3ea00)
 - 4 tính chất của OOP trong java (tính đóng gói, kế thừa, đa hình, trừu tượng) đều có ở python giống nhau về nội dung tuy nhiên cách thể hiện có 1 vài tự khác biệt
 - chú ý: vì tính chất của python (không cần khai báo KDL) nên **không cần** khai bao thuộc tính
-- 
+### a. constructor
+ - định nghĩa: Java
+ - cấu trúc: <br> ![image](https://github.com/nbn-03/Python/assets/98254107/4c837d09-4dbe-452c-b5d4-b0a2c5eb798f) <br> **self** là một quy ước (không phải là từ khóa) dùng để tham chiếu đến thuộc tính của lớp đó. tuy nhiên trong java có this có thể bỏ this (từ khóa - khuyến cáo nên có) nhưng trong python không khai báo thuộc tính vì vậy sẽ không nhận biết được thuộc tính của đối tượng nên phải có **self**
