@@ -158,4 +158,4 @@
  - với constructor có tham số hay không có tham số thì từ **self** vẫn luôn có <br> ![image](https://github.com/nbn-03/Python/assets/98254107/db6ab145-76a1-458a-a5cb-b008b819597d)
 ### b. phương thức
  - ví dụ: <br> ![image](https://github.com/nbn-03/Python/assets/98254107/b2cbd2e1-efce-49c9-aeaf-4f2ff31b03d7) <br> ![image](https://github.com/nbn-03/Python/assets/98254107/3d0c7603-4714-45a0-afaa-3dbc9e4180f6)
- - **chú ý** tại **self** có thể thay thế được bằng **tên class**
+ - **chú ý**: **self** có thể thay thế được bằng **tên class**
