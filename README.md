@@ -80,6 +80,7 @@
 - dùng dấu { } để tập hợp các phần tử, các phần tử phân cách nhau bởi dấu ,
 - thêm phần tử vào set: **ten_set.add(gia_tri)**
 - thường dùng để lọc các giá trị trùng nhau trong list
+- lưu ý: với set do không có thứ tự nên khi so sánh không quam tâm đến thứ tự các phần tử
 ### i. file
 - bắt đầu làm việc đơn giản với file .txt
 - với phương pháp đơn giản ở đây sẽ là cơ sở mở rộng hơn nữa để làm việc với các tệp khác như: âm thanh, excel,...
