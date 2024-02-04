@@ -158,7 +158,9 @@
  - với constructor có tham số hay không có tham số thì từ **self** vẫn luôn có tại vị trí đối số <br> ![image](https://github.com/nbn-03/Python/assets/98254107/db6ab145-76a1-458a-a5cb-b008b819597d)
 ### b. phương thức
  - ví dụ: <br> ![image](https://github.com/nbn-03/Python/assets/98254107/b2cbd2e1-efce-49c9-aeaf-4f2ff31b03d7) <br> ![image](https://github.com/nbn-03/Python/assets/98254107/3d0c7603-4714-45a0-afaa-3dbc9e4180f6)
- - các phương thức cũng tương tự constructor là luôn có **self** tại vị trí đối số
+ - các phương thức cũng tương tự constructor là luôn có **self** tại vị trí đối số <br> ![image](https://github.com/nbn-03/Python/assets/98254107/7e732ecf-16f4-4b59-bb84-0980742a388f)
  - **chú ý**: **self** trong constructor, phương thức có thể thay thế được bằng **tên class**, self trong vị trí đối số truyền vào constructor, phương thức vẫn phải có (không làm theo cách này chỉ nên đọc-biết). ví dụ: <br> ![image](https://github.com/nbn-03/Python/assets/98254107/45606ef1-e916-4a74-847d-d838f87c91a6)
 ### c. kế thừa
- - cấu trúc: 
+ - cấu trúc: <br> ![image](https://github.com/nbn-03/Python/assets/98254107/e3d35113-3610-472e-be6c-9a4e4d215ce6)
+ - **chú ý**: có sự khác biệt với java là  Python, nếu lớp con có một constructor, lớp cha cũng có một constructor và lớp con không gọi constructor của lớp cha bằng super().constructor_lop_cha **(super() có thể thay bằng ten_lop_cha)**, thì constructor của lớp cha sẽ không tự động được gọi khi bạn tạo một thể hiện của lớp con.
+ - ghi đè: 
