@@ -155,7 +155,10 @@
 ### a. constructor
  - định nghĩa: Java
  - cấu trúc: <br> ![image](https://github.com/nbn-03/Python/assets/98254107/4c837d09-4dbe-452c-b5d4-b0a2c5eb798f) <br> **self** là một quy ước (không phải là từ khóa nên cần khai báo tại vị trí đối số) dùng để tham chiếu đến thuộc tính của lớp đó. tuy nhiên trong java có this có thể bỏ this (từ khóa - khuyến cáo nên có) nhưng trong python không khai báo thuộc tính vì vậy sẽ không nhận biết được thuộc tính của đối tượng nên phải có **self**
- - với constructor có tham số hay không có tham số thì từ **self** vẫn luôn có <br> ![image](https://github.com/nbn-03/Python/assets/98254107/db6ab145-76a1-458a-a5cb-b008b819597d)
+ - với constructor có tham số hay không có tham số thì từ **self** vẫn luôn có tại vị trí đối số <br> ![image](https://github.com/nbn-03/Python/assets/98254107/db6ab145-76a1-458a-a5cb-b008b819597d)
 ### b. phương thức
  - ví dụ: <br> ![image](https://github.com/nbn-03/Python/assets/98254107/b2cbd2e1-efce-49c9-aeaf-4f2ff31b03d7) <br> ![image](https://github.com/nbn-03/Python/assets/98254107/3d0c7603-4714-45a0-afaa-3dbc9e4180f6)
+ - các phương thức cũng tương tự constructor là luôn có **self** tại vị trí đối số
  - **chú ý**: **self** trong constructor, phương thức có thể thay thế được bằng **tên class**, self trong vị trí đối số truyền vào constructor, phương thức vẫn phải có (không làm theo cách này chỉ nên đọc-biết). ví dụ: <br> ![image](https://github.com/nbn-03/Python/assets/98254107/45606ef1-e916-4a74-847d-d838f87c91a6)
+### c. kế thừa
+ - cấu trúc: 
