@@ -163,7 +163,10 @@
 ### c. kế thừa
  - cấu trúc: <br> ![image](https://github.com/nbn-03/Python/assets/98254107/e3d35113-3610-472e-be6c-9a4e4d215ce6)
  - **chú ý**: có sự khác biệt với java là  Python, nếu lớp con có một constructor, lớp cha cũng có một constructor và lớp con không gọi constructor của lớp cha bằng super().constructor_lop_cha **(super() có thể thay bằng ten_lop_cha)**, thì constructor của lớp cha sẽ không tự động được gọi khi bạn tạo một thể hiện của lớp con.
- - ghi đè: giông với java
- - nạp chồng phương thức: giống java. hoặc có 1 cách khác dùng từ khóa **None** ví dụ: <br> ![image](https://github.com/nbn-03/Python/assets/98254107/38e46e73-c99e-4f46-853a-115ee9ee7343)
+ - ghi đè: giống với java
+ - nạp chồng phương thức: giống java. hoặc trong Python có 1 cách khác dùng từ khóa **None** ví dụ: <br> ![image](https://github.com/nbn-03/Python/assets/98254107/38e46e73-c99e-4f46-853a-115ee9ee7343)
 ### d. đa hình
- - 
+ - **khác so với Java ở Python không có khuôn mãu**
+ - trong Python các đối tượng khác nhau có thể chia sẻ cùng 1 tên phương thức.
+### e. trìu tượng
+ - cấu trúc: 
