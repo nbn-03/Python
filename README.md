@@ -169,4 +169,5 @@
  - **khác so với Java ở Python không có khuôn mãu**
  - trong Python các đối tượng khác nhau có thể chia sẻ cùng 1 tên phương thức.
 ### e. trìu tượng
+ - **lưu ý**: trong python khác java: trong java một lớp có 1 phương thức trìu trượng thì lớp đó bắt buộc khai báo trìu tượng. còn python một lớp có thể chứa các phương thức trừu tượng mà không cần phải là một lớp trừu tượng.
  - cấu trúc: 
