@@ -172,3 +172,8 @@
  - **lưu ý**: tại python không có interface và lớp trìu tượng như Java chỉ có phương thức trìu tượng. để tạo phương thức trìu tượng ta import module **abc** (abstract base class)
  - cấu trúc: <br> ![image](https://github.com/nbn-03/Python/assets/98254107/250f764c-6586-44b4-881c-3fa96ba36b35)
  - **lưu ý**: @abstractmethod là 1 decorator - một tính năng mạnh mẽ cho phép bạn thay đổi hoặc mở rộng hành vi của một hàm hoặc một lớp một cách linh hoạt mà không cần thay đổi mã nguồn gốc của chúng. Decorator này được sử dụng để xác định một phương thức là trừu tượng. Khi một phương thức được đánh dấu bằng @abstractmethod, điều đó có nghĩa là lớp chứa phương thức đó là một lớp trừu tượng và phương thức đó phải được triển khai (định nghĩa) trong các lớp con của nó.
+ - từ khóa **pass**: là một từ khóa được sử dụng để chỉ ra một khối mã không làm gì cả. Nó thường được sử dụng khi không có hành động cụ thể nào cần thực hiện.
+### f. đóng gói
+ - **public**: là trạng thái công khai nhất trong ba mức độ, khi một thành phần trong class được khai báo ở dạng public tức là chúng ta có thể sử dụng được thành phần đó từ bất kỳ đâu trong chương trình. khai báo: **giống default trong java**
+ - **private**: phạm vị hẹp nhất trong lập trình hướng đối tượng, khi một thành phần trong đối tượng được khai báo ở dạng private, thì nó chỉ có phạm vi hoạt động ở trong class khai báo nó. khai báo: **__tenbien**
+ - ví dụ: <br> ![image](https://github.com/nbn-03/Python/assets/98254107/f9242018-2a6d-4edc-9f32-20abf2b16c40)
