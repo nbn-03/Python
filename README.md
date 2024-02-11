@@ -169,5 +169,6 @@
  - **khác so với Java ở Python không có khuôn mãu**
  - trong Python các đối tượng khác nhau có thể chia sẻ cùng 1 tên phương thức.
 ### e. trìu tượng
- - **lưu ý**: trong python khác java: trong java một lớp có 1 phương thức trìu trượng thì lớp đó bắt buộc khai báo trìu tượng. còn python một lớp có thể chứa các phương thức trừu tượng mà không cần phải là một lớp trừu tượng.
- - cấu trúc: 
+ - **lưu ý**: tại python không có interface và lớp trìu tượng như Java chỉ có phương thức trìu tượng. để tạo phương thức trìu tượng ta import module **abc** (abstract base class)
+ - cấu trúc: <br> ![image](https://github.com/nbn-03/Python/assets/98254107/250f764c-6586-44b4-881c-3fa96ba36b35)
+ - **lưu ý**: @abstractmethod là 1 decorator - một tính năng mạnh mẽ cho phép bạn thay đổi hoặc mở rộng hành vi của một hàm hoặc một lớp một cách linh hoạt mà không cần thay đổi mã nguồn gốc của chúng. Decorator này được sử dụng để xác định một phương thức là trừu tượng. Khi một phương thức được đánh dấu bằng @abstractmethod, điều đó có nghĩa là lớp chứa phương thức đó là một lớp trừu tượng và phương thức đó phải được triển khai (định nghĩa) trong các lớp con của nó.
