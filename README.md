@@ -179,3 +179,4 @@
  - ví dụ tổng hợp: <br> ![image](https://github.com/nbn-03/Python/assets/98254107/f9242018-2a6d-4edc-9f32-20abf2b16c40)
 ### g. phương thức đặc biệt <đọc - biết - tự tìm hiểu thêm>
  - ví dụ: <br> ![image](https://github.com/nbn-03/Python/assets/98254107/e300708a-f4f9-4327-926b-9e2277df7f65)
+## 7. modules và package
