@@ -193,4 +193,7 @@
  - kiểm tra: **pip list** hoặc **pip show ten_package**
 ### b. modules and package
  - trong python, module chính là 1 tập lệnh <1 file .py> để giải quyết 1 vấn đề hoặc cung cấp các chức năng 
- - package là tập hợp các module, có thể chứa 1 hoặc nhiều module
+ - package là tập hợp các module <có thể chứa 1 hoặc nhiều module>, các package con. trong package bắt buộc phải có 1 file, file đó có thể trống hoặc chứa mã Python khởi tạo hoặc cấu hình cần thiết cho package. <br> ![image](https://github.com/nbn-03/Python/assets/98254107/dea1e066-9580-4672-beed-ad985db78532)
+ - cách sử dụng 1 module không nằm trong package nào: **import ten_module**.
+ - sử dụng hàm hoặc 1 biến cụ thể trong module: **ten_module.ten_ham()** hoặc **ten_module.ten_bien**
+ - cách sử dụng 1 module trong 1 package: **from ten_pack import ten_module** nếu các module cùng 1 pack thì có thể import cùng lúc nhiều module trên 1 dòng
