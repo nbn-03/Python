@@ -197,3 +197,8 @@
  - cách sử dụng 1 module không nằm trong package nào: **import ten_module**.
  - sử dụng hàm hoặc 1 biến cụ thể trong module: **ten_module.ten_ham()** hoặc **ten_module.ten_bien**
  - cách sử dụng 1 module trong 1 package: **from ten_pack import ten_module** nếu các module cùng 1 pack thì có thể import cùng lúc nhiều module trên 1 dòng
+### c. bổ sung
+ - ![image](https://github.com/nbn-03/Python/assets/98254107/9b6cd56f-c454-4e00-98a8-dc11e1a4bf0b)
+ - với câu lệnh trên sẽ được chạy khi chạy chính file đó
+ - còn else sẽ chạy khi mà file đấy đóng vai trò làm module cho file khác
+ - cách tạo 1 hàm main trong python: <br> ![image](https://github.com/nbn-03/Python/assets/98254107/b5055da7-d073-4913-a2d9-5e89258b52a0)
