@@ -179,6 +179,10 @@
  - ví dụ tổng hợp: <br> ![image](https://github.com/nbn-03/Python/assets/98254107/f9242018-2a6d-4edc-9f32-20abf2b16c40)
 ### g. phương thức đặc biệt <đọc - biết - tự tìm hiểu thêm>
  - chính là những hàm có sẵn tại python <br> ![image](https://github.com/nbn-03/Python/assets/98254107/dd5c221c-638e-4ff9-b0eb-a89ed18181e7)
- - có thể tạo hoặc ghi thêm (nếu có từ trước ví dụ như: del - phần ví dụ)
+ - có thể tạo hoặc ghi thêm (nếu có từ trước ví dụ như: del - phần ví dụ) với mỗi đối tượng
  - ví dụ: <br> ![image](https://github.com/nbn-03/Python/assets/98254107/e300708a-f4f9-4327-926b-9e2277df7f65)
+### h. xóa đối tượng, phương thức và thuộc tính (chỉ có tại python)
+ - xóa một đối tượng: <br> ![image](https://github.com/nbn-03/Python/assets/98254107/7d26a47b-a61a-4fc1-88be-4f3d2a0b1419)
+ - xóa một phương thức: <br> ![image](https://github.com/nbn-03/Python/assets/98254107/984ffb4d-b555-4d58-8bc2-62f91170d09f)
+ - xóa một thuộc tính: <br> ![image](https://github.com/nbn-03/Python/assets/98254107/ba7a86ab-326c-4e0f-bc2e-6ce5326caa77)
 ## 7. modules và package
