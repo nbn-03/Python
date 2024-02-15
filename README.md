@@ -186,3 +186,11 @@
  - xóa một phương thức: <br> ![image](https://github.com/nbn-03/Python/assets/98254107/984ffb4d-b555-4d58-8bc2-62f91170d09f)
  - xóa một thuộc tính: <br> ![image](https://github.com/nbn-03/Python/assets/98254107/ba7a86ab-326c-4e0f-bc2e-6ce5326caa77)
 ## 7. modules và package
+### a. pip install và pypi
+ - pypi là một kho lưu trữ các package python bên thứ 3, là mã nguồn mở.
+ - sử dụng câu lệnh **pip install** trên cmd để tải các package trên pypi
+ - tải: **pip install ten_package**
+ - kiểm tra: **pip list** hoặc **pip show ten_package**
+### b. modules and package
+ - trong python, module chính là 1 tập lệnh <1 file .py> để giải quyết 1 vấn đề hoặc cung cấp các chức năng 
+ - package là tập hợp các module, có thể chứa 1 hoặc nhiều module
