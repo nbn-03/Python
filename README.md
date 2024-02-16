@@ -210,4 +210,4 @@
  - 3 từ khóa sử dụng cho việc đó: **try**; **except**; **finally**
  - cấu trúc basic: <br> ![image](https://github.com/nbn-03/Python/assets/98254107/c11919c9-7090-45d3-b128-9989a647d3f7)
  - trường hợp chỉ xử lý lỗi cụ thể: <br> ![image](https://github.com/nbn-03/Python/assets/98254107/6648c92c-d907-4c19-a481-549dd06b4cfc)
- - ví dụ: <br> ![image](https://github.com/nbn-03/Python/assets/98254107/fc6c42ba-e0e0-46e8-a4e2-d4749bbfce76)
+ - ví dụ tổng quát: <br> ![image](https://github.com/nbn-03/Python/assets/98254107/ece758ec-5990-4b78-901d-7d6aecde285b)
