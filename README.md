@@ -187,10 +187,11 @@
  - xóa một thuộc tính: <br> ![image](https://github.com/nbn-03/Python/assets/98254107/ba7a86ab-326c-4e0f-bc2e-6ce5326caa77)
 ## 7. modules và package
 ### a. pip install và pypi
- - pypi là một kho lưu trữ các package python bên thứ 3, là mã nguồn mở.
+ - pypi là một kho lưu trữ các package, module python của bên thứ 3, là mã nguồn mở.
  - sử dụng câu lệnh **pip install** trên cmd để tải các package trên pypi
  - tải: **pip install ten_package**
  - kiểm tra: **pip list** hoặc **pip show ten_package**
+ - xóa: **pip uninstall ten_package**
 ### b. modules and package
  - trong python, module chính là 1 tập lệnh <1 file .py> để giải quyết 1 vấn đề hoặc cung cấp các chức năng 
  - package là tập hợp các module <có thể chứa 1 hoặc nhiều module>, các package con. trong package bắt buộc phải có 1 file, file đó có thể trống hoặc chứa mã Python khởi tạo hoặc cấu hình cần thiết cho package. <br> ![image](https://github.com/nbn-03/Python/assets/98254107/dea1e066-9580-4672-beed-ad985db78532)
@@ -211,3 +212,13 @@
  - cấu trúc basic: <br> ![image](https://github.com/nbn-03/Python/assets/98254107/c11919c9-7090-45d3-b128-9989a647d3f7)
  - trường hợp chỉ xử lý lỗi cụ thể: <br> ![image](https://github.com/nbn-03/Python/assets/98254107/6648c92c-d907-4c19-a481-549dd06b4cfc)
  - ví dụ tổng quát: <br> ![image](https://github.com/nbn-03/Python/assets/98254107/ece758ec-5990-4b78-901d-7d6aecde285b)
+ - khi mở rộng sang nhiều tệp lớn hơn, các dự án, điều quan trọng là phải thực hiện các thử nghiệm tại chỗ.
+ - có 2 tool kiểm tra là **pylint** và **unittest**
+### a. Pylint
+ - là module xem xét code của bạn và báo cáo lại các vấn đề có thể xảy ra.
+ - tải package: **pip install pylint**
+ - để sử dụng: **pylint ten_file.py**
+### b. unittest
+ - là module tích hợp này sẽ cho phép kiểm tra các chương trình của riêng bạn và kiểm tra xem bạn có nhận được kết quả đầu ra mong muốn hay không
+ - không cần download mà trực tiếp import sử dụng: **import unittest**
+ - 
