@@ -221,3 +221,4 @@
 ### b. unittest
  - là module tích hợp này sẽ cho phép kiểm tra các chương trình của riêng bạn và kiểm tra xem bạn có nhận được kết quả đầu ra mong muốn hay không
  - không cần download mà trực tiếp import sử dụng: **import unittest** ví dụ: <br> ![image](https://github.com/nbn-03/Python/assets/98254107/17a9136e-0c64-46fb-bf41-bdefa130f68b)
+## 9. Python decorators
