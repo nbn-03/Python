@@ -205,4 +205,6 @@
 ## 8. Errors and Exception
  - lỗi chắc chắn có thể xảy ra trong quá trình code. có thể sử dụng tính năng xử lí lỗi để cố gắng lên kế hoạch cho những sai sót có thể xảy ra
  - ví dụ: người dùng cố gắng ghi vào 1 tệp chỉ được mở ở mode = 'r'
- - hiện tại khi gặp 1 lỗi
+ - hiện tại khi gặp 1 lỗi bất kì chương trình sẽ dừng lại
+ - chúng ta có thể sử dụng xử lí lỗi để cho phép chương trình tiếp tục chạy ngay cả khi có lỗi
+ - 3 từ khóa sử dụng cho việc đó: **try**; **except**; **finally**
