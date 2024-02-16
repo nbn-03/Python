@@ -215,9 +215,9 @@
  - khi mở rộng sang nhiều tệp lớn hơn, các dự án, điều quan trọng là phải thực hiện các thử nghiệm tại chỗ.
  - có 2 tool kiểm tra là **pylint** và **unittest**
 ### a. Pylint
- - là module xem xét code của bạn và báo cáo lại các vấn đề có thể xảy ra.
+ - là package xem xét code của bạn và báo cáo lại các vấn đề có thể xảy ra.
  - tải package: **pip install pylint**
- - để sử dụng: **pylint ten_file.py**
+ - để sử dụng: chạy lệnh **pylint ten_file.py** trên cmd,... vì là package tool kiểm tra nên không cần import
 ### b. unittest
  - là module tích hợp này sẽ cho phép kiểm tra các chương trình của riêng bạn và kiểm tra xem bạn có nhận được kết quả đầu ra mong muốn hay không
  - không cần download mà trực tiếp import sử dụng: **import unittest**
