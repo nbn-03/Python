@@ -222,3 +222,9 @@
  - là module tích hợp này sẽ cho phép kiểm tra các chương trình của riêng bạn và kiểm tra xem bạn có nhận được kết quả đầu ra mong muốn hay không
  - không cần download mà trực tiếp import sử dụng: **import unittest** ví dụ: <br> ![image](https://github.com/nbn-03/Python/assets/98254107/17a9136e-0c64-46fb-bf41-bdefa130f68b)
 ## 9. Python decorators
+ - định nghĩa: đã đề cập
+ - ví dụ: <br> ![image](https://github.com/nbn-03/Python/assets/98254107/6d0808c8-e2d0-4c64-b23b-512be7086de8) <br> ![image](https://github.com/nbn-03/Python/assets/98254107/6b2193e2-dd1c-4e91-9e99-76bbb8b6ef3c)
+## 10. Python Generators
+ - là một cách tiện lợi và hiệu quả để tạo ra các dãy giá trị một cách lười biếng (lazy evaluation), tức là giá trị chỉ được sinh ra khi cần thiết và không lưu trữ tất cả giá trị trong bộ nhớ như list. hiểu đơn giản là từ khóa **yield**  giúp add sau vào 1 list ảo không lưu trong bộ nhớ
+ -  ví dụ: <br> ![image](https://github.com/nbn-03/Python/assets/98254107/aae65a0d-f08d-4b6f-86f6-eac42493d3c7) <br> ![image](https://github.com/nbn-03/Python/assets/98254107/25cb4ab6-852b-4c1c-aa3f-00d7d1b65b83)
+ -  **chú ý**: 
