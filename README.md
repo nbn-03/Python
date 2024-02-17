@@ -228,6 +228,9 @@
  - là một cách tiện lợi và hiệu quả để tạo ra các dãy giá trị một cách lười biếng (lazy evaluation), tức là giá trị chỉ được sinh ra khi cần thiết và không lưu trữ tất cả giá trị trong bộ nhớ như list. hiểu đơn giản là từ khóa **yield**  giúp add sau vào 1 list ảo không lưu trong bộ nhớ
  -  ví dụ: <br> ![image](https://github.com/nbn-03/Python/assets/98254107/aae65a0d-f08d-4b6f-86f6-eac42493d3c7) <br> ![image](https://github.com/nbn-03/Python/assets/98254107/25cb4ab6-852b-4c1c-aa3f-00d7d1b65b83)
  -  **chú ý**:
+  - vẫn có 1 cách dùng genetators ngoài từ khóa **yield** <br> ![image](https://github.com/nbn-03/Python/assets/98254107/c9982813-c195-4041-afc3-dd88c4c2bf80)
   - iterator: là một đối tượng cho phép bạn lặp qua các phần tử của một tập hợp hoặc một dãy các giá trị một cách tuần tự
   - trong đó có 2 phương thức: **iter(ten_taphop)**: chuyển sang iterator; **next(ten_iterator)**: in ra địa chỉ có từng phần tử trong iterator nếu không còn phần tử nào để lặp qua, nó sẽ ném ra một ngoại lệ có tên là StopIteration, để in ra giá trị thì dùng: **print(next(ten_iterator))**
-## 10. advanced python module
+## 10. advanced python modules
+### a. Collections Module
+ - 
