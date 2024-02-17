@@ -234,4 +234,4 @@
   - trong đó có 2 phương thức: **iter(ten_taphop)**: chuyển sang iterator; **next(ten_iterator)**: in ra địa chỉ có từng phần tử trong iterator nếu không còn phần tử nào để lặp qua, nó sẽ ném ra một ngoại lệ có tên là StopIteration, để in ra giá trị thì dùng: **print(next(ten_iterator))**
 ## 10. advanced python modules
 ### a. Collections Module
- - 
+ - là một module chuẩn cung cấp một số cấu trúc dữ liệu mở rộng so với các cấu trúc dữ liệu cơ bản như list, tuple, và dictionary. Module này cung cấp các công cụ giúp bạn làm việc với dữ liệu một cách hiệu quả hơn trong nhiều tình huống khác nhau.
