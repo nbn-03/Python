@@ -236,4 +236,5 @@
 ## 10. advanced python modules
 ### a. Collections Module
  - là một module chuẩn cung cấp một số cấu trúc dữ liệu mở rộng so với các cấu trúc dữ liệu cơ bản như list, tuple, và dictionary. Module này cung cấp các công cụ giúp bạn làm việc với dữ liệu một cách hiệu quả hơn trong nhiều tình huống khác nhau.
- - 
+ - hàm **Counter**: được sử dụng để đếm số lần xuất hiện của các phần tử. ví dụ: <br> ![image](https://github.com/nbn-03/Python/assets/98254107/f5db8a68-a99c-435e-8a47-874a5fd5f91d) <br> ![image](https://github.com/nbn-03/Python/assets/98254107/4927b924-2a61-47c9-ab50-42ffb9900a22)
+ - hàm **defaultdict**: 
