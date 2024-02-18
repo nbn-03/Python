@@ -238,4 +238,21 @@
  - là một module chuẩn cung cấp một số cấu trúc dữ liệu mở rộng so với các cấu trúc dữ liệu cơ bản như list, tuple, và dictionary. Module này cung cấp các công cụ giúp bạn làm việc với dữ liệu một cách hiệu quả hơn trong nhiều tình huống khác nhau.
  - hàm **Counter**: là một lớp trong module collections được sử dụng để đếm số lần xuất hiện của các phần tử. ví dụ: <br> ![image](https://github.com/nbn-03/Python/assets/98254107/f5db8a68-a99c-435e-8a47-874a5fd5f91d) <br> ![image](https://github.com/nbn-03/Python/assets/98254107/4927b924-2a61-47c9-ab50-42ffb9900a22)
  - hàm **defaultdict**: là một lớp trong module collections cung cấp một cấu trúc từ điển mở rộng so với dict tiêu chuẩn. defaultdict cho phép bạn xác định một giá trị mặc định cho các key mà không tồn tại trong từ điển. Khi bạn truy cập một key không tồn tại, defaultdict sẽ tự động tạo ra key đó và gán giá trị mặc định cho nó. ví dụ: <br> ![image](https://github.com/nbn-03/Python/assets/98254107/85d7978a-b11e-4da3-86d1-fd0ec545e223)
- - hàm **nametuple**: là một lớp trong module collections cho phép bạn tạo ra các kiểu dữ liệu giống như tuple, nhưng mỗi trường (field) có thể được truy cập thông qua tên thay vì chỉ số như trong tuple thông thường. ví dụ: <br> ![image](https://github.com/nbn-03/Python/assets/98254107/b4309a6c-6775-48c2-990f-32a018ae3b5c)
+ - hàm **nametuple**: là một lớp trong module collections cho phép bạn tạo ra các kiểu dữ liệu giống như tuple, nhưng mỗi trường (field) có thể được truy cập thông qua tên thay vì chỉ số như trong tuple thông thường (lưu ý: vẫn truy cập thông qua chỉ số được). ví dụ: <br> ![image](https://github.com/nbn-03/Python/assets/98254107/b4309a6c-6775-48c2-990f-32a018ae3b5c)
+### b. OS module (tập chung vào opening and reading file and folders)
+ - câu lệnh: **import os**
+ - lệnh **os.getcwd()**:  là một hàm được sử dụng để lấy đường dẫn thư mục làm việc hiện tại
+ - lệnh **os.listdir("duong_dan)**: là một hàm được sử dụng để lấy danh sách các tên của tất cả các tệp và thư mục trong một thư mục cụ thể. nếu không truyền đối số thì sẽ hiểu là đường dẫn hiện tại
+ - di chuyển giữa các file và folder:
+  - **import shutill**
+  - câu lệnh: **shutill.move("duong_dan_source", "duong_dan_des")**
+ - xóa file và folder:
+  - **os.unlink("duong_dan")**: phương thức này cũng xóa một tệp tin cụ thể được chỉ định bởi đường dẫn
+  - **os.rmdir("duong_dan)**: được sử dụng để xóa thư mục cụ thể được chỉ định bởi đường dẫn path. Tuy nhiên, điều quan trọng cần lưu ý là phương thức này chỉ hoạt động nếu thư mục đó trống. Nếu thư mục chứa bất kỳ tệp tin hoặc thư mục con nào, phương thức này sẽ không thể xóa được và sẽ gây ra một ngoại lệ
+  - **shutil.rmtree("duong_dan")**: xóa tất cả file và folder trong đường dẫn
+  - **lưu ý**: Trước khi xóa một tệp tin hoặc thư mục, hãy đảm bảo rằng bạn đã kiểm tra và xác nhận rằng bạn đang xóa tệp tin/thư mục đúng và bạn muốn xóa nó. Xóa tệp tin/thư mục sẽ không thể đảo ngược, và mọi dữ liệu trong chúng sẽ bị mất vĩnh viễn.
+ - một giải pháp an toàn được đưa ra là sử dụng module **send2trash**: được sử dụng để gửi các tệp và thư mục vào thùng rác thay vì xóa chúng một cách vĩnh viễn, giúp tránh việc mất dữ liệu không cần thiết hoặc nhầm lẫn khi xóa tệp.
+  - tải: **pip install send2trash**
+  - **import send2trash**
+  - câu lệnh: **send2trash.send2trash("duong_dan)**
+ - **os.walk("duong_dan")**: là một hàm được sử dụng để duyệt qua tất cả các thư mục, tệp tin và các thư mục con bên trong một thư mục cụ thể. Hàm này trả về một bộ giá trị mỗi lần vòng lặp, bao gồm đường dẫn của thư mục hiện tại, danh sách các thư mục con và danh sách các tệp tin trong thư mục hiện tại. ví dụ: <br> ![image](https://github.com/nbn-03/Python/assets/98254107/90822ef5-9f7d-4f6f-9ae3-6e24af0d4cc8)
