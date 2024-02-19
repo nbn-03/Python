@@ -233,7 +233,7 @@
   - vẫn có 1 cách dùng genetators ngoài từ khóa **yield** <br> ![image](https://github.com/nbn-03/Python/assets/98254107/c9982813-c195-4041-afc3-dd88c4c2bf80)
   - iterator: là một đối tượng cho phép bạn lặp qua các phần tử của một tập hợp hoặc một dãy các giá trị một cách tuần tự
   - trong đó có 2 phương thức: **iter(ten_taphop)**: chuyển sang iterator; **next(ten_iterator)**: in ra địa chỉ có từng phần tử trong iterator nếu không còn phần tử nào để lặp qua, nó sẽ ném ra một ngoại lệ có tên là StopIteration, để in ra giá trị thì dùng: **print(next(ten_iterator))**
-## 10. advanced python modules
+## 10. advanced python modules (nói về phương thức hay dùng và vẫn còn rất nhiều phương thức khác)
 ### a. Collections Module
  - là một module chuẩn cung cấp một số cấu trúc dữ liệu mở rộng so với các cấu trúc dữ liệu cơ bản như list, tuple, và dictionary. Module này cung cấp các công cụ giúp bạn làm việc với dữ liệu một cách hiệu quả hơn trong nhiều tình huống khác nhau.
  - hàm **Counter**: là một lớp trong module collections được sử dụng để đếm số lần xuất hiện của các phần tử. ví dụ: <br> ![image](https://github.com/nbn-03/Python/assets/98254107/f5db8a68-a99c-435e-8a47-874a5fd5f91d) <br> ![image](https://github.com/nbn-03/Python/assets/98254107/4927b924-2a61-47c9-ab50-42ffb9900a22)
@@ -256,3 +256,12 @@
   - **import send2trash**
   - câu lệnh: **send2trash.send2trash("duong_dan)**
  - **os.walk("duong_dan")**: là một hàm được sử dụng để duyệt qua tất cả các thư mục, tệp tin và các thư mục con bên trong một thư mục cụ thể. Hàm này trả về một bộ giá trị mỗi lần vòng lặp, bao gồm đường dẫn của thư mục hiện tại, danh sách các thư mục con và danh sách các tệp tin trong thư mục hiện tại. ví dụ: <br> ![image](https://github.com/nbn-03/Python/assets/98254107/90822ef5-9f7d-4f6f-9ae3-6e24af0d4cc8)
+### c. Datetime module
+ - câu lệnh **import datetime**
+ - **datetime.time(giờ,phút,giây)**: là một lớp được gọi là time. Lớp này được định nghĩa trong module datetime và được sử dụng để biểu diễn các đối tượng thời gian được truyền vào. ví dụ: <br> ![image](https://github.com/nbn-03/Python/assets/98254107/3dfb5212-1de2-48df-b4c2-de02d428a5ca)
+ - **datetime.date(năm, tháng, ngày)**: giống phương thức **datetime.time(giờ,phút,giây)**. ví dụ: <br> ![image](https://github.com/nbn-03/Python/assets/98254107/5ad18766-c917-4458-ab41-c70757eae77a)
+ - **datetime.datetime(năm, tháng, ngày, giờ, phút, giây): giống phương thức **datetime.time(giờ,phút,giây)**.
+ - nếu để thay đổi 1 đối số trên 3 phương thức trên: **.replace(ten_doiso = gia_tri_moi)** ví dụ: <br> ![image](https://github.com/nbn-03/Python/assets/98254107/f07ba738-0858-4c5a-b477-170812d18c62)
+ - trả về năm tháng ngày giờ phút giây hiện tại: **datetime.datetime.now()**
+ - hiện thị thứ: **ten_bien = datetime.datetime.now()** đồng thời **ten_bien.weekday()**. tại đây sẽ là trả về số hiểu là 0:Monday;.....
+ - thao tác tính khoảng thời gian: <br> ![image](https://github.com/nbn-03/Python/assets/98254107/c5ca88b3-d810-4ed4-9fa8-1d25feb65af8)
