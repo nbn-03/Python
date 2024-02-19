@@ -265,3 +265,15 @@
  - trả về năm tháng ngày giờ phút giây hiện tại: **datetime.datetime.now()**
  - hiện thị thứ: **ten_bien = datetime.datetime.now()** đồng thời **ten_bien.weekday()**. tại đây sẽ là trả về số hiểu là 0:Monday;.....
  - thao tác tính khoảng thời gian: <br> ![image](https://github.com/nbn-03/Python/assets/98254107/c5ca88b3-d810-4ed4-9fa8-1d25feb65af8)
+### d. math and random module
+ - câu lệnh: **import math**
+ - hiển thị phương thức trong math: **help(math)**
+ - làm trong xuống số nguyên: **math.floor(ten_bien)**
+ - làm tròn lên số nguyên: **math.ceil(ten_bien)**
+ - **round(ten_bien, chu_so_lam_tron)**: làm tròn đến chữ số yêu cầu. nếu không có chữ số làm tròn sẽ làm tròn đến số nguyên.
+ - số pi: **math.pi**
+ - hằng số euler: **math.e**
+ - **math.log(hang_so, co_so)** nếu không truyền cơ số sẽ auto là **math.e**
+ - câu lệnh: **import random**
+ - **random.randint(start, end)**: sinh ra số nguyên bất kì trong phạm vi đề ra
+ - 
