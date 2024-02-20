@@ -265,6 +265,9 @@
  - trả về năm tháng ngày giờ phút giây hiện tại: **datetime.datetime.now()**
  - hiện thị thứ: **ten_bien = datetime.datetime.now()** đồng thời **ten_bien.weekday()**. tại đây sẽ là trả về số hiểu là 0:Monday;.....
  - thao tác tính khoảng thời gian: <br> ![image](https://github.com/nbn-03/Python/assets/98254107/c5ca88b3-d810-4ed4-9fa8-1d25feb65af8)
+ - hiển thị lịch: **import calendar**
+  - lịch của tháng: **calendar.month(nam, thang)**
+  - lịch cả năm: **calendar.calendar(nam)**
 ### d. math and random module
  - câu lệnh: **import math**
  - hiển thị phương thức trong math: **help(math)**
@@ -276,4 +279,10 @@
  - **math.log(hang_so, co_so)** nếu không truyền cơ số sẽ auto là **math.e**
  - câu lệnh: **import random**
  - **random.randint(start, end)**: sinh ra số nguyên bất kì trong phạm vi đề ra
- - 
+ - **random.seed(chi_so)**: được sử dụng trong tạo số ngẫu nhiên. đảm bảo với với 1 giá trị truyền vào một seed sẽ cố định với một số hoặc bộ số random. bất kì lần nào chạy cùng 1 giá trị seed sẽ tạo ra cùng 1 số hoặc bộ số
+ - **random.choice(ten)**: dùng với list và tuple để random 1 số trong bộ số đó
+ - **random.choises(ten, k = so_phan_tu)**: random ra 1 list có so_phan_tu và các phần tử có thể trùng lặp nhau
+ - để không random ra 1 list không có phần tử nào trùng nhau: **random.sample(ten, k = so_phan_tu)**
+ - **random.shuffle(ten_list)**: chỉ dùng cho list để xáo trộn các phần tử trong list
+ - **random.uniform(start, end)**: random 1 số thực bất kì
+### e.
