@@ -288,4 +288,27 @@
 ### e. python debugger
  - câu lệnh: **import pdb**
  - **pdb.set_trace()**: là một cách để thêm điểm dừng (breakpoint) vào mã Python của bạn để bạn có thể kiểm tra giá trị của các biến và dòng lệnh trong quá trình chạy chương trình.
- - https://www.geeksforgeeks.org/debugging-in-python-with-pdb/
+ - chi tiết tại: https://www.geeksforgeeks.org/debugging-in-python-with-pdb/
+### f. regular expressions
+ - câu lệnh: **import re**
+ - câu lệnh **in** để tìm chuỗi con trong chuỗi lớn kết quả trả về true hoặc false
+ - **re.search(chuoi_con, chuoi_lon)**: kết quả trả về lần xuất hiện đầu tiên của chuỗi con trong chuỗi lớn nếu có sẽ là (vị trí bắt đầu+1, vị trí kết thúc) và 1 số thông tin khác, nếu không thì sẽ là None
+  - ten_bien = re.search(chuoi_con, chuoi_lon)
+  - để truy cập lấy dữ liệu sử dụng: **ten_bien.span()** -> tuple; **ten_bien,start()**, **ten_bien.end()** -> int 
+ - **re.findall(chuoi_con, chuoi_lon)**: trả về các lần xuất hiện của chuỗi con trong chuỗi lớn -> list
+  - ten_bien = re.findall(chuoi_con, chuoi_lon)
+  - số lần xuất hiện: **len(ten_bien)**
+ - **re.filliter(chuoi_con, chuoi_lon)**: <br> ![image](https://github.com/nbn-03/Python/assets/98254107/2ceb9204-fa88-448d-ac5c-58b1218fc09e) <br> ![image](https://github.com/nbn-03/Python/assets/98254107/e959d63a-7852-4d5d-82c8-2a92ae8f0ee7) <br> ![image](https://github.com/nbn-03/Python/assets/98254107/d1941061-041d-40ca-9f06-d61465365907)
+ - **điều đặc biệt: chuoi_con có thể thay bằng 1 mẫu định dạng chung để tìm ra những chuỗi con có định dạng giống nhau**
+ - cách viết định dạng:
+  - định dạng: **r"mau"**, đặt r phía trước để hiểu dấu \ không có nghĩa là dấu như: \n; \t; ...
+  - \d: một số
+  - \w: một chữ hoặc số hoặc kí tự đặc biệt
+  - \s: khoảng trắng
+  - \D: không là số
+  - \W: không là chữ hoặc số hoặc kí tự đặc biệt. **! @ # $ % ^ & * ( ) - _ = + [ ] { } ; : ' " , . < > / ? \ | `**
+  - \S: không có khoảng cách
+  - ví dụ: <br> ![image](https://github.com/nbn-03/Python/assets/98254107/91db05b6-8d83-4918-becb-2d80de2949fb)
+  - **với \ xuất hiện nhiều lần có thể gây rối để thu gọn lại sẽ dùng:** <br> ![image](https://github.com/nbn-03/Python/assets/98254107/56c34a0c-26e3-4292-b152-2c8fa963d219)
+  - ví dụ: <br> ![image](https://github.com/nbn-03/Python/assets/98254107/47bbf2e2-9495-4541-9263-7b0a8e028b2a)
+ - 
