@@ -287,4 +287,5 @@
  - **random.uniform(start, end)**: random 1 số thực bất kì
 ### e. python debugger
  - câu lệnh: **import pdb**
- - **pdb.set_trace()**: là một cách để thêm điểm dừng (breakpoint) vào mã Python của bạn để bạn có thể kiểm tra giá trị của các biến và dòng lệnh trong quá trình chạy chương trình. nhập **q** để out.
+ - **pdb.set_trace()**: là một cách để thêm điểm dừng (breakpoint) vào mã Python của bạn để bạn có thể kiểm tra giá trị của các biến và dòng lệnh trong quá trình chạy chương trình.
+ - https://www.geeksforgeeks.org/debugging-in-python-with-pdb/
