@@ -311,4 +311,9 @@
   - ví dụ: <br> ![image](https://github.com/nbn-03/Python/assets/98254107/91db05b6-8d83-4918-becb-2d80de2949fb)
   - **với \ xuất hiện nhiều lần có thể gây rối để thu gọn lại sẽ dùng:** <br> ![image](https://github.com/nbn-03/Python/assets/98254107/56c34a0c-26e3-4292-b152-2c8fa963d219)
   - ví dụ: <br> ![image](https://github.com/nbn-03/Python/assets/98254107/47bbf2e2-9495-4541-9263-7b0a8e028b2a)
- - 
+ - với 1 dãy định dạng ta muốn nhóm lại thành các nhóm để phục vụ xử lí: <br> ![image](https://github.com/nbn-03/Python/assets/98254107/8f60cf3d-f005-4733-8603-cff4ce886c3b) <br> ![image](https://github.com/nbn-03/Python/assets/98254107/7e73afcd-5a2f-421d-b14c-c4eb4a874664)
+ - để tìm kiếm nhiều thuật ngữ có thể sử dụng toán tử **or**: <br> ![image](https://github.com/nbn-03/Python/assets/98254107/17cbfb24-cebd-4222-98c3-ae22bc8dd35f)
+ - chú ý với từ khóa **re.findall(chuoi_con, chuoi_cha)**: <br> ![image](https://github.com/nbn-03/Python/assets/98254107/7d915ccc-b5d8-409d-b087-156471721a9f) <br> ![image](https://github.com/nbn-03/Python/assets/98254107/59fe081e-e5ca-45e9-b86f-94c94d95a937) <br> ![image](https://github.com/nbn-03/Python/assets/98254107/7495645e-d972-4a8c-a946-304d96d8ff91) <br> ![image](https://github.com/nbn-03/Python/assets/98254107/2acb6a9b-5553-4edb-8330-51008200bba9)
+ - Để loại trừ các ký tự, chúng ta có thể sử dụng ký hiệu ^ kết hợp với bộ dấu ngoặc []. Bất cứ điều gì bên trong dấu ngoặc đều bị loại trừ. ví dụ: <br> ![image](https://github.com/nbn-03/Python/assets/98254107/947ffda0-ca50-4cbf-ab76-7455c48340c5) <br> ![image](https://github.com/nbn-03/Python/assets/98254107/1bb5a082-9cdf-40e4-8552-5be107fe1553) <br> ![image](https://github.com/nbn-03/Python/assets/98254107/131f6b03-d674-496e-8061-66c336babf66)
+ - để lọc ra dạng **word-word**: <br> ![image](https://github.com/nbn-03/Python/assets/98254107/83d1b035-1c9c-40bc-887f-a2fc6d0cdce5)
+ -  tìm kiếm trong text để tìm chuỗi "cat" kết hợp với một trong các từ "fish", "nap", hoặc "claw". ví dụ: <br> ![image](https://github.com/nbn-03/Python/assets/98254107/ad32452d-f933-451b-aff2-2500fc76634d)
