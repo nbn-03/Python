@@ -285,4 +285,6 @@
  - để không random ra 1 list không có phần tử nào trùng nhau: **random.sample(ten, k = so_phan_tu)**
  - **random.shuffle(ten_list)**: chỉ dùng cho list để xáo trộn các phần tử trong list
  - **random.uniform(start, end)**: random 1 số thực bất kì
-### e.
+### e. python debugger
+ - câu lệnh: **import pdb**
+ - **pdb.set_trace()**: là một cách để thêm điểm dừng (breakpoint) vào mã Python của bạn để bạn có thể kiểm tra giá trị của các biến và dòng lệnh trong quá trình chạy chương trình. nhập **q** để out. khi dừng có thể sử dụng các lệnh như print và nhiều lệnh khác để điều khiển và gỡ lỗi chương trình từ đó.
