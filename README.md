@@ -320,3 +320,8 @@
  -  tìm kiếm trong text để tìm chuỗi "cat" kết hợp với một trong các từ "fish", "nap", hoặc "claw". ví dụ: <br> ![image](https://github.com/nbn-03/Python/assets/98254107/ad32452d-f933-451b-aff2-2500fc76634d)
 ### g. timing your python code
  - câu lệnh: **import time**
+ - thời gian bắt đầu: **ten_bien1 = time.time()**
+ - thời gian kết thúc: **ten_bien2= time.time()**
+ - khoảng thời gian chạy code: **ten_bien2 - ten_bien1**
+ - câu lệnh: **import timeit**
+ - **timeit.timeit( )**: một hàm trong Python được sử dụng để đo thời gian thực thi của một đoạn mã Python. Nó thường được sử dụng để đo thời gian thực thi của một đoạn mã nhất định hoặc một hàm cụ thể. <br> ![image](https://github.com/nbn-03/Python/assets/98254107/d1c14911-05a8-4c69-b255-08cddf199a59) <br> ![image](https://github.com/nbn-03/Python/assets/98254107/c2e855c4-8d6f-4d26-9fae-9d087568ae84)
