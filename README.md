@@ -162,6 +162,7 @@
  - **chú ý**: **self** trong constructor, phương thức có thể thay thế được bằng **tên class**, self trong vị trí đối số truyền vào constructor, phương thức vẫn phải có (không làm theo cách này chỉ nên đọc-biết). ví dụ: <br> ![image](https://github.com/nbn-03/Python/assets/98254107/45606ef1-e916-4a74-847d-d838f87c91a6)
 ### c. kế thừa
  - cấu trúc: <br> ![image](https://github.com/nbn-03/Python/assets/98254107/e3d35113-3610-472e-be6c-9a4e4d215ce6)
+ - khác với java trong python có tính đa kế thừa 
  - **chú ý**: có sự khác biệt với java là  Python, nếu lớp con có một constructor, lớp cha cũng có một constructor và lớp con không gọi constructor của lớp cha bằng super().constructor_lop_cha **(super() có thể thay bằng ten_lop_cha)**, thì constructor của lớp cha sẽ không tự động được gọi khi bạn tạo một thể hiện của lớp con.
  - ghi đè: giống với java
  - nạp chồng phương thức: giống java. hoặc trong Python có 1 cách khác dùng từ khóa **None** ví dụ: <br> ![image](https://github.com/nbn-03/Python/assets/98254107/38e46e73-c99e-4f46-853a-115ee9ee7343)
