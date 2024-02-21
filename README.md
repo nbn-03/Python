@@ -324,4 +324,19 @@
  - thời gian kết thúc: **ten_bien2= time.time()**
  - khoảng thời gian chạy code: **ten_bien2 - ten_bien1**
  - câu lệnh: **import timeit**
- - **timeit.timeit( )**: một hàm trong Python được sử dụng để đo thời gian thực thi của một đoạn mã Python. Nó thường được sử dụng để đo thời gian thực thi của một đoạn mã nhất định hoặc một hàm cụ thể. <br> ![image](https://github.com/nbn-03/Python/assets/98254107/d1c14911-05a8-4c69-b255-08cddf199a59) <br> ![image](https://github.com/nbn-03/Python/assets/98254107/c2e855c4-8d6f-4d26-9fae-9d087568ae84)
+ - **timeit.timeit( , ,number =  )**: một hàm trong Python được sử dụng để đo thời gian thực thi của một đoạn mã Python. Nó thường được sử dụng để đo thời gian thực thi của một đoạn mã nhất định hoặc một hàm cụ thể với number là số lần thực hiện lặp lại. <br> ![image](https://github.com/nbn-03/Python/assets/98254107/d1c14911-05a8-4c69-b255-08cddf199a59) <br> ![image](https://github.com/nbn-03/Python/assets/98254107/c2e855c4-8d6f-4d26-9fae-9d087568ae84)
+### h. zipping and unzipping file trong python
+ - câu lệnh: **import zipfile**
+ - nén:
+  - **ten_bien = zipfile.ZipFile("duong_dan_va_ten_file_zip.zip","w")**: khi tạo xong file này sẽ trống giờ ta sẽ nén các file hoặc folder rồi chèn vào
+  - **ten_bien.write("duong_dan_file_hoac_folder_nen", zipfile.ZIP_DEFLATED)**
+  - **ten_bien.close()**
+ - giải nén:
+  - **ten_bien = zipfile.ZipFile("duong_dan", "r")**
+  - **ten_bien.extracall("duong_dan_va_ten_gian_nen")**
+ - ví dụ: <br>  ![image](https://github.com/nbn-03/Python/assets/98254107/411454a3-2766-4572-b0bd-0ae9df1b0907) <br> ![image](https://github.com/nbn-03/Python/assets/98254107/6186bad0-1c15-4bac-9ab0-d8091ca9afbd)
+ - bên trên sẽ nén từng file hoặc folder rồi chèn vào file zip có cách tối ưu là thêm hết những file hoặc folder và folder chung rồi nén
+  - **import shutil**
+  - **shutil.make_archive("duong_dan_va_ten_file, 'zip',"duong_dan_folder_chung")**: nén
+  - **shutil.unpack_archive("duong_dan_filezip.zip", "duong_dan_va_ten_giai_nen", 'zip')**: giải nén
+ - ví dụ: <br> ![image](https://github.com/nbn-03/Python/assets/98254107/ba3f14c9-5a83-4637-805a-bb809aaeffad) <br> ![image](https://github.com/nbn-03/Python/assets/98254107/6d8dfa5b-a56e-407d-bdb7-2830917acf6e)
