@@ -129,179 +129,179 @@
 - ví dụ: <br> ![image](https://github.com/nbn-03/Python/assets/98254107/962e525b-1fbc-4c7f-bbb8-882c660a4da7) <br> ![image](https://github.com/nbn-03/Python/assets/98254107/bb6891df-304a-405f-a142-e3ebc62da8b4) <br> ![image](https://github.com/nbn-03/Python/assets/98254107/cb443ba1-cd63-4b75-b500-1572c39b1f5f)
 - tương tác giữa các hàm: hàm này có thể làm đối số phục vụ hàm kia. ví dụ: bài tìm 1 quả bóng trong 3 cái cốc (lưu trên github)
 - tìm hiểu về 2 từ khóa *args và **kwargs:
- - *args: được sử dụng để truyền một số lượng biến đối số không cố định vào hàm. Nó cho phép hàm nhận được bất kỳ số lượng đối số nào được truyền vào và đặt chúng trong một tuple. ví dụ: <br> ![image](https://github.com/nbn-03/Python/assets/98254107/4abe36f2-94b7-4521-8b5d-d695a37527f5)
- - **kwargs: được sử dụng để truyền một số lượng biến đối số không cố định vào hàm. nó nhận và đối số dạng key-value tạo thành dicnationary. ví dụ: <br> ![image](https://github.com/nbn-03/Python/assets/98254107/4bd0a2d6-9323-4678-b882-cbbe938d2601)
- - kết hợp cả 2 lưu ý phải truyền đúng lần lượt thứ tự. ví dụ: <br> ![image](https://github.com/nbn-03/Python/assets/98254107/46b7abf5-7c76-4f00-b5a1-32ae810665f3) <br> ![image](https://github.com/nbn-03/Python/assets/98254107/3dbe878e-b988-4c63-93b8-6b2af4d6840a)
- - trả về giá trị tuyệt đối: **abs(ten)**
- - ví dụ bài tập về hàm: <br> ![image](https://github.com/nbn-03/Python/assets/98254107/63d3cfc9-6944-4578-b6b6-9ef328e371f3)
- - Lambda Expressions, Map, and Filter:
+  - *args: được sử dụng để truyền một số lượng biến đối số không cố định vào hàm. Nó cho phép hàm nhận được bất kỳ số lượng đối số nào được truyền vào và đặt chúng trong một tuple. ví dụ: <br> ![image](https://github.com/nbn-03/Python/assets/98254107/4abe36f2-94b7-4521-8b5d-d695a37527f5)
+  - **kwargs: được sử dụng để truyền một số lượng biến đối số không cố định vào hàm. nó nhận và đối số dạng key-value tạo thành dicnationary. ví dụ: <br> ![image](https://github.com/nbn-03/Python/assets/98254107/4bd0a2d6-9323-4678-b882-cbbe938d2601)
+  - kết hợp cả 2 lưu ý phải truyền đúng lần lượt thứ tự. ví dụ: <br> ![image](https://github.com/nbn-03/Python/assets/98254107/46b7abf5-7c76-4f00-b5a1-32ae810665f3) <br> ![image](https://github.com/nbn-03/Python/assets/98254107/3dbe878e-b988-4c63-93b8-6b2af4d6840a)
+- trả về giá trị tuyệt đối: **abs(ten)**
+- ví dụ bài tập về hàm: <br> ![image](https://github.com/nbn-03/Python/assets/98254107/63d3cfc9-6944-4578-b6b6-9ef328e371f3)
+- Lambda Expressions, Map, and Filter:
   - hàm **map**:  là một hàm tích hợp sẵn được sử dụng để áp dụng một hàm lên mỗi phần tử của một hoặc nhiều chuỗi, list, tuple,... kết quả trả về sẽ là 1 địa chỉ bộ nhớ của 1 dãy phần tử. để hiện thị dãy phần tử đó ta **thông thường** ép kiểu nó về 1 list hoặc tuple. ví dụ: <br> ![image](https://github.com/nbn-03/Python/assets/98254107/10c1faf5-8ac3-40d1-8c74-755edc82660f)
   - hàm **filter**: kết quả trả về sẽ tương tự hàm **map** nhưng chức năng: được sử dụng để lọc các phần tử trên một hàm điều kiện. ví dụ: ![image](https://github.com/nbn-03/Python/assets/98254107/4a9a8da6-4cdc-4c3f-9adc-527f26ffa4ad)
   - **lambda**: được gọi hàm vô danh, là một loại hàm không tên và thường được sử dụng để định nghĩa các hàm ngắn gọn, đơn giản mà không cần phải dùng từ khoá **def**. ví dụ: <br> ![image](https://github.com/nbn-03/Python/assets/98254107/19c242db-8ece-4008-9f61-1ea402836b9f) <br> ![image](https://github.com/nbn-03/Python/assets/98254107/9bda9b04-f808-4027-987c-4d1be29962c5)
   - kết hợp: <br> ![image](https://github.com/nbn-03/Python/assets/98254107/6680ead9-44b0-4e06-ae92-7991e47f8c89)
 - các phạm vi thứ tự tìm kiếm trong python:
- -  **local**:  Phạm vi local chứa các biến được định nghĩa trong hàm hiện tại. Biến local chỉ có thể truy cập được từ bên trong hàm đó.
- -  **Enclosing**: Phạm vi enclosing là phạm vi bên ngoài hàm hiện tại, chứa các biến của hàm bao bọc hàm hiện tại (nếu có). Nó thường xuất hiện trong trường hợp các hàm lồng nhau
- -  **Global**: Phạm vi global chứa các biến được định nghĩa ở mức module hoặc ở mức toàn cục của chương trình. Các biến global có thể truy cập được từ bất kỳ nơi nào trong chương trình
- -  ví dụ: <br> ![image](https://github.com/nbn-03/Python/assets/98254107/4690853e-114d-4ec6-b4a3-22a557f2937d)
- -  trong C và Java: <br> ![image](https://github.com/nbn-03/Python/assets/98254107/ee3a6ebe-7282-4e14-b593-3ad676e25009) <br> ![image](https://github.com/nbn-03/Python/assets/98254107/8a6a2177-31ee-4f35-8139-5f9da477142c)
- -  **chú ý**: đặc biệt tại python khi đặt tên hàm có thể trùng tên với những câu lệnh có sẵn vì vậy tại phạm vi sẽ xuất thêm mức thứ 4 **built-in**. ví dụ: <br> ![image](https://github.com/nbn-03/Python/assets/98254107/fa4744f5-813a-44b8-8763-1dfe6e86e18b)
- -  **chú ý** khác với C và Java khi truy cập đến mức độ thấp hơn để thay đổi giá trị có thể thay đổi **trực tiếp** giá trị biến đấy nhưng với python khi thay đổi giá trị biến ở mức độ thấp hơn cần phải gọi ra. cách gọi với global: **global** ten_bien <br> ![image](https://github.com/nbn-03/Python/assets/98254107/15e2c7cb-650a-4cd7-a055-c6536ae4804f) <br> với enclosing: **nonlocal** ten_bien <br> ![image](https://github.com/nbn-03/Python/assets/98254107/00f5b79b-67a1-4b97-a77c-1e34b960c453)
+  -  **local**:  Phạm vi local chứa các biến được định nghĩa trong hàm hiện tại. Biến local chỉ có thể truy cập được từ bên trong hàm đó.
+  -  **Enclosing**: Phạm vi enclosing là phạm vi bên ngoài hàm hiện tại, chứa các biến của hàm bao bọc hàm hiện tại (nếu có). Nó thường xuất hiện trong trường hợp các hàm lồng nhau
+  -  **Global**: Phạm vi global chứa các biến được định nghĩa ở mức module hoặc ở mức toàn cục của chương trình. Các biến global có thể truy cập được từ bất kỳ nơi nào trong chương trình
+-  ví dụ: <br> ![image](https://github.com/nbn-03/Python/assets/98254107/4690853e-114d-4ec6-b4a3-22a557f2937d)
+-  trong C và Java: <br> ![image](https://github.com/nbn-03/Python/assets/98254107/ee3a6ebe-7282-4e14-b593-3ad676e25009) <br> ![image](https://github.com/nbn-03/Python/assets/98254107/8a6a2177-31ee-4f35-8139-5f9da477142c)
+-  **chú ý**: đặc biệt tại python khi đặt tên hàm có thể trùng tên với những câu lệnh có sẵn vì vậy tại phạm vi sẽ xuất thêm mức thứ 4 **built-in**. ví dụ: <br> ![image](https://github.com/nbn-03/Python/assets/98254107/fa4744f5-813a-44b8-8763-1dfe6e86e18b)
+-  **chú ý** khác với C và Java khi truy cập đến mức độ thấp hơn để thay đổi giá trị có thể thay đổi **trực tiếp** giá trị biến đấy nhưng với python khi thay đổi giá trị biến ở mức độ thấp hơn cần phải gọi ra. cách gọi với global: **global** ten_bien <br> ![image](https://github.com/nbn-03/Python/assets/98254107/15e2c7cb-650a-4cd7-a055-c6536ae4804f) <br> với enclosing: **nonlocal** ten_bien <br> ![image](https://github.com/nbn-03/Python/assets/98254107/00f5b79b-67a1-4b97-a77c-1e34b960c453)
 ## 6. lập trình hướng đối tượng
 - khái niệm: OOP là gì, lớp, đối tượng, phương thức, thuộc tính, ưu điểm nhìn lại java
 - cấu trúc lệnh <br> ![image](https://github.com/nbn-03/Python/assets/98254107/fde26f95-e476-4021-ba41-611d04a3ea00)
 - 4 tính chất của OOP trong java (tính đóng gói, kế thừa, đa hình, trừu tượng) đều có ở python giống nhau về nội dung tuy nhiên cách thể hiện có 1 vài tự khác biệt
 - chú ý: vì tính chất của python (không cần khai báo KDL) nên **không cần** khai bao thuộc tính
 ### a. constructor
- - định nghĩa: Java
- - cấu trúc: <br> ![image](https://github.com/nbn-03/Python/assets/98254107/4c837d09-4dbe-452c-b5d4-b0a2c5eb798f) <br> **self** là một quy ước (không phải là từ khóa nên cần khai báo tại vị trí đối số) dùng để tham chiếu đến thuộc tính của lớp đó. tuy nhiên trong java có this có thể bỏ this (từ khóa - khuyến cáo nên có) nhưng trong python không khai báo thuộc tính vì vậy sẽ không nhận biết được thuộc tính của đối tượng nên phải có **self**
- - với constructor có tham số hay không có tham số thì từ **self** vẫn luôn có tại vị trí đối số <br> ![image](https://github.com/nbn-03/Python/assets/98254107/db6ab145-76a1-458a-a5cb-b008b819597d)
+- định nghĩa: Java
+- cấu trúc: <br> ![image](https://github.com/nbn-03/Python/assets/98254107/4c837d09-4dbe-452c-b5d4-b0a2c5eb798f) <br> **self** là một quy ước (không phải là từ khóa nên cần khai báo tại vị trí đối số) dùng để tham chiếu đến thuộc tính của lớp đó. tuy nhiên trong java có this có thể bỏ this (từ khóa - khuyến cáo nên có) nhưng trong python không khai báo thuộc tính vì vậy sẽ không nhận biết được thuộc tính của đối tượng nên phải có **self**
+- với constructor có tham số hay không có tham số thì từ **self** vẫn luôn có tại vị trí đối số <br> ![image](https://github.com/nbn-03/Python/assets/98254107/db6ab145-76a1-458a-a5cb-b008b819597d)
 ### b. phương thức
- - ví dụ: <br> ![image](https://github.com/nbn-03/Python/assets/98254107/b2cbd2e1-efce-49c9-aeaf-4f2ff31b03d7) <br> ![image](https://github.com/nbn-03/Python/assets/98254107/3d0c7603-4714-45a0-afaa-3dbc9e4180f6)
- - các phương thức cũng tương tự constructor là luôn có **self** tại vị trí đối số <br> ![image](https://github.com/nbn-03/Python/assets/98254107/7e732ecf-16f4-4b59-bb84-0980742a388f)
- - **chú ý**: **self** trong constructor, phương thức có thể thay thế được bằng **tên class**, self trong vị trí đối số truyền vào constructor, phương thức vẫn phải có (không làm theo cách này chỉ nên đọc-biết). ví dụ: <br> ![image](https://github.com/nbn-03/Python/assets/98254107/45606ef1-e916-4a74-847d-d838f87c91a6)
+- ví dụ: <br> ![image](https://github.com/nbn-03/Python/assets/98254107/b2cbd2e1-efce-49c9-aeaf-4f2ff31b03d7) <br> ![image](https://github.com/nbn-03/Python/assets/98254107/3d0c7603-4714-45a0-afaa-3dbc9e4180f6)
+- các phương thức cũng tương tự constructor là luôn có **self** tại vị trí đối số <br> ![image](https://github.com/nbn-03/Python/assets/98254107/7e732ecf-16f4-4b59-bb84-0980742a388f)
+- **chú ý**: **self** trong constructor, phương thức có thể thay thế được bằng **tên class**, self trong vị trí đối số truyền vào constructor, phương thức vẫn phải có (không làm theo cách này chỉ nên đọc-biết). ví dụ: <br> ![image](https://github.com/nbn-03/Python/assets/98254107/45606ef1-e916-4a74-847d-d838f87c91a6)
 ### c. kế thừa
- - cấu trúc: <br> ![image](https://github.com/nbn-03/Python/assets/98254107/e3d35113-3610-472e-be6c-9a4e4d215ce6)
- - khác với java trong python có tính đa kế thừa 
- - **chú ý**: có sự khác biệt với java là  Python, nếu lớp con có một constructor, lớp cha cũng có một constructor và lớp con không gọi constructor của lớp cha bằng super().constructor_lop_cha **(super() có thể thay bằng ten_lop_cha)**, thì constructor của lớp cha sẽ không tự động được gọi khi bạn tạo một thể hiện của lớp con.
- - ghi đè: giống với java
- - nạp chồng phương thức: giống java. hoặc trong Python có 1 cách khác dùng từ khóa **None** ví dụ: <br> ![image](https://github.com/nbn-03/Python/assets/98254107/38e46e73-c99e-4f46-853a-115ee9ee7343)
+- cấu trúc: <br> ![image](https://github.com/nbn-03/Python/assets/98254107/e3d35113-3610-472e-be6c-9a4e4d215ce6)
+- khác với java trong python có tính đa kế thừa 
+- **chú ý**: có sự khác biệt với java là  Python, nếu lớp con có một constructor, lớp cha cũng có một constructor và lớp con không gọi constructor của lớp cha bằng super().constructor_lop_cha **(super() có thể thay bằng ten_lop_cha)**, thì constructor của lớp cha sẽ không tự động được gọi khi bạn tạo một thể hiện của lớp con.
+- ghi đè: giống với java
+- nạp chồng phương thức: giống java. hoặc trong Python có 1 cách khác dùng từ khóa **None** ví dụ: <br> ![image](https://github.com/nbn-03/Python/assets/98254107/38e46e73-c99e-4f46-853a-115ee9ee7343)
 ### d. đa hình
- - **khác so với Java ở Python không có khuôn mãu**
- - trong Python các đối tượng khác nhau có thể chia sẻ cùng 1 tên phương thức.
+- **khác so với Java ở Python không có khuôn mãu**
+- trong Python các đối tượng khác nhau có thể chia sẻ cùng 1 tên phương thức.
 ### e. trìu tượng
- - **lưu ý**: tại python không có interface và lớp trìu tượng như Java chỉ có phương thức trìu tượng. để tạo phương thức trìu tượng ta import module **abc** (abstract base class)
- - cấu trúc: <br> ![image](https://github.com/nbn-03/Python/assets/98254107/250f764c-6586-44b4-881c-3fa96ba36b35)
- - **lưu ý**: @abstractmethod là 1 decorator - một tính năng mạnh mẽ cho phép bạn thay đổi hoặc mở rộng hành vi của một hàm hoặc một lớp một cách linh hoạt mà không cần thay đổi mã nguồn gốc của chúng. Decorator này được sử dụng để xác định một phương thức là trừu tượng. Khi một phương thức được đánh dấu bằng @abstractmethod, điều đó có nghĩa là lớp chứa phương thức đó là một lớp trừu tượng và phương thức đó phải được triển khai (định nghĩa) trong các lớp con của nó.
- - từ khóa **pass**: là một từ khóa được sử dụng để chỉ ra một khối mã không làm gì cả. Nó thường được sử dụng khi không có hành động cụ thể nào cần thực hiện.
+- **lưu ý**: tại python không có interface và lớp trìu tượng như Java chỉ có phương thức trìu tượng. để tạo phương thức trìu tượng ta import module **abc** (abstract base class)
+- cấu trúc: <br> ![image](https://github.com/nbn-03/Python/assets/98254107/250f764c-6586-44b4-881c-3fa96ba36b35)
+- **lưu ý**: @abstractmethod là 1 decorator - một tính năng mạnh mẽ cho phép bạn thay đổi hoặc mở rộng hành vi của một hàm hoặc một lớp một cách linh hoạt mà không cần thay đổi mã nguồn gốc của chúng. Decorator này được sử dụng để xác định một phương thức là trừu tượng. Khi một phương thức được đánh dấu bằng @abstractmethod, điều đó có nghĩa là lớp chứa phương thức đó là một lớp trừu tượng và phương thức đó phải được triển khai (định nghĩa) trong các lớp con của nó.
+- từ khóa **pass**: là một từ khóa được sử dụng để chỉ ra một khối mã không làm gì cả. Nó thường được sử dụng khi không có hành động cụ thể nào cần thực hiện.
 ### f. đóng gói
- - **public**: là trạng thái công khai nhất trong ba mức độ, khi một thành phần trong class được khai báo ở dạng public tức là chúng ta có thể sử dụng được thành phần đó từ bất kỳ đâu trong chương trình. khai báo: **giống default trong java**
- - **private**: phạm vị hẹp nhất trong lập trình hướng đối tượng, khi một thành phần trong đối tượng được khai báo ở dạng private, thì nó chỉ có phạm vi hoạt động ở trong class khai báo nó. khai báo: **__tenbien**
- - ví dụ tổng hợp: <br> ![image](https://github.com/nbn-03/Python/assets/98254107/f9242018-2a6d-4edc-9f32-20abf2b16c40)
+- **public**: là trạng thái công khai nhất trong ba mức độ, khi một thành phần trong class được khai báo ở dạng public tức là chúng ta có thể sử dụng được thành phần đó từ bất kỳ đâu trong chương trình. khai báo: **giống default trong java**
+- **private**: phạm vị hẹp nhất trong lập trình hướng đối tượng, khi một thành phần trong đối tượng được khai báo ở dạng private, thì nó chỉ có phạm vi hoạt động ở trong class khai báo nó. khai báo: **__tenbien**
+- ví dụ tổng hợp: <br> ![image](https://github.com/nbn-03/Python/assets/98254107/f9242018-2a6d-4edc-9f32-20abf2b16c40)
 ### g. phương thức đặc biệt <đọc - biết - tự tìm hiểu thêm>
- - chính là những hàm có sẵn tại python <br> ![image](https://github.com/nbn-03/Python/assets/98254107/dd5c221c-638e-4ff9-b0eb-a89ed18181e7)
- - có thể tạo hoặc ghi thêm (nếu có từ trước ví dụ như: del - phần ví dụ) với mỗi đối tượng
- - ví dụ: <br> ![image](https://github.com/nbn-03/Python/assets/98254107/e300708a-f4f9-4327-926b-9e2277df7f65)
+- chính là những hàm có sẵn tại python <br> ![image](https://github.com/nbn-03/Python/assets/98254107/dd5c221c-638e-4ff9-b0eb-a89ed18181e7)
+- có thể tạo hoặc ghi thêm (nếu có từ trước ví dụ như: del - phần ví dụ) với mỗi đối tượng
+- ví dụ: <br> ![image](https://github.com/nbn-03/Python/assets/98254107/e300708a-f4f9-4327-926b-9e2277df7f65)
 ### h. xóa đối tượng, phương thức và thuộc tính (chỉ có tại python)
- - xóa một đối tượng: <br> ![image](https://github.com/nbn-03/Python/assets/98254107/7d26a47b-a61a-4fc1-88be-4f3d2a0b1419)
- - xóa một phương thức: <br> ![image](https://github.com/nbn-03/Python/assets/98254107/984ffb4d-b555-4d58-8bc2-62f91170d09f)
- - xóa một thuộc tính: <br> ![image](https://github.com/nbn-03/Python/assets/98254107/ba7a86ab-326c-4e0f-bc2e-6ce5326caa77)
+- xóa một đối tượng: <br> ![image](https://github.com/nbn-03/Python/assets/98254107/7d26a47b-a61a-4fc1-88be-4f3d2a0b1419)
+- xóa một phương thức: <br> ![image](https://github.com/nbn-03/Python/assets/98254107/984ffb4d-b555-4d58-8bc2-62f91170d09f)
+- xóa một thuộc tính: <br> ![image](https://github.com/nbn-03/Python/assets/98254107/ba7a86ab-326c-4e0f-bc2e-6ce5326caa77)
 ## 7. modules và package
 ### a. pip install và pypi
- - pypi là một kho lưu trữ các package, module python của bên thứ 3, là mã nguồn mở.
- - sử dụng câu lệnh **pip install** trên cmd để tải các package trên pypi
- - tải: **pip install ten_package**
- - kiểm tra: **pip list** hoặc **pip show ten_package**
- - xóa: **pip uninstall ten_package**
+- pypi là một kho lưu trữ các package, module python của bên thứ 3, là mã nguồn mở.
+- sử dụng câu lệnh **pip install** trên cmd để tải các package trên pypi
+- tải: **pip install ten_package**
+- kiểm tra: **pip list** hoặc **pip show ten_package**
+- xóa: **pip uninstall ten_package**
 ### b. modules and package
- - trong python, module chính là 1 tập lệnh <1 file .py> để giải quyết 1 vấn đề hoặc cung cấp các chức năng 
- - package là tập hợp các module <có thể chứa 1 hoặc nhiều module>, các package con. trong package bắt buộc phải có 1 file, file đó có thể trống hoặc chứa mã Python khởi tạo hoặc cấu hình cần thiết cho package. <br> ![image](https://github.com/nbn-03/Python/assets/98254107/dea1e066-9580-4672-beed-ad985db78532)
- - cách sử dụng 1 module không nằm trong package nào: **import ten_module**.
- - sử dụng hàm hoặc 1 biến cụ thể trong module: **ten_module.ten_ham()** hoặc **ten_module.ten_bien**
- - cách khác: **from ten_module import ten_ham** lúc đó để sử dụng chỉ cần gọi **ten_ham()**
- - cách sử dụng 1 module trong 1 package: **from ten_pack import ten_module** nếu các module cùng 1 pack thì có thể import cùng lúc nhiều module trên 1 dòng
+- trong python, module chính là 1 tập lệnh <1 file .py> để giải quyết 1 vấn đề hoặc cung cấp các chức năng 
+- package là tập hợp các module <có thể chứa 1 hoặc nhiều module>, các package con. trong package bắt buộc phải có 1 file, file đó có thể trống hoặc chứa mã Python khởi tạo hoặc cấu hình cần thiết cho package. <br> ![image](https://github.com/nbn-03/Python/assets/98254107/dea1e066-9580-4672-beed-ad985db78532)
+- cách sử dụng 1 module không nằm trong package nào: **import ten_module**.
+- sử dụng hàm hoặc 1 biến cụ thể trong module: **ten_module.ten_ham()** hoặc **ten_module.ten_bien**
+- cách khác: **from ten_module import ten_ham** lúc đó để sử dụng chỉ cần gọi **ten_ham()**
+- cách sử dụng 1 module trong 1 package: **from ten_pack import ten_module** nếu các module cùng 1 pack thì có thể import cùng lúc nhiều module trên 1 dòng
 ### c. bổ sung
- - ![image](https://github.com/nbn-03/Python/assets/98254107/9b6cd56f-c454-4e00-98a8-dc11e1a4bf0b)
- - với câu lệnh trên đúng khi chạy chính file đó
- - còn else khi mà file đấy đóng vai trò làm module cho file khác
- - cách tạo 1 hàm main trong python: <br> ![image](https://github.com/nbn-03/Python/assets/98254107/b5055da7-d073-4913-a2d9-5e89258b52a0)
+- ![image](https://github.com/nbn-03/Python/assets/98254107/9b6cd56f-c454-4e00-98a8-dc11e1a4bf0b)
+- với câu lệnh trên đúng khi chạy chính file đó
+- còn else khi mà file đấy đóng vai trò làm module cho file khác
+- cách tạo 1 hàm main trong python: <br> ![image](https://github.com/nbn-03/Python/assets/98254107/b5055da7-d073-4913-a2d9-5e89258b52a0)
 ## 8. Errors and Exception
- - lỗi chắc chắn có thể xảy ra trong quá trình code. có thể sử dụng tính năng xử lí lỗi để cố gắng lên kế hoạch cho những sai sót có thể xảy ra
- - ví dụ: người dùng cố gắng ghi vào 1 tệp chỉ được mở ở mode = 'r'
- - hiện tại khi gặp 1 lỗi bất kì chương trình sẽ dừng lại
- - chúng ta có thể sử dụng xử lí lỗi để cho phép chương trình tiếp tục chạy ngay cả khi có lỗi
- - 3 từ khóa sử dụng cho việc đó: **try**; **except**; **finally**
- - cấu trúc basic: <br> ![image](https://github.com/nbn-03/Python/assets/98254107/c11919c9-7090-45d3-b128-9989a647d3f7)
- - trường hợp chỉ xử lý lỗi cụ thể: <br> ![image](https://github.com/nbn-03/Python/assets/98254107/6648c92c-d907-4c19-a481-549dd06b4cfc)
- - ví dụ tổng quát: <br> ![image](https://github.com/nbn-03/Python/assets/98254107/ece758ec-5990-4b78-901d-7d6aecde285b)
- - khi mở rộng sang nhiều tệp lớn hơn, các dự án, điều quan trọng là phải thực hiện các thử nghiệm tại chỗ.
- - có 2 tool kiểm tra là **pylint** và **unittest**
+- lỗi chắc chắn có thể xảy ra trong quá trình code. có thể sử dụng tính năng xử lí lỗi để cố gắng lên kế hoạch cho những sai sót có thể xảy ra
+- ví dụ: người dùng cố gắng ghi vào 1 tệp chỉ được mở ở mode = 'r'
+- hiện tại khi gặp 1 lỗi bất kì chương trình sẽ dừng lại
+- chúng ta có thể sử dụng xử lí lỗi để cho phép chương trình tiếp tục chạy ngay cả khi có lỗi
+- 3 từ khóa sử dụng cho việc đó: **try**; **except**; **finally**
+- cấu trúc basic: <br> ![image](https://github.com/nbn-03/Python/assets/98254107/c11919c9-7090-45d3-b128-9989a647d3f7)
+- trường hợp chỉ xử lý lỗi cụ thể: <br> ![image](https://github.com/nbn-03/Python/assets/98254107/6648c92c-d907-4c19-a481-549dd06b4cfc)
+- ví dụ tổng quát: <br> ![image](https://github.com/nbn-03/Python/assets/98254107/ece758ec-5990-4b78-901d-7d6aecde285b)
+- khi mở rộng sang nhiều tệp lớn hơn, các dự án, điều quan trọng là phải thực hiện các thử nghiệm tại chỗ.
+- có 2 tool kiểm tra là **pylint** và **unittest**
 ### a. Pylint
- - là package xem xét code của bạn và báo cáo lại các vấn đề có thể xảy ra.
- - tải package: **pip install pylint**
- - để sử dụng: chạy lệnh **pylint ten_file.py** trên cmd,... vì là package tool kiểm tra nên không cần import
+- là package xem xét code của bạn và báo cáo lại các vấn đề có thể xảy ra.
+- tải package: **pip install pylint**
+- để sử dụng: chạy lệnh **pylint ten_file.py** trên cmd,... vì là package tool kiểm tra nên không cần import
 ### b. unittest
- - là module tích hợp này sẽ cho phép kiểm tra các chương trình của riêng bạn và kiểm tra xem bạn có nhận được kết quả đầu ra mong muốn hay không
- - không cần download mà trực tiếp import sử dụng: **import unittest** ví dụ: <br> ![image](https://github.com/nbn-03/Python/assets/98254107/17a9136e-0c64-46fb-bf41-bdefa130f68b)
+- là module tích hợp này sẽ cho phép kiểm tra các chương trình của riêng bạn và kiểm tra xem bạn có nhận được kết quả đầu ra mong muốn hay không
+- không cần download mà trực tiếp import sử dụng: **import unittest** ví dụ: <br> ![image](https://github.com/nbn-03/Python/assets/98254107/17a9136e-0c64-46fb-bf41-bdefa130f68b)
 ## 9. Python decorators
- - định nghĩa: đã đề cập
- - ví dụ: <br> ![image](https://github.com/nbn-03/Python/assets/98254107/6d0808c8-e2d0-4c64-b23b-512be7086de8) <br> ![image](https://github.com/nbn-03/Python/assets/98254107/6b2193e2-dd1c-4e91-9e99-76bbb8b6ef3c)
+- định nghĩa: đã đề cập
+- ví dụ: <br> ![image](https://github.com/nbn-03/Python/assets/98254107/6d0808c8-e2d0-4c64-b23b-512be7086de8) <br> ![image](https://github.com/nbn-03/Python/assets/98254107/6b2193e2-dd1c-4e91-9e99-76bbb8b6ef3c)
 ## 10. Python Generators
- - là một cách tiện lợi và hiệu quả để tạo ra các dãy giá trị một cách lười biếng (lazy evaluation), tức là giá trị chỉ được sinh ra khi cần thiết và không lưu trữ tất cả giá trị trong bộ nhớ như list. hiểu đơn giản là từ khóa **yield**  giúp add sau vào 1 list ảo không lưu trong bộ nhớ
- -  ví dụ: <br> ![image](https://github.com/nbn-03/Python/assets/98254107/aae65a0d-f08d-4b6f-86f6-eac42493d3c7) <br> ![image](https://github.com/nbn-03/Python/assets/98254107/25cb4ab6-852b-4c1c-aa3f-00d7d1b65b83)
- -  từ generators có thể ép kiểu sang list, tuple, ... cú pháp như ép kiểu thông thường
- -  **chú ý**:
+- là một cách tiện lợi và hiệu quả để tạo ra các dãy giá trị một cách lười biếng (lazy evaluation), tức là giá trị chỉ được sinh ra khi cần thiết và không lưu trữ tất cả giá trị trong bộ nhớ như list. hiểu đơn giản là từ khóa **yield**  giúp add sau vào 1 list ảo không lưu trong bộ nhớ
+-  ví dụ: <br> ![image](https://github.com/nbn-03/Python/assets/98254107/aae65a0d-f08d-4b6f-86f6-eac42493d3c7) <br> ![image](https://github.com/nbn-03/Python/assets/98254107/25cb4ab6-852b-4c1c-aa3f-00d7d1b65b83)
+-  từ generators có thể ép kiểu sang list, tuple, ... cú pháp như ép kiểu thông thường
+-  **chú ý**:
   - vẫn có 1 cách dùng genetators ngoài từ khóa **yield** <br> ![image](https://github.com/nbn-03/Python/assets/98254107/c9982813-c195-4041-afc3-dd88c4c2bf80)
   - iterator: là một đối tượng cho phép bạn lặp qua các phần tử của một tập hợp hoặc một dãy các giá trị một cách tuần tự
   - trong đó có 2 phương thức: **iter(ten_taphop)**: chuyển sang iterator; **next(ten_iterator)**: in ra địa chỉ có từng phần tử trong iterator nếu không còn phần tử nào để lặp qua, nó sẽ ném ra một ngoại lệ có tên là StopIteration, để in ra giá trị thì dùng: **print(next(ten_iterator))**
 ## 10. advanced python modules (nói về phương thức hay dùng và vẫn còn rất nhiều phương thức khác)
 ### a. Collections Module
- - là một module chuẩn cung cấp một số cấu trúc dữ liệu mở rộng so với các cấu trúc dữ liệu cơ bản như list, tuple, và dictionary. Module này cung cấp các công cụ giúp bạn làm việc với dữ liệu một cách hiệu quả hơn trong nhiều tình huống khác nhau.
- - hàm **Counter**: là một lớp trong module collections được sử dụng để đếm số lần xuất hiện của các phần tử. ví dụ: <br> ![image](https://github.com/nbn-03/Python/assets/98254107/f5db8a68-a99c-435e-8a47-874a5fd5f91d) <br> ![image](https://github.com/nbn-03/Python/assets/98254107/4927b924-2a61-47c9-ab50-42ffb9900a22)
- - hàm **defaultdict**: là một lớp trong module collections cung cấp một cấu trúc từ điển mở rộng so với dict tiêu chuẩn. defaultdict cho phép bạn xác định một giá trị mặc định cho các key mà không tồn tại trong từ điển. Khi bạn truy cập một key không tồn tại, defaultdict sẽ tự động tạo ra key đó và gán giá trị mặc định cho nó. ví dụ: <br> ![image](https://github.com/nbn-03/Python/assets/98254107/85d7978a-b11e-4da3-86d1-fd0ec545e223)
- - hàm **nametuple**: là một lớp trong module collections cho phép bạn tạo ra các kiểu dữ liệu giống như tuple, nhưng mỗi trường (field) có thể được truy cập thông qua tên thay vì chỉ số như trong tuple thông thường (lưu ý: vẫn truy cập thông qua chỉ số được). ví dụ: <br> ![image](https://github.com/nbn-03/Python/assets/98254107/b4309a6c-6775-48c2-990f-32a018ae3b5c)
+- là một module chuẩn cung cấp một số cấu trúc dữ liệu mở rộng so với các cấu trúc dữ liệu cơ bản như list, tuple, và dictionary. Module này cung cấp các công cụ giúp bạn làm việc với dữ liệu một cách hiệu quả hơn trong nhiều tình huống khác nhau.
+- hàm **Counter**: là một lớp trong module collections được sử dụng để đếm số lần xuất hiện của các phần tử. ví dụ: <br> ![image](https://github.com/nbn-03/Python/assets/98254107/f5db8a68-a99c-435e-8a47-874a5fd5f91d) <br> ![image](https://github.com/nbn-03/Python/assets/98254107/4927b924-2a61-47c9-ab50-42ffb9900a22)
+- hàm **defaultdict**: là một lớp trong module collections cung cấp một cấu trúc từ điển mở rộng so với dict tiêu chuẩn. defaultdict cho phép bạn xác định một giá trị mặc định cho các key mà không tồn tại trong từ điển. Khi bạn truy cập một key không tồn tại, defaultdict sẽ tự động tạo ra key đó và gán giá trị mặc định cho nó. ví dụ: <br> ![image](https://github.com/nbn-03/Python/assets/98254107/85d7978a-b11e-4da3-86d1-fd0ec545e223)
+- hàm **nametuple**: là một lớp trong module collections cho phép bạn tạo ra các kiểu dữ liệu giống như tuple, nhưng mỗi trường (field) có thể được truy cập thông qua tên thay vì chỉ số như trong tuple thông thường (lưu ý: vẫn truy cập thông qua chỉ số được). ví dụ: <br> ![image](https://github.com/nbn-03/Python/assets/98254107/b4309a6c-6775-48c2-990f-32a018ae3b5c)
 ### b. OS module (tập chung vào opening and reading file and folders)
- - câu lệnh: **import os**
- - lệnh **os.getcwd()**:  là một hàm được sử dụng để lấy đường dẫn thư mục làm việc hiện tại
- - lệnh **os.listdir("duong_dan)**: là một hàm được sử dụng để lấy danh sách các tên của tất cả các tệp và thư mục trong một thư mục cụ thể. nếu không truyền đối số thì sẽ hiểu là đường dẫn hiện tại
- - di chuyển giữa các file và folder:
+- câu lệnh: **import os**
+- lệnh **os.getcwd()**:  là một hàm được sử dụng để lấy đường dẫn thư mục làm việc hiện tại
+- lệnh **os.listdir("duong_dan)**: là một hàm được sử dụng để lấy danh sách các tên của tất cả các tệp và thư mục trong một thư mục cụ thể. nếu không truyền đối số thì sẽ hiểu là đường dẫn hiện tại
+- di chuyển giữa các file và folder:
   - **import shutill**
   - câu lệnh: **shutill.move("duong_dan_source", "duong_dan_des")**
- - xóa file và folder:
+- xóa file và folder:
   - **os.unlink("duong_dan")**: phương thức này cũng xóa một tệp tin cụ thể được chỉ định bởi đường dẫn
   - **os.rmdir("duong_dan)**: được sử dụng để xóa thư mục cụ thể được chỉ định bởi đường dẫn path. Tuy nhiên, điều quan trọng cần lưu ý là phương thức này chỉ hoạt động nếu thư mục đó trống. Nếu thư mục chứa bất kỳ tệp tin hoặc thư mục con nào, phương thức này sẽ không thể xóa được và sẽ gây ra một ngoại lệ
   - **shutil.rmtree("duong_dan")**: xóa tất cả file và folder trong đường dẫn
   - **lưu ý**: Trước khi xóa một tệp tin hoặc thư mục, hãy đảm bảo rằng bạn đã kiểm tra và xác nhận rằng bạn đang xóa tệp tin/thư mục đúng và bạn muốn xóa nó. Xóa tệp tin/thư mục sẽ không thể đảo ngược, và mọi dữ liệu trong chúng sẽ bị mất vĩnh viễn.
- - một giải pháp an toàn được đưa ra là sử dụng module **send2trash**: được sử dụng để gửi các tệp và thư mục vào thùng rác thay vì xóa chúng một cách vĩnh viễn, giúp tránh việc mất dữ liệu không cần thiết hoặc nhầm lẫn khi xóa tệp.
+  - một giải pháp an toàn được đưa ra là sử dụng module **send2trash**: được sử dụng để gửi các tệp và thư mục vào thùng rác thay vì xóa chúng một cách vĩnh viễn, giúp tránh việc mất dữ liệu không cần thiết hoặc nhầm lẫn khi xóa tệp.
   - tải: **pip install send2trash**
   - **import send2trash**
   - câu lệnh: **send2trash.send2trash("duong_dan)**
- - **os.walk("duong_dan")**: là một hàm được sử dụng để duyệt qua tất cả các thư mục, tệp tin và các thư mục con bên trong một thư mục cụ thể. Hàm này trả về một bộ giá trị mỗi lần vòng lặp, bao gồm đường dẫn của thư mục hiện tại, danh sách các thư mục con và danh sách các tệp tin trong thư mục hiện tại. ví dụ: <br> ![image](https://github.com/nbn-03/Python/assets/98254107/90822ef5-9f7d-4f6f-9ae3-6e24af0d4cc8)
+- **os.walk("duong_dan")**: là một hàm được sử dụng để duyệt qua tất cả các thư mục, tệp tin và các thư mục con bên trong một thư mục cụ thể. Hàm này trả về một bộ giá trị mỗi lần vòng lặp, bao gồm đường dẫn của thư mục hiện tại, danh sách các thư mục con và danh sách các tệp tin trong thư mục hiện tại. ví dụ: <br> ![image](https://github.com/nbn-03/Python/assets/98254107/90822ef5-9f7d-4f6f-9ae3-6e24af0d4cc8)
 ### c. Datetime module
- - câu lệnh **import datetime**
- - **datetime.time(giờ,phút,giây)**: là một lớp được gọi là time. Lớp này được định nghĩa trong module datetime và được sử dụng để biểu diễn các đối tượng thời gian được truyền vào. ví dụ: <br> ![image](https://github.com/nbn-03/Python/assets/98254107/3dfb5212-1de2-48df-b4c2-de02d428a5ca)
- - **datetime.date(năm, tháng, ngày)**: giống phương thức **datetime.time(giờ,phút,giây)**. ví dụ: <br> ![image](https://github.com/nbn-03/Python/assets/98254107/5ad18766-c917-4458-ab41-c70757eae77a)
- - **datetime.datetime(năm, tháng, ngày, giờ, phút, giây): giống phương thức **datetime.time(giờ,phút,giây)**.
- - nếu để thay đổi 1 đối số trên 3 phương thức trên: **.replace(ten_doiso = gia_tri_moi)** ví dụ: <br> ![image](https://github.com/nbn-03/Python/assets/98254107/f07ba738-0858-4c5a-b477-170812d18c62)
- - trả về năm tháng ngày giờ phút giây hiện tại: **datetime.datetime.now()**
- - hiện thị thứ: **ten_bien = datetime.datetime.now()** đồng thời **ten_bien.weekday()**. tại đây sẽ là trả về số hiểu là 0:Monday;.....
- - thao tác tính khoảng thời gian: <br> ![image](https://github.com/nbn-03/Python/assets/98254107/c5ca88b3-d810-4ed4-9fa8-1d25feb65af8)
- - hiển thị lịch: **import calendar**
+- câu lệnh **import datetime**
+- **datetime.time(giờ,phút,giây)**: là một lớp được gọi là time. Lớp này được định nghĩa trong module datetime và được sử dụng để biểu diễn các đối tượng thời gian được truyền vào. ví dụ: <br> ![image](https://github.com/nbn-03/Python/assets/98254107/3dfb5212-1de2-48df-b4c2-de02d428a5ca)
+- **datetime.date(năm, tháng, ngày)**: giống phương thức **datetime.time(giờ,phút,giây)**. ví dụ: <br> ![image](https://github.com/nbn-03/Python/assets/98254107/5ad18766-c917-4458-ab41-c70757eae77a)
+- **datetime.datetime(năm, tháng, ngày, giờ, phút, giây): giống phương thức **datetime.time(giờ,phút,giây)**.
+- nếu để thay đổi 1 đối số trên 3 phương thức trên: **.replace(ten_doiso = gia_tri_moi)** ví dụ: <br> ![image](https://github.com/nbn-03/Python/assets/98254107/f07ba738-0858-4c5a-b477-170812d18c62)
+- trả về năm tháng ngày giờ phút giây hiện tại: **datetime.datetime.now()**
+- hiện thị thứ: **ten_bien = datetime.datetime.now()** đồng thời **ten_bien.weekday()**. tại đây sẽ là trả về số hiểu là 0:Monday;.....
+- thao tác tính khoảng thời gian: <br> ![image](https://github.com/nbn-03/Python/assets/98254107/c5ca88b3-d810-4ed4-9fa8-1d25feb65af8)
+- hiển thị lịch: **import calendar**
   - lịch của tháng: **calendar.month(nam, thang)**
   - lịch cả năm: **calendar.calendar(nam)**
 ### d. math and random module
- - câu lệnh: **import math**
- - hiển thị phương thức trong math: **help(math)**
- - làm trong xuống số nguyên: **math.floor(ten_bien)**
- - làm tròn lên số nguyên: **math.ceil(ten_bien)**
- - **round(ten_bien, chu_so_lam_tron)**: làm tròn đến chữ số yêu cầu. nếu không có chữ số làm tròn sẽ làm tròn đến số nguyên.
- - số pi: **math.pi**
- - hằng số euler: **math.e**
- - **math.log(hang_so, co_so)** nếu không truyền cơ số sẽ auto là **math.e**
- - câu lệnh: **import random**
- - **random.randint(start, end)**: sinh ra số nguyên bất kì trong phạm vi đề ra
- - **random.seed(chi_so)**: được sử dụng trong tạo số ngẫu nhiên. đảm bảo với với 1 giá trị truyền vào một seed sẽ cố định với một số hoặc bộ số random. bất kì lần nào chạy cùng 1 giá trị seed sẽ tạo ra cùng 1 số hoặc bộ số
- - **random.choice(ten)**: dùng với list và tuple để random 1 số trong bộ số đó
- - **random.choises(ten, k = so_phan_tu)**: random ra 1 list có so_phan_tu và các phần tử có thể trùng lặp nhau
- - để không random ra 1 list không có phần tử nào trùng nhau: **random.sample(ten, k = so_phan_tu)**
- - **random.shuffle(ten_list)**: chỉ dùng cho list để xáo trộn các phần tử trong list
- - **random.uniform(start, end)**: random 1 số thực bất kì
+- câu lệnh: **import math**
+- hiển thị phương thức trong math: **help(math)**
+- làm trong xuống số nguyên: **math.floor(ten_bien)**
+- làm tròn lên số nguyên: **math.ceil(ten_bien)**
+- **round(ten_bien, chu_so_lam_tron)**: làm tròn đến chữ số yêu cầu. nếu không có chữ số làm tròn sẽ làm tròn đến số nguyên.
+- số pi: **math.pi**
+- hằng số euler: **math.e**
+- **math.log(hang_so, co_so)** nếu không truyền cơ số sẽ auto là **math.e**
+- câu lệnh: **import random**
+- **random.randint(start, end)**: sinh ra số nguyên bất kì trong phạm vi đề ra
+- **random.seed(chi_so)**: được sử dụng trong tạo số ngẫu nhiên. đảm bảo với với 1 giá trị truyền vào một seed sẽ cố định với một số hoặc bộ số random. bất kì lần nào chạy cùng 1 giá trị seed sẽ tạo ra cùng 1 số hoặc bộ số
+- **random.choice(ten)**: dùng với list và tuple để random 1 số trong bộ số đó
+- **random.choises(ten, k = so_phan_tu)**: random ra 1 list có so_phan_tu và các phần tử có thể trùng lặp nhau
+- để không random ra 1 list không có phần tử nào trùng nhau: **random.sample(ten, k = so_phan_tu)**
+- **random.shuffle(ten_list)**: chỉ dùng cho list để xáo trộn các phần tử trong list
+- **random.uniform(start, end)**: random 1 số thực bất kì
 ### e. python debugger
- - câu lệnh: **import pdb**
- - **pdb.set_trace()**: là một cách để thêm điểm dừng (breakpoint) vào mã Python của bạn để bạn có thể kiểm tra giá trị của các biến và dòng lệnh trong quá trình chạy chương trình.
- - chi tiết tại: https://www.geeksforgeeks.org/debugging-in-python-with-pdb/
+- câu lệnh: **import pdb**
+- **pdb.set_trace()**: là một cách để thêm điểm dừng (breakpoint) vào mã Python của bạn để bạn có thể kiểm tra giá trị của các biến và dòng lệnh trong quá trình chạy chương trình.
+- chi tiết tại: https://www.geeksforgeeks.org/debugging-in-python-with-pdb/
 ### f. regular expressions
- - câu lệnh: **import re**
- - câu lệnh **in** để tìm chuỗi con trong chuỗi lớn kết quả trả về true hoặc false
- - **re.search(chuoi_con, chuoi_lon)**: kết quả trả về lần xuất hiện đầu tiên của chuỗi con trong chuỗi lớn nếu có sẽ là (vị trí bắt đầu+1, vị trí kết thúc) và 1 số thông tin khác, nếu không thì sẽ là None
+- câu lệnh: **import re**
+- câu lệnh **in** để tìm chuỗi con trong chuỗi lớn kết quả trả về true hoặc false
+- **re.search(chuoi_con, chuoi_lon)**: kết quả trả về lần xuất hiện đầu tiên của chuỗi con trong chuỗi lớn nếu có sẽ là (vị trí bắt đầu+1, vị trí kết thúc) và 1 số thông tin khác, nếu không thì sẽ là None
   - ten_bien = re.search(chuoi_con, chuoi_lon)
   - để truy cập lấy dữ liệu sử dụng: **ten_bien.span()** -> tuple; **ten_bien,start()**, **ten_bien.end()** -> int 
- - **re.findall(chuoi_con, chuoi_lon)**: trả về các lần xuất hiện của chuỗi con trong chuỗi lớn -> list
+- **re.findall(chuoi_con, chuoi_lon)**: trả về các lần xuất hiện của chuỗi con trong chuỗi lớn -> list
   - ten_bien = re.findall(chuoi_con, chuoi_lon)
   - số lần xuất hiện: **len(ten_bien)**
- - **re.filliter(chuoi_con, chuoi_lon)**: <br> ![image](https://github.com/nbn-03/Python/assets/98254107/2ceb9204-fa88-448d-ac5c-58b1218fc09e) <br> ![image](https://github.com/nbn-03/Python/assets/98254107/e959d63a-7852-4d5d-82c8-2a92ae8f0ee7) <br> ![image](https://github.com/nbn-03/Python/assets/98254107/d1941061-041d-40ca-9f06-d61465365907)
- - **điều đặc biệt: chuoi_con có thể thay bằng 1 mẫu định dạng chung để tìm ra những chuỗi con có định dạng giống nhau**
- - cách viết định dạng:
+- **re.filliter(chuoi_con, chuoi_lon)**: <br> ![image](https://github.com/nbn-03/Python/assets/98254107/2ceb9204-fa88-448d-ac5c-58b1218fc09e) <br> ![image](https://github.com/nbn-03/Python/assets/98254107/e959d63a-7852-4d5d-82c8-2a92ae8f0ee7) <br> ![image](https://github.com/nbn-03/Python/assets/98254107/d1941061-041d-40ca-9f06-d61465365907)
+- **điều đặc biệt: chuoi_con có thể thay bằng 1 mẫu định dạng chung để tìm ra những chuỗi con có định dạng giống nhau**
+- cách viết định dạng:
   - định dạng: **r"mau"**, đặt r phía trước để hiểu dấu \ không có nghĩa là dấu như: \n; \t; ...
   - \d: một số
   - \w: một chữ hoặc số hoặc kí tự đặc biệt
@@ -312,31 +312,31 @@
   - ví dụ: <br> ![image](https://github.com/nbn-03/Python/assets/98254107/91db05b6-8d83-4918-becb-2d80de2949fb)
   - **với \ xuất hiện nhiều lần có thể gây rối để thu gọn lại sẽ dùng:** <br> ![image](https://github.com/nbn-03/Python/assets/98254107/56c34a0c-26e3-4292-b152-2c8fa963d219)
   - ví dụ: <br> ![image](https://github.com/nbn-03/Python/assets/98254107/47bbf2e2-9495-4541-9263-7b0a8e028b2a)
- - với 1 dãy định dạng ta muốn nhóm lại thành các nhóm để phục vụ xử lí: <br> ![image](https://github.com/nbn-03/Python/assets/98254107/8f60cf3d-f005-4733-8603-cff4ce886c3b) <br> ![image](https://github.com/nbn-03/Python/assets/98254107/7e73afcd-5a2f-421d-b14c-c4eb4a874664)
- - để tìm kiếm nhiều thuật ngữ có thể sử dụng toán tử **or**: <br> ![image](https://github.com/nbn-03/Python/assets/98254107/17cbfb24-cebd-4222-98c3-ae22bc8dd35f)
- - chú ý với từ khóa **re.findall(chuoi_con, chuoi_cha)**: <br> ![image](https://github.com/nbn-03/Python/assets/98254107/7d915ccc-b5d8-409d-b087-156471721a9f) <br> ![image](https://github.com/nbn-03/Python/assets/98254107/59fe081e-e5ca-45e9-b86f-94c94d95a937) <br> ![image](https://github.com/nbn-03/Python/assets/98254107/7495645e-d972-4a8c-a946-304d96d8ff91) <br> ![image](https://github.com/nbn-03/Python/assets/98254107/2acb6a9b-5553-4edb-8330-51008200bba9)
- - Để loại trừ các ký tự, chúng ta có thể sử dụng ký hiệu ^ kết hợp với bộ dấu ngoặc []. Bất cứ điều gì bên trong dấu ngoặc đều bị loại trừ. ví dụ: <br> ![image](https://github.com/nbn-03/Python/assets/98254107/947ffda0-ca50-4cbf-ab76-7455c48340c5) <br> ![image](https://github.com/nbn-03/Python/assets/98254107/1bb5a082-9cdf-40e4-8552-5be107fe1553) <br> ![image](https://github.com/nbn-03/Python/assets/98254107/131f6b03-d674-496e-8061-66c336babf66)
- - để lọc ra dạng **word-word**: <br> ![image](https://github.com/nbn-03/Python/assets/98254107/83d1b035-1c9c-40bc-887f-a2fc6d0cdce5)
- -  tìm kiếm trong text để tìm chuỗi "cat" kết hợp với một trong các từ "fish", "nap", hoặc "claw". ví dụ: <br> ![image](https://github.com/nbn-03/Python/assets/98254107/ad32452d-f933-451b-aff2-2500fc76634d)
+- với 1 dãy định dạng ta muốn nhóm lại thành các nhóm để phục vụ xử lí: <br> ![image](https://github.com/nbn-03/Python/assets/98254107/8f60cf3d-f005-4733-8603-cff4ce886c3b) <br> ![image](https://github.com/nbn-03/Python/assets/98254107/7e73afcd-5a2f-421d-b14c-c4eb4a874664)
+- để tìm kiếm nhiều thuật ngữ có thể sử dụng toán tử **or**: <br> ![image](https://github.com/nbn-03/Python/assets/98254107/17cbfb24-cebd-4222-98c3-ae22bc8dd35f)
+- chú ý với từ khóa **re.findall(chuoi_con, chuoi_cha)**: <br> ![image](https://github.com/nbn-03/Python/assets/98254107/7d915ccc-b5d8-409d-b087-156471721a9f) <br> ![image](https://github.com/nbn-03/Python/assets/98254107/59fe081e-e5ca-45e9-b86f-94c94d95a937) <br> ![image](https://github.com/nbn-03/Python/assets/98254107/7495645e-d972-4a8c-a946-304d96d8ff91) <br> ![image](https://github.com/nbn-03/Python/assets/98254107/2acb6a9b-5553-4edb-8330-51008200bba9)
+- Để loại trừ các ký tự, chúng ta có thể sử dụng ký hiệu ^ kết hợp với bộ dấu ngoặc []. Bất cứ điều gì bên trong dấu ngoặc đều bị loại trừ. ví dụ: <br> ![image](https://github.com/nbn-03/Python/assets/98254107/947ffda0-ca50-4cbf-ab76-7455c48340c5) <br> ![image](https://github.com/nbn-03/Python/assets/98254107/1bb5a082-9cdf-40e4-8552-5be107fe1553) <br> ![image](https://github.com/nbn-03/Python/assets/98254107/131f6b03-d674-496e-8061-66c336babf66)
+- để lọc ra dạng **word-word**: <br> ![image](https://github.com/nbn-03/Python/assets/98254107/83d1b035-1c9c-40bc-887f-a2fc6d0cdce5)
+-  tìm kiếm trong text để tìm chuỗi "cat" kết hợp với một trong các từ "fish", "nap", hoặc "claw". ví dụ: <br> ![image](https://github.com/nbn-03/Python/assets/98254107/ad32452d-f933-451b-aff2-2500fc76634d)
 ### g. timing your python code (có 2 cách)
- - câu lệnh: **import time**
- - thời gian bắt đầu: **ten_bien1 = time.time()**
- - thời gian kết thúc: **ten_bien2= time.time()**
- - khoảng thời gian chạy code: **ten_bien2 - ten_bien1**
- - câu lệnh: **import timeit**
- - **timeit.timeit( , ,number =  )**: một hàm trong Python được sử dụng để đo thời gian thực thi của một đoạn mã Python. Nó thường được sử dụng để đo thời gian thực thi của một đoạn mã nhất định hoặc một hàm cụ thể với number là số lần thực hiện lặp lại. <br> ![image](https://github.com/nbn-03/Python/assets/98254107/d1c14911-05a8-4c69-b255-08cddf199a59) <br> ![image](https://github.com/nbn-03/Python/assets/98254107/c2e855c4-8d6f-4d26-9fae-9d087568ae84)
+- câu lệnh: **import time**
+- thời gian bắt đầu: **ten_bien1 = time.time()**
+- thời gian kết thúc: **ten_bien2= time.time()**
+- khoảng thời gian chạy code: **ten_bien2 - ten_bien1**
+- câu lệnh: **import timeit**
+- **timeit.timeit( , ,number =  )**: một hàm trong Python được sử dụng để đo thời gian thực thi của một đoạn mã Python. Nó thường được sử dụng để đo thời gian thực thi của một đoạn mã nhất định hoặc một hàm cụ thể với number là số lần thực hiện lặp lại. <br> ![image](https://github.com/nbn-03/Python/assets/98254107/d1c14911-05a8-4c69-b255-08cddf199a59) <br> ![image](https://github.com/nbn-03/Python/assets/98254107/c2e855c4-8d6f-4d26-9fae-9d087568ae84)
 ### h. zipping and unzipping file trong python
- - câu lệnh: **import zipfile**
- - nén:
+- câu lệnh: **import zipfile**
+- nén:
   - **ten_bien = zipfile.ZipFile("duong_dan_va_ten_file_zip.zip","w")**: khi tạo xong file này sẽ trống giờ ta sẽ nén các file hoặc folder rồi chèn vào
   - **ten_bien.write("duong_dan_file_hoac_folder_nen", zipfile.ZIP_DEFLATED)**
   - **ten_bien.close()**
- - giải nén:
+- giải nén:
   - **ten_bien = zipfile.ZipFile("duong_dan", "r")**
   - **ten_bien.extracall("duong_dan_va_ten_gian_nen")**
- - ví dụ: <br>  ![image](https://github.com/nbn-03/Python/assets/98254107/411454a3-2766-4572-b0bd-0ae9df1b0907) <br> ![image](https://github.com/nbn-03/Python/assets/98254107/6186bad0-1c15-4bac-9ab0-d8091ca9afbd)
- - bên trên sẽ nén từng file hoặc folder rồi chèn vào file zip có cách tối ưu là thêm hết những file hoặc folder và folder chung rồi nén
+- ví dụ: <br>  ![image](https://github.com/nbn-03/Python/assets/98254107/411454a3-2766-4572-b0bd-0ae9df1b0907) <br> ![image](https://github.com/nbn-03/Python/assets/98254107/6186bad0-1c15-4bac-9ab0-d8091ca9afbd)
+- bên trên sẽ nén từng file hoặc folder rồi chèn vào file zip có cách tối ưu là thêm hết những file hoặc folder và folder chung rồi nén
   - **import shutil**
   - **shutil.make_archive("duong_dan_va_ten_file, 'zip',"duong_dan_folder_chung")**: nén
   - **shutil.unpack_archive("duong_dan_filezip.zip", "duong_dan_va_ten_giai_nen", 'zip')**: giải nén
- - ví dụ: <br> ![image](https://github.com/nbn-03/Python/assets/98254107/ba3f14c9-5a83-4637-805a-bb809aaeffad) <br> ![image](https://github.com/nbn-03/Python/assets/98254107/6d8dfa5b-a56e-407d-bdb7-2830917acf6e)
+- ví dụ: <br> ![image](https://github.com/nbn-03/Python/assets/98254107/ba3f14c9-5a83-4637-805a-bb809aaeffad) <br> ![image](https://github.com/nbn-03/Python/assets/98254107/6d8dfa5b-a56e-407d-bdb7-2830917acf6e)
