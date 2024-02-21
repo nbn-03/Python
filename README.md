@@ -256,7 +256,7 @@
   - tải: **pip install send2trash**
   - **import send2trash**
   - câu lệnh: **send2trash.send2trash("duong_dan)**
-- **os.walk("duong_dan")**: là một hàm được sử dụng để duyệt qua tất cả các thư mục, tệp tin và các thư mục con bên trong một thư mục cụ thể. Hàm này trả về một bộ giá trị mỗi lần vòng lặp, bao gồm đường dẫn của thư mục hiện tại, danh sách các thư mục con và danh sách các tệp tin trong thư mục hiện tại. ví dụ: <br> ![image](https://github.com/nbn-03/Python/assets/98254107/90822ef5-9f7d-4f6f-9ae3-6e24af0d4cc8)
+- **os.walk("duong_dan")**: là một hàm được sử dụng để duyệt qua tất cả các thư mục, tệp tin và các thư mục con bên trong một thư mục cụ thể. Hàm này trả về một bộ giá trị mỗi lần vòng lặp, bao gồm đường dẫn của thư mục hiện tại, danh sách các thư mục con và danh sách các tệp tin trong thư mục hiện tại. ví dụ: <br> ![image](https://github.com/nbn-03/Python/assets/98254107/90822ef5-9f7d-4f6f-9ae3-6e24af0d4cc8) <br> ![image](https://github.com/nbn-03/Python/assets/98254107/271ddb78-7143-43cd-a2fd-53b21ee534e9) <br> ![image](https://github.com/nbn-03/Python/assets/98254107/4ea908cc-5304-4690-996d-3d1049e5b944)
 ### c. Datetime module
 - câu lệnh **import datetime**
 - **datetime.time(giờ,phút,giây)**: là một lớp được gọi là time. Lớp này được định nghĩa trong module datetime và được sử dụng để biểu diễn các đối tượng thời gian được truyền vào. ví dụ: <br> ![image](https://github.com/nbn-03/Python/assets/98254107/3dfb5212-1de2-48df-b4c2-de02d428a5ca)
