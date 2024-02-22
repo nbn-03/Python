@@ -373,4 +373,7 @@
   - ngoài ra có nhiều thẻ khác ngoài những thẻ này
 - CSS
   - sử dụng tags để xác định phần tử html nào sẽ được tạo kiểu
-- 
+  - ví dụ: <br> ![image](https://github.com/nbn-03/Python/assets/98254107/a65c4ca1-992b-45cc-8e81-301a06f416d1)
+  - `<link rel="stylesheet" href="styles.css">`: Đây là một thẻ `<link>` được sử dụng để liên kết với một tệp CSS bên ngoài để trang web có thể sử dụng các quy tắc kiểu từ tệp đó. Trong trường hợp này, tệp CSS có tên là "styles.css".
+  - `<p id='para2'>Some Text</p>` và `<p class='cool'>Some Text</p>`: văn bản "Some Text" được đặt bên trong thẻ <p>. Đặc biệt, có một thuộc tính với giá trị là ... được gán cho phần tử này, cho phép nó được xác định và tùy chỉnh bằng CSS hoặc JavaScript. id và class khác nhau là: id chỉ dùng cho 1 phần tử html cụ thể, còn group dùng cho 1 nhóm (trường hợp dùng id với cùng giá trị trở lên) <br> ![image](https://github.com/nbn-03/Python/assets/98254107/919012ff-09df-4471-9d53-d58f054ca9b1)
+- để web scraping chúng ta cần dùng những thư viện ngoài không tích hợp sẵn như: **request**, **lxml**, **bs4**
