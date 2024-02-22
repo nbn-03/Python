@@ -347,18 +347,14 @@
   - quy tắc của web scraping
   - hạn chế của web scraping
   - HTML và CSS cơ bản
-- quy tắc:
-  - luôn luôn xin phép quyền trước khi lấy thông tin
-  - nếu thực hiện quá nhiều thì địa chỉ IP của bạn có thể bị chặn
-  - một số trang web tự động chặn phần mềm web scraping
-- hạn chế: với mỗi trang web là duy nhất vì vậy mỗi script (tập lệnh) web scraping là duy nhất chỉ cần có sự thay đổi nhỏ hoặc cập nhật của trang web có thể phá bỏ hoàn toàn script web scraping
+- **tóm tắt quy tắc và hạn chế**: Hãy nhớ rằng bạn phải luôn có quyền đối với trang web mà bạn đang thu thập dữ liệu (nếu không có hãy cố gắng xin quyền)! Kiểm tra các điều khoản và điều kiện của trang web để biết thêm thông tin. Ngoài ra, hãy nhớ rằng máy tính có thể gửi yêu cầu đến một trang web rất nhanh, vì vậy trang web đó có thể chặn địa chỉ IP máy tính của bạn nếu bạn gửi quá nhiều yêu cầu với tốc độ nhanh. Cuối cùng, các trang web luôn thay đổi! Rất có thể bạn sẽ cần cập nhật mã của mình thường xuyên cho các công việc quét web dài hạn. 
 - thành phần chính của front-end (giao diện người dùng) của web
   - front-end: HTML + CSS + JavaScript
   - khi xem 1 web, trình duyệt sẽ không hiển thị toàn bộ mã nguồn phía sau thay vào đó nó hiển thị HTML, và một số CSS và JS mà trang web gửi tới trình duyệt của bạn
   - HTML được sử dụng để tạo cấu trúc cơ bản và nội dung của web
   - CSS được sử dụng để thiết kế và tạo kiểu cho 1 web, nơi các phần tử được đặt và trông thế nào
   - JS được sử dụng để xác đính tính tương tác các thành phần của 1 web
-  - để web scraping hiệu quả cần tập chung vào **HTML và CSS**
+  - để web scraping hiệu quả sẽ tập chung vào **HTML và CSS**
 - HTML
   - không phải là ngôn ngữ lập trình
   - có mặt trên mọi trang web
@@ -377,3 +373,4 @@
   - `<link rel="stylesheet" href="styles.css">`: Đây là một thẻ `<link>` được sử dụng để liên kết với một tệp CSS bên ngoài để trang web có thể sử dụng các quy tắc kiểu từ tệp đó. Trong trường hợp này, tệp CSS có tên là "styles.css".
   - `<p id='para2'>Some Text</p>` và `<p class='cool'>Some Text</p>`: văn bản "Some Text" được đặt bên trong thẻ <p>. Đặc biệt, có một thuộc tính với giá trị là ... được gán cho phần tử này, cho phép nó được xác định và tùy chỉnh bằng CSS hoặc JavaScript. id và class khác nhau là: id chỉ dùng cho 1 phần tử html cụ thể, còn group dùng cho 1 nhóm (trường hợp dùng id với cùng giá trị trở lên) <br> ![image](https://github.com/nbn-03/Python/assets/98254107/919012ff-09df-4471-9d53-d58f054ca9b1)
 - để web scraping chúng ta cần dùng những thư viện ngoài không tích hợp sẵn như: **request**, **lxml**, **bs4**
+- 
