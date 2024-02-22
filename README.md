@@ -345,8 +345,32 @@
 - quá trình này thường bao gồm việc truy cập vào web, tìm kiếm và phân tích cấu trúc của web để trích xuất thông tin mong muốn
 - những điều chính cần hiểu:
   - quy tắc của web scraping
-  - những hạn chế của web scraping
+  - hạn chế của web scraping
   - HTML và CSS cơ bản
 - quy tắc:
-  - 
+  - luôn luôn xin phép quyền trước khi lấy thông tin
+  - nếu thực hiện quá nhiều thì địa chỉ IP của bạn có thể bị chặn
+  - một số trang web tự động chặn phần mềm web scraping
+- hạn chế: với mỗi trang web là duy nhất vì vậy mỗi script (tập lệnh) web scraping là duy nhất chỉ cần có sự thay đổi nhỏ hoặc cập nhật của trang web có thể phá bỏ hoàn toàn script web scraping
+- thành phần chính của front-end (giao diện người dùng) của web
+  - front-end: HTML + CSS + JavaScript
+  - khi xem 1 web, trình duyệt sẽ không hiển thị toàn bộ mã nguồn phía sau thay vào đó nó hiển thị HTML, và một số CSS và JS mà trang web gửi tới trình duyệt của bạn
+  - HTML được sử dụng để tạo cấu trúc cơ bản và nội dung của web
+  - CSS được sử dụng để thiết kế và tạo kiểu cho 1 web, nơi các phần tử được đặt và trông thế nào
+  - JS được sử dụng để xác đính tính tương tác các thành phần của 1 web
+  - để web scraping hiệu quả cần tập chung vào **HTML và CSS**
+- HTML
+  - không phải là ngôn ngữ lập trình
+  - có mặt trên mọi trang web
+  - để xem HTML của 1 web: chuột phải -> select "view page source"
+  - `<DOCTYPE html>`: Tài liệu HTML sẽ luôn bắt đầu bằng khai báo kiểu này, cho trình duyệt biết đó là tệp HTML.
+  - Các khối thành phần của tài liệu HTML được đặt giữa `<html>` và `</html>`.
+  - Các kết nối dữ liệu và tập lệnh (như liên kết tới tệp CSS hoặc tệp JS) thường được đặt trong khối  `<head>`.
+  - Khối thẻ `<title>` xác định tiêu đề của trang web (nó hiển thị trong tab của trang web bạn đang truy cập).
+  - Nằm giữa thẻ `<body>` và `</body>` là các khối sẽ hiển thị cho khách truy cập trang web.
+  - Tiêu đề được xác định bởi thẻ `<h1>` đến `<h6>`, trong đó số biểu thị cấp độ của tiêu đề.
+  - Các đoạn văn được xác định bằng thẻ `<p>`, đây thực chất chỉ là văn bản bình thường trên trang web.
+  - ngoài ra có nhiều thẻ khác ngoài những thẻ này
+- CSS
+  - sử dụng tags để xác định phần tử html nào sẽ được tạo kiểu
 - 
