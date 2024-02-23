@@ -188,7 +188,7 @@
 - xóa một thuộc tính: <br> ![image](https://github.com/nbn-03/Python/assets/98254107/ba7a86ab-326c-4e0f-bc2e-6ce5326caa77)
 ## 7. modules và package
 ### a. pip install và pypi
-- pypi là một kho lưu trữ các package, module và thư viện python của bên thứ 3, là mã nguồn mở.
+- pypi là một kho lưu trữ các package, module, tool và thư viện python của bên thứ 3, là mã nguồn mở.
 - sử dụng câu lệnh **pip install** trên cmd để tải các package trên pypi
 - tải: **pip install ten_package**
 - kiểm tra: **pip list** hoặc **pip show ten_package**
@@ -219,7 +219,7 @@
 ### a. Pylint
 - là tool xem xét code của bạn và báo cáo lại các vấn đề có thể xảy ra.
 - tải package: **pip install pylint**
-- để sử dụng: chạy lệnh **pylint ten_file.py** trên cmd,... vì là tool kiểm tra nên không cần import. được tải qua pip vì giúp quản lý phiên bản Pylint một cách dễ dàng. 
+- để sử dụng: chạy lệnh **pylint ten_file.py** trên cmd,... vì là tool kiểm tra nên không cần import.
 ### b. unittest
 - là module tích hợp này sẽ cho phép kiểm tra các chương trình của riêng bạn và kiểm tra xem bạn có nhận được kết quả đầu ra mong muốn hay không
 - không cần download mà trực tiếp import sử dụng: **import unittest** ví dụ: <br> ![image](https://github.com/nbn-03/Python/assets/98254107/17a9136e-0c64-46fb-bf41-bdefa130f68b)
