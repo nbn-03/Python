@@ -188,7 +188,7 @@
 - xóa một thuộc tính: <br> ![image](https://github.com/nbn-03/Python/assets/98254107/ba7a86ab-326c-4e0f-bc2e-6ce5326caa77)
 ## 7. modules và package
 ### a. pip install và pypi
-- pypi là một kho lưu trữ các package, module python của bên thứ 3, là mã nguồn mở.
+- pypi là một kho lưu trữ các package, module và thư viện python của bên thứ 3, là mã nguồn mở.
 - sử dụng câu lệnh **pip install** trên cmd để tải các package trên pypi
 - tải: **pip install ten_package**
 - kiểm tra: **pip list** hoặc **pip show ten_package**
