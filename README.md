@@ -227,7 +227,7 @@
 - là một cách tiện lợi và hiệu quả để tạo ra các dãy giá trị một cách lười biếng (lazy evaluation), tức là giá trị chỉ được sinh ra khi cần thiết và không lưu trữ tất cả giá trị trong bộ nhớ như list. hiểu đơn giản là từ khóa **yield**  giúp add sau vào 1 list ảo không lưu trong bộ nhớ
 -  ví dụ: <br> ![image](https://github.com/nbn-03/Python/assets/98254107/066cd717-6906-4923-94ce-eb3dcc90d35f) <br> ![image](https://github.com/nbn-03/Python/assets/98254107/76f83574-4214-4c7f-a254-d3d125585a06)
 -  từ generators có thể ép kiểu sang list, tuple, ... cú pháp như ép kiểu thông thường
--  **chú ý**:  
+-  **chú ý**:
   - vẫn có 1 cách dùng genetators ngoài từ khóa **yield** <br> ![image](https://github.com/nbn-03/Python/assets/98254107/c9982813-c195-4041-afc3-dd88c4c2bf80)
   - iterator: là một đối tượng cho phép bạn lặp qua các phần tử của một tập hợp hoặc một dãy các giá trị một cách tuần tự
   - trong đó có 2 phương thức: **iter(ten_taphop)**: chuyển sang iterator; **next(ten_iterator)**: in ra địa chỉ có từng phần tử trong iterator nếu không còn phần tử nào để lặp qua, nó sẽ ném ra một ngoại lệ có tên là StopIteration, để in ra giá trị thì dùng: **print(next(ten_iterator))**
@@ -314,7 +314,7 @@
 - chú ý với từ khóa **re.findall(chuoi_con, chuoi_cha)**: <br> ![image](https://github.com/nbn-03/Python/assets/98254107/7d915ccc-b5d8-409d-b087-156471721a9f) <br> ![image](https://github.com/nbn-03/Python/assets/98254107/59fe081e-e5ca-45e9-b86f-94c94d95a937) <br> ![image](https://github.com/nbn-03/Python/assets/98254107/7495645e-d972-4a8c-a946-304d96d8ff91) <br> ![image](https://github.com/nbn-03/Python/assets/98254107/2acb6a9b-5553-4edb-8330-51008200bba9)
 - Để loại trừ các ký tự, chúng ta có thể sử dụng ký hiệu ^ kết hợp với bộ dấu ngoặc []. Bất cứ điều gì bên trong dấu ngoặc đều bị loại trừ. ví dụ: <br> ![image](https://github.com/nbn-03/Python/assets/98254107/947ffda0-ca50-4cbf-ab76-7455c48340c5) <br> ![image](https://github.com/nbn-03/Python/assets/98254107/1bb5a082-9cdf-40e4-8552-5be107fe1553) <br> ![image](https://github.com/nbn-03/Python/assets/98254107/131f6b03-d674-496e-8061-66c336babf66)
 - để lọc ra dạng **word-word**: <br> ![image](https://github.com/nbn-03/Python/assets/98254107/83d1b035-1c9c-40bc-887f-a2fc6d0cdce5)
--  tìm kiếm trong text để tìm chuỗi "cat" kết hợp với một trong các từ "fish", "nap", hoặc "claw". ví dụ: <br> ![image](https://github.com/nbn-03/Python/assets/98254107/ad32452d-f933-451b-aff2-2500fc76634d)
+- tìm kiếm trong text để tìm chuỗi "cat" kết hợp với một trong các từ "fish", "nap", hoặc "claw". ví dụ: <br> ![image](https://github.com/nbn-03/Python/assets/98254107/ad32452d-f933-451b-aff2-2500fc76634d)
 ### g. timing your python code (có 2 cách)
 - câu lệnh: **import time**
 - thời gian bắt đầu: **ten_bien1 = time.time()**
