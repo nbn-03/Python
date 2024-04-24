@@ -186,6 +186,7 @@
 ## 7. modules và package
 ### a. pip install và pypi
 - pypi là một kho lưu trữ các package, module, tool và thư viện python của bên thứ 3, là mã nguồn mở.
+- tool và thư viện chính được coi là modulo hoặc package tùy vào quy mô mức độ của mã nguồn
 - sử dụng câu lệnh **pip install** trên cmd để tải các package trên pypi
 - tải: **pip install ten_package**
 - kiểm tra: **pip list** hoặc **pip show ten_package**
