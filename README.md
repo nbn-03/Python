@@ -13,9 +13,9 @@
   - chuyển đường dẫn: cd
   - xem đường dẫn hiện tại: pwd
 - tải Python: youtube.
-- cách chạy trên terminal: cd đến đường dẫn đó sau đó => python ten_file.py
-**trong python và java khi tổng hợp lí thuyết có thể viết hàm với phương thức lẫn lộn nhau. hiểu đơn giản là hàm chỉ cần gọi trực tiếp còn phương thức là dùng qua đối tượng để gọi như: ten.phuong_thuc()**
-**trong python không có { } để nhóm câu lệnh lại như C và Javaa nên ta sử dụng thụt lề (tab) để nhóm câu lệnh**
+- cách chạy trên terminal: cd đến đường dẫn đó sau đó => python ten_file.py  
+-  **trong python và java khi tổng hợp lí thuyết có thể viết hàm với phương thức lẫn lộn nhau. hiểu đơn giản là hàm chỉ cần gọi trực tiếp còn phương thức là dùng qua đối tượng để gọi như: ten.phuong_thuc()**  
+- **trong python không có { } để nhóm câu lệnh lại như C và Java nên ta sử dụng thụt lề (tab) để nhóm câu lệnh**
 ## 2. Python object and data structure basics
 - ![image](https://github.com/nbn-03/Python/assets/98254107/d2a250f1-ab95-464d-9e04-74733103a6c6)
 ### a.Numbers
