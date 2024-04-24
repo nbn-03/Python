@@ -115,7 +115,7 @@
 ### d. mở rộng
 - **range(start,stop,step)**. nếu chỉ có stop thì start = 0 và step = 1. lưu ý: **< stop**.
 - từ câu lệnh range tạo thành 1 list, set, tuple: **loai(range(strat,stop,step))**
-- tích hợp truy xuất ra cả chỉ số và giá trị: <br> ![image](https://github.com/nbn-03/Python/assets/98254107/ba4f1325-defc-4fb2-afb6-9cbfa0825dc4) <br> **không chỉ chuỗi mà còn list, tuple, set, dictionary**
+- tích hợp truy xuất ra cả vị trí phần tử và giá trị: <br> ![image](https://github.com/nbn-03/Python/assets/98254107/ba4f1325-defc-4fb2-afb6-9cbfa0825dc4) <br> **không chỉ chuỗi mà còn list, tuple, set, dictionary**
 - <br> ![image](https://github.com/nbn-03/Python/assets/98254107/747070a7-b015-48ee-a6f7-bd107fc155ca) <br> ![image](https://github.com/nbn-03/Python/assets/98254107/70406ac3-d397-4c69-a2d9-d5d12bc10b67)
 - có thể dung **in** để kiểm tra phân tử có nằm trong chuỗi, list,... hay không. ví dụ: <br> ![image](https://github.com/nbn-03/Python/assets/98254107/492a201c-6997-48c4-913b-9bc9b5b7090c)
 - max, min trong chuỗi, list,...: **max(ten)**' **min(ten)**
