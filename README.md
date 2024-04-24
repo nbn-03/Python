@@ -165,8 +165,7 @@
 - ghi đè: giống với java
 - nạp chồng phương thức: giống java. hoặc trong Python có 1 cách khác dùng từ khóa **None** ví dụ: <br> ![image](https://github.com/nbn-03/Python/assets/98254107/38e46e73-c99e-4f46-853a-115ee9ee7343)
 ### d. đa hình
-- **khác so với Java ở Python không có khuôn mãu**
-- trong Python các đối tượng khác nhau có thể chia sẻ cùng 1 tên phương thức.
+- **khác so với Java ở Python không có khuôn mãu, không được thể hiện mạnh mẽ**
 ### e. trìu tượng
 - **lưu ý**: tại python không có interface và lớp trìu tượng như Java chỉ có phương thức trìu tượng. để tạo phương thức trìu tượng ta import module **abc** (abstract base class)
 - cấu trúc: <br> ![image](https://github.com/nbn-03/Python/assets/98254107/250f764c-6586-44b4-881c-3fa96ba36b35)
