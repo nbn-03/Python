@@ -195,6 +195,7 @@
 - trong python, module chính là 1 tập lệnh <1 file .py> để giải quyết 1 vấn đề hoặc cung cấp các chức năng 
 - package là tập hợp các module <có thể chứa 1 hoặc nhiều module>, các package con. trong package bắt buộc phải có 1 file, file đó có thể trống hoặc chứa mã Python khởi tạo hoặc cấu hình cần thiết cho package. <br> ![image](https://github.com/nbn-03/Python/assets/98254107/dea1e066-9580-4672-beed-ad985db78532)
 - cách sử dụng dựa trên import và from ... import ...
+- ví dụ: <br> ![image](https://github.com/nbn-03/Python/assets/98254107/a3886116-b5cb-4375-8e53-e8a4e8a0f008)
 - có thể import cùng lúc nhiều module trên 1 dòng
 ### c. bổ sung
 - ![image](https://github.com/nbn-03/Python/assets/98254107/9b6cd56f-c454-4e00-98a8-dc11e1a4bf0b)
