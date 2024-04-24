@@ -132,7 +132,6 @@
   - **kwargs: được sử dụng để truyền một số lượng biến đối số không cố định vào hàm. nó nhận và đối số dạng key-value tạo thành dicnationary. ví dụ: <br> ![image](https://github.com/nbn-03/Python/assets/98254107/4bd0a2d6-9323-4678-b882-cbbe938d2601)
   - kết hợp cả 2 lưu ý phải truyền đúng lần lượt thứ tự. ví dụ: <br> ![image](https://github.com/nbn-03/Python/assets/98254107/46b7abf5-7c76-4f00-b5a1-32ae810665f3) <br> ![image](https://github.com/nbn-03/Python/assets/98254107/3dbe878e-b988-4c63-93b8-6b2af4d6840a)
 - trả về giá trị tuyệt đối: **abs(ten)**
-- ví dụ bài tập về hàm: <br> ![image](https://github.com/nbn-03/Python/assets/98254107/63d3cfc9-6944-4578-b6b6-9ef328e371f3)
 - Lambda Expressions, Map, and Filter:
   - hàm **map**:  là một hàm tích hợp sẵn được sử dụng để áp dụng một hàm lên mỗi phần tử của một hoặc nhiều chuỗi, list, tuple,... kết quả trả về sẽ là 1 địa chỉ bộ nhớ của 1 dãy phần tử. để hiện thị dãy phần tử đó ta **thông thường** ép kiểu nó về 1 list hoặc tuple. ví dụ: <br> ![image](https://github.com/nbn-03/Python/assets/98254107/10c1faf5-8ac3-40d1-8c74-755edc82660f)
   - hàm **filter**: kết quả trả về sẽ tương tự hàm **map** nhưng chức năng: được sử dụng để lọc các phần tử trên một hàm điều kiện. ví dụ: ![image](https://github.com/nbn-03/Python/assets/98254107/4a9a8da6-4cdc-4c3f-9adc-527f26ffa4ad)
