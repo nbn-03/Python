@@ -268,7 +268,7 @@
 ### d. math and random module
 - câu lệnh: **import math**
 - hiển thị phương thức trong math: **help(math)**
-- làm trong xuống số nguyên: **math.floor(ten_bien)**
+- làm tròn xuống số nguyên: **math.floor(ten_bien)**
 - làm tròn lên số nguyên: **math.ceil(ten_bien)**
 - **round(ten_bien, chu_so_lam_tron)**: làm tròn đến chữ số yêu cầu. nếu không có chữ số làm tròn sẽ làm tròn đến số nguyên.
 - số pi: **math.pi**
