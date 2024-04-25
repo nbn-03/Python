@@ -224,7 +224,7 @@
 - định nghĩa: đã đề cập
 - ví dụ: <br> ![image](https://github.com/nbn-03/Python/assets/98254107/6d0808c8-e2d0-4c64-b23b-512be7086de8) <br> ![image](https://github.com/nbn-03/Python/assets/98254107/6b2193e2-dd1c-4e91-9e99-76bbb8b6ef3c)
 ## 10. Python Generators
-- là một cách tiện lợi và hiệu quả để tạo ra các dãy giá trị một cách lười biếng (lazy evaluation), tức là giá trị chỉ được sinh ra khi cần thiết và không lưu trữ tất cả giá trị trong bộ nhớ như list. hiểu đơn giản là từ khóa **yield**  giúp add sau vào 1 list ảo không lưu trong bộ nhớ
+- là một cách tiện lợi và hiệu quả để tạo ra các dãy giá trị một cách lười biếng (lazy evaluation), tức là giá trị chỉ được sinh ra khi cần thiết và không lưu trữ tất cả giá trị trong bộ nhớ như list. hiểu đơn giản là từ khóa **yield** giúp add sau vào 1 list ảo không lưu trong bộ nhớ
 - ví dụ: <br> ![image](https://github.com/nbn-03/Python/assets/98254107/066cd717-6906-4923-94ce-eb3dcc90d35f) <br> ![image](https://github.com/nbn-03/Python/assets/98254107/76f83574-4214-4c7f-a254-d3d125585a06)
 - từ generators có thể ép kiểu sang list, tuple, ... cú pháp như ép kiểu thông thường
 - **chú ý**:
