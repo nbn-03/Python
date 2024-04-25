@@ -341,4 +341,8 @@
 - **đọc thêm tại link github trên đầu**
 ## 13. working with Images
 - thư viện: **pillow** - là thư viện cung cấp để xử lí hình ảnh
+- để sử dụng thư viện: **from PIL import Image**
+- mở: **ten_bien = Image.open("duong_dan")**
+- xem ảnh: **print(ten_bien.show())**
+- lấy size (chiều rộng, chiều cao): **ten_bien.size()**
 - 
