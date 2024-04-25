@@ -291,7 +291,7 @@
 - câu lệnh **in** để tìm chuỗi con trong chuỗi lớn kết quả trả về true hoặc false
 - **re.search(chuoi_con, chuoi_lon)**: kết quả trả về lần xuất hiện đầu tiên của chuỗi con trong chuỗi lớn nếu có sẽ là (vị trí bắt đầu+1, vị trí kết thúc) và 1 số thông tin khác, nếu không thì sẽ là None
   - ten_bien = re.search(chuoi_con, chuoi_lon)
-  - để truy cập lấy dữ liệu sử dụng: **ten_bien.span()** -> tuple; **ten_bien,start()**, **ten_bien.end()** -> int 
+  - để truy cập lấy dữ liệu sử dụng: **ten_bien.span()** -> tuple; **ten_bien.start()**, **ten_bien.end()** -> int 
 - **re.findall(chuoi_con, chuoi_lon)**: trả về các lần xuất hiện của chuỗi con trong chuỗi lớn -> list
   - ten_bien = re.findall(chuoi_con, chuoi_lon)
   - số lần xuất hiện: **len(ten_bien)**
