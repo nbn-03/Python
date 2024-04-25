@@ -338,4 +338,5 @@
 - ví dụ: <br> ![image](https://github.com/nbn-03/Python/assets/98254107/ba3f14c9-5a83-4637-805a-bb809aaeffad) <br> ![image](https://github.com/nbn-03/Python/assets/98254107/6d8dfa5b-a56e-407d-bdb7-2830917acf6e)
 - **chú ý:** ví dụ trên tại giải nén output_filename chính là đường dẫn file.zip; tại nén output chỉ là đường dẫn với tên file zip để thực hiện nén (chuyển thành file.zip)
 ## 12. web scraping
+- **đọc thêm tại link github trên đầu**
 ## 13. working with Images
