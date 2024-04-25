@@ -340,3 +340,5 @@
 ## 12. web scraping
 - **đọc thêm tại link github trên đầu**
 ## 13. working with Images
+- thư viện: **pillow** - là thư viện cung cấp để xử lí hình ảnh
+- 
