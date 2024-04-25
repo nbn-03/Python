@@ -329,7 +329,7 @@
   - **ten_bien.close()**
 - giải nén:
   - **ten_bien = zipfile.ZipFile("duong_dan", "r")**
-  - **ten_bien.extracall("duong_dan_va_ten_gian_nen")**
+  - **ten_bien.extractall("duong_dan_va_ten_gian_nen")**
 - ví dụ: <br>  ![image](https://github.com/nbn-03/Python/assets/98254107/411454a3-2766-4572-b0bd-0ae9df1b0907) <br> ![image](https://github.com/nbn-03/Python/assets/98254107/6186bad0-1c15-4bac-9ab0-d8091ca9afbd)
 - bên trên sẽ nén từng file hoặc folder rồi chèn vào file zip có cách tối ưu là thêm hết những file hoặc folder và folder chung rồi nén
   - **import shutil**
