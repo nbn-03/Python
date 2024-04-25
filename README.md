@@ -350,7 +350,7 @@
   - khi xem 1 web, trình duyệt sẽ không hiển thị toàn bộ mã nguồn phía sau thay vào đó nó hiển thị HTML, và một số CSS và JS mà trang web gửi tới trình duyệt của bạn
   - HTML được sử dụng để tạo cấu trúc cơ bản và nội dung của web
   - CSS được sử dụng để thiết kế và tạo kiểu cho 1 web, nơi các phần tử được đặt và trông thế nào
-  - JS được sử dụng để xác đính tính tương tác các thành phần của 1 web
+  - JS được sử dụng để xác định tính tương tác các thành phần của 1 web
   - để web scraping hiệu quả sẽ tập chung vào **HTML và CSS**
 - HTML
   - không phải là ngôn ngữ lập trình
