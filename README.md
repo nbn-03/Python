@@ -233,7 +233,7 @@
 ## 11. advanced python modules (đề cập giới thiệu qua một số module với phương thức và vẫn còn rất rất nhiều module với phương thức khác)
 ### a. Collections Module
 - là một module chuẩn cung cấp một số cấu trúc dữ liệu mở rộng so với các cấu trúc dữ liệu cơ bản như list, tuple, và dictionary. Module này cung cấp các công cụ giúp bạn làm việc với dữ liệu một cách hiệu quả hơn trong nhiều tình huống khác nhau.
-- hàm **Counter**: là một lớp trong module collections được sử dụng để đếm số lần xuất hiện của các phần tử. ví dụ: <br> ![image](https://github.com/nbn-03/Python/assets/98254107/ba6fddb6-8813-4cdd-b7d2-3572cc3aa71c) <br> ![image](https://github.com/nbn-03/Python/assets/98254107/c5f58f1b-70b0-406e-b3bc-8937752e9f2b)
+- hàm **Counter**: là một lớp trong module collections được sử dụng để đếm số lần xuất hiện của các phần tử. ví dụ:
 - hàm **defaultdict**: là một lớp trong module collections cung cấp một cấu trúc từ điển mở rộng so với dict tiêu chuẩn. defaultdict cho phép bạn xác định một giá trị mặc định cho các key mà không tồn tại trong từ điển. Khi bạn truy cập một key không tồn tại, defaultdict sẽ tự động tạo ra key đó và gán giá trị mặc định cho nó. ví dụ: <br> ![image](https://github.com/nbn-03/Python/assets/98254107/85d7978a-b11e-4da3-86d1-fd0ec545e223)
 - hàm **nametuple**: là một lớp trong module collections cho phép bạn tạo ra các kiểu dữ liệu giống như tuple, nhưng mỗi trường (field) có thể được truy cập thông qua tên thay vì chỉ số như trong tuple thông thường (lưu ý: vẫn truy cập thông qua chỉ số được). ví dụ: <br> ![image](https://github.com/nbn-03/Python/assets/98254107/b4309a6c-6775-48c2-990f-32a018ae3b5c)
 ### b. OS module (tập chung vào opening and reading file and folders)
