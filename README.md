@@ -229,8 +229,6 @@
 - từ generators có thể ép kiểu sang list, tuple, ... cú pháp như ép kiểu thông thường
 - **chú ý**:
   - vẫn có 1 cách dùng genetators ngoài từ khóa **yield** <br> ![image](https://github.com/nbn-03/Python/assets/98254107/c9982813-c195-4041-afc3-dd88c4c2bf80)
-  - iterator: là một đối tượng cho phép bạn lặp qua các phần tử của một tập hợp hoặc một dãy các giá trị một cách tuần tự
-  - trong đó có 2 phương thức: **iter(ten_taphop)**: chuyển sang iterator; **next(ten_iterator)**: in ra địa chỉ có từng phần tử trong iterator nếu không còn phần tử nào để lặp qua, nó sẽ ném ra một ngoại lệ có tên là StopIteration, để in ra giá trị thì dùng: **print(next(ten_iterator))**
 ## 11. advanced python modules (đề cập giới thiệu qua một số module với phương thức và vẫn còn rất rất nhiều module với phương thức khác)
 ### a. Collections Module
 - là một module chuẩn cung cấp một số cấu trúc dữ liệu mở rộng so với các cấu trúc dữ liệu cơ bản như list, tuple, và dictionary. Module này cung cấp các công cụ giúp bạn làm việc với dữ liệu một cách hiệu quả hơn trong nhiều tình huống khác nhau.
