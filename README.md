@@ -336,7 +336,7 @@
   - **shutil.make_archive("duong_dan_va_ten_file, 'zip',"duong_dan_folder_chung")**: nén
   - **shutil.unpack_archive("duong_dan_filezip.zip", "duong_dan_va_ten_giai_nen", 'zip')**: giải nén
 - ví dụ: <br> ![image](https://github.com/nbn-03/Python/assets/98254107/ba3f14c9-5a83-4637-805a-bb809aaeffad) <br> ![image](https://github.com/nbn-03/Python/assets/98254107/6d8dfa5b-a56e-407d-bdb7-2830917acf6e)
-- **chú ý:** ví dụ trên tại giải nén output_filename chính là đường dẫn file.zip
+- **chú ý:** ví dụ trên tại giải nén output_filename chính là đường dẫn file.zip; tại nén output chỉ là đường dẫn đến folder đích để thực hiện nén (chuyển thành file.zip)
 ## 12. web scraping
 - là một thuật ngữ dùng cho kĩ thuật liên quan đến việc tự động thu thập dữ liệu từ 1 web ví dụ như: tải hình ảnh hoặc thông tin;...
 - quá trình này thường bao gồm việc truy cập vào web, tìm kiếm và phân tích cấu trúc của web để trích xuất thông tin mong muốn
