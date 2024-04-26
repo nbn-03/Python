@@ -344,5 +344,7 @@
 - để sử dụng thư viện: **from PIL import Image**
 - mở: **ten_bien = Image.open("duong_dan")**
 - xem ảnh: **print(ten_bien.show())**
+- đơn vị làm việc: **pixel**
 - lấy size (chiều rộng, chiều cao): **ten_bien.size()**
-- 
+- cắt ảnh: **ten_bien.crop(chiều rộng ban đầu, chiều cao ban đầu, chiều rộng lúc sau, chiều cao lúc sau)**
+- paste ảnh: 
