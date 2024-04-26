@@ -346,10 +346,10 @@
 - xem ảnh: **print(ten_bien.show())**
 - đơn vị làm việc: **pixel**
 - lấy size (chiều rộng, chiều cao): **ten_bien.size()**
-- cắt ảnh: **ten_bien.crop(trái, trên, phải, dưới)** dạng tọa độ
+- cắt ảnh: **ten_bien.crop((trái, trên, phải, dưới))** dạng tọa độ
 - paste ảnh: **ten_bien.paste(im = ten_bien_của.ảnh.paste, box=(chiều rộng, chiều cao))**. trong đó box() là vị trí bắt đầu để gán ảnh
 - **chú ý:** với các phương thức đang học chỉ dùng cho biến tại thời điểm chạy code còn lại không ảnh hưởng đến hình ảnh thực tế
-- thay đổi kích thước: **ten_bien.resize(chiều rộng, chiều cao)**
+- thay đổi kích thước: **ten_bien.resize((chiều rộng, chiều cao))**
 - xoay hình: **ten_bien.rotate(độ xoay ngược kim đồng hồ)**. trong trường hợp trên khi xoay size sẽ giữa nguyên vì vậy ảnh sẽ bị cắt để tối ưu tự động đổi size thích hợp ta dùng: **ten_bien.rotate(độ ngược kim đồng hồ, expand=True)**
 - **Color Transparency**: đọc thêm tại link github trên đầu
 - như đã nói ở trên với các phương thức đang học chỉ dùng cho biến tại thời điểm chạy code còn lại không ảnh hưởng đến hình ảnh thực tế vì vậy cần thao tác **lưu** nếu cần: **ten_bien.save("duong_dan")**
@@ -367,4 +367,4 @@
 - ghi file CSV:
   -  **ten_bien4 = open("duong_dan kèm theo file.csv", mode="w hoặc a", newline = "")** tại đây **newline=''** có tác dụng thêm dấu xuống dòng sau mỗi dòng bạn ghi
   -  **ten_bien5 = csv.writer(ten_bien4, delimiter=",")** tại đây **delimiter=","** trong một dòng ngăn cách nhau bởi dấu **,** có thể cách nhau bởi ; \t (tab);...
-  -  
+  -  **ten_bien5.writerow([ ])** hoặc **ten_bien5.writerows([[ ],[ ]])**
