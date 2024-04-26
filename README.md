@@ -359,4 +359,12 @@
 - CSV viết tắt của comma separated variables
 - là đầu ra rất phổ biến cho rất nhiều spreadsheet programs (chương trình bảng tính)
 - ví dụ: <br> ![image](https://github.com/nbn-03/Python/assets/98254107/2b76bc16-c344-4504-86c3-e01d4904cfe5)
-- 
+- dùng thư viện: **import csv**
+- mở file: **ten_bien1 = open("duong_dan", encoding = "utf-8")**
+  -  trong đó **encodeing** bảo đảm rằng tất cả các ký tự Unicode có thể được đọc chính xác từ tệp. Điều này quan trọng đặc biệt khi bạn đang làm việc với các tệp văn bản chứa các ký tự không phải là ASCII hoặc ký tự đặc biệt.
+- đọc: **ten_bien2 = csv.reader(ten_bien1)**
+- format to list: **ten_bien3 = list(ten_bien2)**. sau khi thực hiện câu lệnh mỗi dòng sẽ tạo thành 1 list tính cả tiêu đề và mỗi dòng lại nằm chung trong 1 list
+- ghi file CSV:
+  -  **ten_bien4 = open("duong_dan kèm theo file.csv", mode="w hoặc a", newline = "")** tại đây **newline=''** có tác dụng thêm dấu xuống dòng sau mỗi dòng bạn ghi
+  -  **ten_bien5 = csv.writer(ten_bien4, delimiter=",")** tại đây **delimiter=","** trong một dòng ngăn cách nhau bởi dấu **,** có thể cách nhau bởi ; \t (tab);...
+  -  
