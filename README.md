@@ -126,7 +126,7 @@
 - ví dụ: <br> ![image](https://github.com/nbn-03/Python/assets/98254107/685abf9e-6c16-4fd9-bce1-4925bba7bdaf)
 - nếu hàm có kết quả trả về là 1 giá trị thì cần có từ khóa **return**.
 - ví dụ: <br> ![image](https://github.com/nbn-03/Python/assets/98254107/962e525b-1fbc-4c7f-bbb8-882c660a4da7) <br> ![image](https://github.com/nbn-03/Python/assets/98254107/bb6891df-304a-405f-a142-e3ebc62da8b4) <br> ![image](https://github.com/nbn-03/Python/assets/98254107/cb443ba1-cd63-4b75-b500-1572c39b1f5f)
-- tương tác giữa các hàm: hàm này có thể làm đối số phục vụ hàm kia. ví dụ: bài tìm 1 quả bóng trong 3 cái cốc (lưu trên github)
+- tương tác giữa các hàm: hàm này có thể làm đối số phục vụ hàm kia.
 - tìm hiểu về 2 từ khóa *args và **kwargs:
   - *args: được sử dụng để truyền một số lượng biến đối số không cố định vào hàm. Nó cho phép hàm nhận được bất kỳ số lượng đối số nào được truyền vào và đặt chúng trong một tuple. ví dụ: <br> ![image](https://github.com/nbn-03/Python/assets/98254107/4abe36f2-94b7-4521-8b5d-d695a37527f5)
   - **kwargs: được sử dụng để truyền một số lượng biến đối số không cố định vào hàm. nó nhận và đối số dạng key-value tạo thành dicnationary. ví dụ: <br> ![image](https://github.com/nbn-03/Python/assets/98254107/4bd0a2d6-9323-4678-b882-cbbe938d2601)
@@ -351,4 +351,4 @@
 - **chú ý:** với các phương thức đang học chỉ dùng cho biến tại thời điểm chạy câu lệnh đó còn lại không ảnh hưởng đến hình ảnh thực tế
 - thay đổi kích thước: **ten_bien.resize(chiều rộng, chiều cao)**
 - xoay hình: **ten_bien.rotate(độ xoay ngược kim đồng hồ)**. trong trường hợp trên khi xoay size sẽ giữa nguyên vì vậy ảnh sẽ bị cắt để tối ưu tự động đổi size thích hợp ta dùng: **ten_bien.rotate(độ ngược kim đồng hồ, expand=True)**
-- **Color Transparency**: link github trên đầu 
+- **Color Transparency**: đọc thêm tại link github trên đầu 
