@@ -368,6 +368,6 @@
   - **ten_bien4 = open("duong_dan kèm theo file.csv", mode="w hoặc a", newline = "")** tại đây **newline=''** có tác dụng thêm dấu xuống dòng sau mỗi dòng bạn ghi
   - **ten_bien5 = csv.writer(ten_bien4, delimiter=",")** tại đây **delimiter=","** trong một dòng ngăn cách nhau bởi dấu **,** có thể cách nhau bởi \t (tab) hoặc các dấu khác
   - **ten_bien5.writerow([ ])** hoặc **ten_bien5.writerows([[ ],[ ]])**
-  - **chú ý:** các giá trị thường được đọc như chuỗi kể cả khi chúng là số. Điều này có thể xảy ra vì thư viện đọc CSV thường đọc dữ liệu dưới dạng chuỗi
+  - **chú ý:** trong CSV các giá trị thường được xem là String, dù khi nhập kiểu dữ liệu khác thì vẫn được chuyển đổi về String để lưu trên CSV. có thể chuyển đổi các giá trị từ chuỗi sang kiểu dữ liệu mong muốn sau khi đọc file CSV
 - đóng file: **ten_bien1.close()**
 ### b. PDF
