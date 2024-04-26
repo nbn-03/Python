@@ -372,3 +372,10 @@
   - **chú ý:** trong CSV các giá trị có KDL String, dù khi nhập kiểu dữ liệu khác thì vẫn được chuyển đổi về String để lưu trên CSV. có thể chuyển đổi các giá trị từ chuỗi sang kiểu dữ liệu mong muốn sau khi đọc file CSV
 - đóng file: **ten_bien1.close()**
 ### b. PDF
+- có một số file PDF không thể đọc được thông qua python
+- các bổ sung như hình ảnh, bảng, ... hiển thị trên PDF không đọc được bằng python
+- hiện nay có rất nhiều thư viện trả phí hỗ trợ 
+- thư viện sử dụng: **PyPDF2** là 1 thư viện đơn giản không mất phí
+- đảm bảo rằng file pdf có thể đọc được bởi PyPDF2
+- tải thư viện: **pip install PyPDF2**
+- mở file: **ten_bien = open("duong_dan",)**
