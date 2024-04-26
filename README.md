@@ -357,6 +357,7 @@
 ## 14. working with PDFs and CSV files
 ### a. CSV file
 - CSV viết tắt của comma separated variables
+- CSV là một định dạng văn bản đơn giản được sử dụng để lưu trữ dữ liệu dưới dạng bảng
 - là đầu ra rất phổ biến cho rất nhiều spreadsheet programs (chương trình bảng tính)
 - ví dụ: <br> ![image](https://github.com/nbn-03/Python/assets/98254107/2b76bc16-c344-4504-86c3-e01d4904cfe5)
 - dùng thư viện: **import csv**
