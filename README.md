@@ -351,3 +351,4 @@
 - **chú ý:** với các phương thức đang học chỉ dùng cho biến tại thời điểm chạy câu lệnh đó còn lại không ảnh hưởng đến hình ảnh thực tế
 - thay đổi kích thước: **ten_bien.resize(chiều rộng, chiều cao)**
 - xoay hình: **ten_bien.rotate(độ xoay ngược kim đồng hồ)**. trong trường hợp trên khi xoay size sẽ giữa nguyên vì vậy ảnh sẽ bị cắt để tối ưu tự động đổi size thích hợp ta dùng: **ten_bien.rotate(độ ngược kim đồng hồ, expand=True)**
+- **Color Transparency**: link github trên đầu 
