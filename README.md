@@ -346,5 +346,7 @@
 - xem ảnh: **print(ten_bien.show())**
 - đơn vị làm việc: **pixel**
 - lấy size (chiều rộng, chiều cao): **ten_bien.size()**
-- cắt ảnh: **ten_bien.crop(chiều rộng ban đầu, chiều cao ban đầu, chiều rộng lúc sau, chiều cao lúc sau)**
-- paste ảnh: 
+- cắt ảnh: **ten_bien.crop(trái, trên, phải, dưới)** dạng tọa độ
+- paste ảnh: **ten_bien.paste(im = ten_bien_của.ảnh.paste, box=(chiều rộng, chiều cao))**. trong đó box() là vị trí bắt đầu để gán ảnh
+- **chú ý:** với các phương thức đang học chỉ dùng cho biến tại thời điểm chạy câu lệnh đó còn lại không ảnh hưởng đến hình ảnh thực tế
+- thay đổi ảnh thật: 
