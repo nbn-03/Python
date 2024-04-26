@@ -366,7 +366,7 @@
 - đọc: **ten_bien2 = csv.reader(ten_bien1)**
 - format to list: **ten_bien3 = list(ten_bien2)**. sau khi thực hiện câu lệnh mỗi dòng sẽ tạo thành 1 list tính cả tiêu đề và mỗi dòng lại nằm chung trong 1 list
 - ghi file CSV:
-  - **ten_bien4 = open("duong_dan kèm theo file.csv", mode="w hoặc a", newline = "")** tại đây **newline=''** có tác dụng thêm dấu xuống dòng sau mỗi dòng bạn ghi
+  - **ten_bien4 = open("duong_dan kèm theo file.csv", mode="w hoặc a", newline = "")** tại đây **newline= ""** có tác dụng thêm dấu xuống dòng sau mỗi dòng bạn ghi
   - **ten_bien5 = csv.writer(ten_bien4, delimiter=",")** tại đây **delimiter=","** trong một dòng ngăn cách nhau bởi dấu **,** có thể cách nhau bởi \t (tab) hoặc các dấu khác
   - **ten_bien5.writerow([ ])** hoặc **ten_bien5.writerows([[ ],[ ]])**
   - **chú ý:** trong CSV các giá trị thường được xem là String, dù khi nhập kiểu dữ liệu khác thì vẫn được chuyển đổi về String để lưu trên CSV. có thể chuyển đổi các giá trị từ chuỗi sang kiểu dữ liệu mong muốn sau khi đọc file CSV
