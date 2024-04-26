@@ -369,3 +369,4 @@
   - **ten_bien5 = csv.writer(ten_bien4, delimiter=",")** tại đây **delimiter=","** trong một dòng ngăn cách nhau bởi dấu **,** có thể cách nhau bởi \t (tab) hoặc các dấu khác
   - **ten_bien5.writerow([ ])** hoặc **ten_bien5.writerows([[ ],[ ]])**
 - đóng file: **ten_bien1.close()**
+### b. PDF
