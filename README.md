@@ -355,3 +355,8 @@
 - như đã nói ở trên với các phương thức đang học chỉ dùng cho biến tại thời điểm chạy code còn lại không ảnh hưởng đến hình ảnh thực tế vì vậy cần thao tác **lưu** nếu cần: **ten_bien.save("duong_dan")**
 - **trong hình ảnh chỉ luôn ghi đè**
 ## 14. working with PDFs and CSV files
+### a. CSV file
+- CSV viết tắt của comma separated variables
+- là đầu ra rất phổ biến cho rất nhiều spreadsheet programs (chương trình bảng tính)
+- ví dụ: <br> ![image](https://github.com/nbn-03/Python/assets/98254107/2b76bc16-c344-4504-86c3-e01d4904cfe5)
+- 
