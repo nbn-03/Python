@@ -337,25 +337,7 @@
   - **shutil.unpack_archive("duong_dan_filezip.zip", "duong_dan_va_ten_giai_nen", 'zip')**: giải nén
 - ví dụ: <br> ![image](https://github.com/nbn-03/Python/assets/98254107/ba3f14c9-5a83-4637-805a-bb809aaeffad) <br> ![image](https://github.com/nbn-03/Python/assets/98254107/6d8dfa5b-a56e-407d-bdb7-2830917acf6e)
 - **chú ý:** ví dụ trên tại giải nén output_filename chính là đường dẫn file.zip; tại nén output chỉ là đường dẫn với tên file zip để thực hiện nén (chuyển thành file.zip)
-## 12. web scraping
-- **đọc thêm tại link github trên đầu**
-## 13. working with Images
-- thư viện: **pillow** - là thư viện cung cấp để xử lí hình ảnh
-- để sử dụng thư viện: **from PIL import Image**
-- mở: **ten_bien = Image.open("duong_dan")**
-- xem ảnh: **print(ten_bien.show())**
-- đơn vị làm việc: **pixel**
-- lấy size (chiều rộng, chiều cao): **ten_bien.size()**
-- cắt ảnh: **ten_bien.crop((trái, trên, phải, dưới))** dạng tọa độ
-- paste ảnh: **ten_bien.paste(im = ten_bien_của.ảnh.paste, box=(chiều rộng, chiều cao))**. trong đó box() là vị trí bắt đầu để gán ảnh
-- **chú ý:** với các phương thức đang học chỉ dùng cho biến tại thời điểm chạy code còn lại không ảnh hưởng đến hình ảnh thực tế
-- thay đổi kích thước: **ten_bien.resize((chiều rộng, chiều cao))**
-- xoay hình: **ten_bien.rotate(độ xoay ngược kim đồng hồ)**. trong trường hợp trên khi xoay size sẽ giữa nguyên vì vậy ảnh sẽ bị cắt để tối ưu tự động đổi size thích hợp ta dùng: **ten_bien.rotate(độ ngược kim đồng hồ, expand=True)**
-- **Color Transparency**: đọc thêm tại link github trên đầu
-- như đã nói ở trên với các phương thức đang học chỉ dùng cho biến tại thời điểm chạy code còn lại không ảnh hưởng đến hình ảnh thực tế vì vậy cần thao tác **lưu** nếu cần: **ten_bien.save("duong_dan")**
-- **trong hình ảnh chỉ luôn ghi đè**
-## 14. working with PDFs and CSV files
-### a. CSV file
+## 12. working CSV files
 - CSV viết tắt của comma separated variables
 - CSV là một định dạng văn bản đơn giản được sử dụng để lưu trữ dữ liệu dưới dạng bảng
 - là đầu ra rất phổ biến cho rất nhiều spreadsheet programs (chương trình bảng tính)
@@ -371,13 +353,7 @@
   - **ten_bien5.writerow([ ])** hoặc **ten_bien5.writerows([[ ],[ ]])**
   - **chú ý:** trong CSV các giá trị có KDL String, dù khi nhập kiểu dữ liệu khác thì vẫn được chuyển đổi về String để lưu trên CSV. có thể chuyển đổi các giá trị từ chuỗi sang kiểu dữ liệu mong muốn sau khi đọc file CSV
 - đóng file: **ten_bien1.close()**
-### b. PDF
-- **đọc thêm tại link github trên đầu**
-## 15. emails
-- **đọc thêm tại link github trên đầu**
-## 16. introduction to GUIs
-- **đọc thêm tại link github trên đầu**
-## 17. advanced python objects and data structure
+## 13. advanced python objects and data structure
 ### a. numbers
 - chuyển sang thập lục: **hex(số thập phân)**
 - chuyển sang nhị phân: **bin(số tập phân)**
