@@ -386,4 +386,6 @@
 - viết hoa chữ đầu tiên của chuỗi: **ten_bien.capitalize()**
 - viết hoa toàn bộ chuỗi: **ten_bien.upper()**
 - viết thường toàn bộ chuỗi: **ten_bien.lower()**
-- 
+- số lần lặp lại của chuỗi con trng chuỗi cha: **ten_bien.count(chuoi_con)**
+- chỉ số lần đầu chuỗi con nằm trong chuỗi cha: **ten_bien.find(chuoi_con)**
+- đặt chuỗi ở giữa: **ten_bien.center(number, chuoi)** trong đó number là số phần tử của toàn bộ chuỗi khi muốn căn chuỗi chính ra giữa, chuoi là chuỗi ở 2 bên để căn chuỗi chính nằm giữa nếu không truyền thì sẽ được hiểu là dấu space
