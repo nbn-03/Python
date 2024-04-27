@@ -365,4 +365,10 @@
 - số lần lặp lại của chuỗi con trng chuỗi cha: **ten_bien.count(chuoi_con)**
 - chỉ số lần đầu chuỗi con nằm trong chuỗi cha: **ten_bien.find(chuoi_con)**
 - đặt chuỗi ở giữa: **ten_bien.center(number, chuoi)** trong đó number là số phần tử của toàn bộ chuỗi khi muốn căn chuỗi chính ra giữa, chuoi là chuỗi ở 2 bên để căn chuỗi chính nằm giữa nếu không truyền thì sẽ được hiểu là dấu space
-- 
+- **ten_bien.isalnum()** trả về true là chuỗi chỉ chứa chữ và số
+- **ten_bien.isalpha()** trả về true nếu chuỗi chỉ có chữ cái
+- **ten_bien.islower()** trả về true nếu chuỗi chỉ có chữ thường không có chữ hoa
+- **ten_bien.isupper()** trả về true nếu chuỗi chỉ có chữ hoa không có chữ thường
+- **ten_bien.isspace()** trả về true nếu chuỗi chỉ có dấu space
+- **ten_bien.istitle()** trả về true nếu chuỗi có mỗi từ bắt đầu bằng chữ cái có viết hoa và các chữ còn lại viết thường
+- **ten_bien.endswith(chuoi_con,vị trí bắt đầu, vị trí kết thúc)** trả về true nếu chuỗi con có nằm tại vị trí được mong đợi không nếu không chuyền 2 đối số vị trí sẽ được hiểu là chuỗi có được kết thúc bằng chuỗi con không
