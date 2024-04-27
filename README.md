@@ -372,4 +372,5 @@
   - **chú ý:** trong CSV các giá trị có KDL String, dù khi nhập kiểu dữ liệu khác thì vẫn được chuyển đổi về String để lưu trên CSV. có thể chuyển đổi các giá trị từ chuỗi sang kiểu dữ liệu mong muốn sau khi đọc file CSV
 - đóng file: **ten_bien1.close()**
 ### b. PDF
+- đọc thêm tại link github trên đầu
 ## 15. emails
