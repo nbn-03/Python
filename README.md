@@ -379,3 +379,10 @@
 - **đọc thêm tại link github trên đầu**
 ## 17. advanced python objects and data structure
 ### a. numbers
+- chuyển sang thập lục: **hex(số thập phân)**
+- chuyển sang nhị phân: **bin(số tập phân)**
+- hàm mũ: **pow(a,b)** update lên có hàm (a^b)%c **pow(a,b,c)**
+### b. strings
+- viết hoa chữ đầu tiên của chuỗi: **ten_bien.capitalize()**
+- viết hoa toàn bộ chuỗi: **ten_bien.upper()**
+- viết thường toàn bộ chuỗi
