@@ -385,4 +385,5 @@
 ### b. strings
 - viết hoa chữ đầu tiên của chuỗi: **ten_bien.capitalize()**
 - viết hoa toàn bộ chuỗi: **ten_bien.upper()**
-- viết thường toàn bộ chuỗi
+- viết thường toàn bộ chuỗi: **ten_bien.lower()**
+- 
