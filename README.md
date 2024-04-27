@@ -375,3 +375,7 @@
 - **đọc thêm tại link github trên đầu**
 ## 15. emails
 - **đọc thêm tại link github trên đầu**
+## 16. introduction to GUIs
+- **đọc thêm tại link github trên đầu**
+## 17. advanced python objects and data structure
+### a. numbers
