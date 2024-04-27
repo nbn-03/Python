@@ -373,4 +373,5 @@
 - **ten_bien.istitle()** trả về true nếu chuỗi có mỗi từ bắt đầu bằng chữ cái có viết hoa và các chữ còn lại viết thường
 - **ten_bien.endswith(chuoi_con,chỉ số bắt đầu, chỉ số kết thúc)** trả về true nếu chuỗi có kết thúc bằng chuỗi con không, nếu có chỉ số thì sẽ thu gọn lại và kiểm tra chuỗi thu gọn kết thúc bằng chuỗi con
 - tách chuỗi thành 1 list khi gặp 1 chuỗi (kí tự) nào đó: **ten_bien.split(chuoi_tach)**
-### c. 
+### c. sets
+- 
