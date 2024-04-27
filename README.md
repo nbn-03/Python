@@ -371,4 +371,6 @@
 - **ten_bien.isupper()** trả về true nếu chuỗi chỉ có chữ hoa không có chữ thường
 - **ten_bien.isspace()** trả về true nếu chuỗi chỉ có dấu space
 - **ten_bien.istitle()** trả về true nếu chuỗi có mỗi từ bắt đầu bằng chữ cái có viết hoa và các chữ còn lại viết thường
-- **ten_bien.endswith(chuoi_con,vị trí bắt đầu, vị trí kết thúc)** trả về true nếu chuỗi con có nằm tại vị trí được mong đợi không nếu không chuyền 2 đối số vị trí sẽ được hiểu là chuỗi có được kết thúc bằng chuỗi con không
+- **ten_bien.endswith(chuoi_con,chỉ số bắt đầu, chỉ số kết thúc)** trả về true nếu chuỗi có kết thúc bằng chuỗi con không, nếu có chỉ số thì sẽ thu gọn lại và kiểm tra chuỗi thu gọn kết thúc bằng chuỗi con
+- tách chuỗi thành 1 list khi gặp 1 chuỗi (kí tự) nào đó: **ten_bien.split(chuoi_tach)**
+### c. 
