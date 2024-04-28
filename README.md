@@ -364,6 +364,7 @@
 - viết thường toàn bộ chuỗi: **ten_bien.lower()**
 - số lần lặp lại của chuỗi con trng chuỗi cha: **ten_bien.count(chuoi_con)**
 - chỉ số lần đầu chuỗi con nằm trong chuỗi cha: **ten_bien.find(chuoi_con)**
+- loại bỏ các dấu space, tab và dòng mới ở đầu và cuối chuỗi: **ten_bien.strip()**
 - đặt chuỗi ở giữa: **ten_bien.center(number, chuoi)** trong đó number là số phần tử của toàn bộ chuỗi khi muốn căn chuỗi chính ra giữa, chuoi là chuỗi ở 2 bên để căn chuỗi chính nằm giữa nếu không truyền thì sẽ được hiểu là dấu space
 - **ten_bien.isalnum()** trả về true là chuỗi chỉ chứa chữ và số
 - **ten_bien.isalpha()** trả về true nếu chuỗi chỉ có chữ cái
@@ -374,4 +375,17 @@
 - **ten_bien.endswith(chuoi_con,chỉ số bắt đầu, chỉ số kết thúc)** trả về true nếu chuỗi có kết thúc bằng chuỗi con không, nếu có chỉ số thì sẽ thu gọn lại và kiểm tra chuỗi thu gọn kết thúc bằng chuỗi con
 - tách chuỗi thành 1 list khi gặp 1 chuỗi (kí tự) nào đó: **ten_bien.split(chuoi_tach)**
 ### c. sets
-- 
+- thêm phần tử: **ten_bien.add()**
+- xóa toàn bộ phần tử: **ten_bien.clear()**
+- sao chép toàn bộ set: **ten_bien.copy()**
+- loại bỏ các phần tử set1 có trong set2: **ten_bien1.difference(ten_bien2)**
+- loại bỏ các phần tử set1 có trong set2 và trực tiếp thay đổi trên set1: **ten_bien1.difference_update(ten_bien2)**
+- loại bỏ 1 giá trị trong set: **ten_bien1.discard(gia_tri)**
+- trả về những giá trị trùng nhau: **ten_bien1.intersection(ten_bien2)**
+- trả về những giá trị trùng nhau và trực tiếp thay đổi trên set1: **ten_bien1.intersection_update(ten_bien2)**
+- **ten_bien1.isdisjoint(ten_bien2)**: trả về true nếu không có phần tử giống nhau
+- **ten_bien1.issubset(ten_bien2)**: trả về true nếu set1 là tập con của set2
+- **ten_bien1.issuperset(ten_bien2)**: trả về true nếu set1 là tập cha của set2
+- trả về những giá trị không có giá trị trùng nhau trên cả 2 set: **ten_bien1.symmetric_difference(ten_bien2)**
+- trả về những giá trị không có giá trị trùng nhau trên cả 2 set và thay đổi trực tiếp trên set 1: **ten_bien1.symmetric_difference(ten_bien2)**
+- gộp 2 set vào 1: **te
