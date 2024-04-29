@@ -398,3 +398,4 @@
 - trả về chỉ mục của 1 giá trị: **ten_bien.index(gia_tri)**
 - thêm vào vị trí tùy thích: **ten_bien.insert(chi_so, gia_tri)**
 - xóa 1 giá trị trong list: **ten_bien.remove(gia_tri)** nếu có 2 giá trị trở lên sẽ xóa giá trị đầu tiên
+- **chú ý:** trong list không thể gán list đã sửa đổi cho 1 list khác mà sẽ trực tiếp thay đổi trên list vì vậy để không ảnh hương đến list ban đầu ta có thể thực hiện sao chép **ten_bien2 = ten_bien1.copy()**
