@@ -289,7 +289,7 @@
 ### f. regular expressions
 - câu lệnh: **import re**
 - câu lệnh **in** để tìm chuỗi con trong chuỗi lớn kết quả trả về true hoặc false
-- **re.search(chuoi_con, chuoi_lon)**: kết quả trả về lần xuất hiện đầu tiên của chuỗi con trong chuỗi lớn nếu có sẽ là (chỉ số bắt đầu+1, chỉ số kết thúc) và 1 số thông tin khác, nếu không thì sẽ là None
+- **re.search(chuoi_con, chuoi_lon)**: kết quả trả về lần xuất hiện đầu tiên của chuỗi con trong chuỗi lớn nếu có sẽ là (chỉ số bắt đầu, chỉ số kết thúc+1) và 1 số thông tin khác, nếu không thì sẽ là None
   - ten_bien = re.search(chuoi_con, chuoi_lon)
   - để truy cập lấy dữ liệu sử dụng: **ten_bien.span()** -> tuple; **ten_bien.start()**, **ten_bien.end()** -> int 
 - **re.findall(chuoi_con, chuoi_lon)**: trả về các lần xuất hiện của chuỗi con trong chuỗi lớn -> list
