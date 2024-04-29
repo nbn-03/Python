@@ -395,4 +395,5 @@
 ### e. lists
 - trả về số lần xuất hiện của giá trị tring list: **ten_bien.count(gia_tri)**
 - nối list và thay đổi trực tiếp trên list 1: **ten_bien1.extend(ten_bien2)**
-- trả về chỉ mục của 1 giá trị: **ten_bien.index(gia_tri)** 
+- trả về chỉ mục của 1 giá trị: **ten_bien.index(gia_tri)**
+- thêm vào vị trí tùy thích: **ten_bien.insert(chi_so, gia_tri)**
