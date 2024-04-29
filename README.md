@@ -387,5 +387,6 @@
 - **ten_bien1.issubset(ten_bien2)**: trả về true nếu set1 là tập con của set2
 - **ten_bien1.issuperset(ten_bien2)**: trả về true nếu set1 là tập cha của set2
 - trả về những giá trị không có giá trị trùng nhau trên cả 2 set: **ten_bien1.symmetric_difference(ten_bien2)**
-- trả về những giá trị không có giá trị trùng nhau trên cả 2 set và thay đổi trực tiếp trên set 1: **ten_bien1.symmetric_difference(ten_bien2)**
-- gộp 2 set vào 1: **te
+- trả về những giá trị không có giá trị trùng nhau trên cả 2 set và thay đổi trực tiếp trên set 1: **ten_bien1.symmetric_update(ten_bien2)**
+- gộp 2 set vào 1: **ten_bien1.union(ten_bien2)**
+- gộp set 2 vào set 1 và thay đổi trực tiếp trên set1: **ten_bien1.update(ten_bien2)**
