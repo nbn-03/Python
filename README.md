@@ -390,3 +390,6 @@
 - trả về những giá trị không có giá trị trùng nhau trên cả 2 set và thay đổi trực tiếp trên set 1: **ten_bien1.symmetric_update(ten_bien2)**
 - gộp 2 set vào 1: **ten_bien1.union(ten_bien2)**
 - gộp set 2 vào set 1 và thay đổi trực tiếp trên set1: **ten_bien1.update(ten_bien2)**
+### d. dictionary
+- comprehensions: **{x:pow(x,2) for x in range(10)}**
+### e. lists
