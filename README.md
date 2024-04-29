@@ -397,3 +397,4 @@
 - nối list và thay đổi trực tiếp trên list 1: **ten_bien1.extend(ten_bien2)**
 - trả về chỉ mục của 1 giá trị: **ten_bien.index(gia_tri)**
 - thêm vào vị trí tùy thích: **ten_bien.insert(chi_so, gia_tri)**
+- xóa 1 giá trị trong list: **ten_bien.remove(gia_tri)** nếu có 2 giá trị trở lên sẽ xóa giá trị đầu tiên
