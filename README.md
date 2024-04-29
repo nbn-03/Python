@@ -393,3 +393,6 @@
 ### d. dictionary
 - comprehensions: **{x:pow(x,2) for x in range(10)}**
 ### e. lists
+- trả về số lần xuất hiện của giá trị tring list: **ten_bien.count(gia_tri)**
+- nối list và thay đổi trực tiếp trên list 1: **ten_bien1.extend(ten_bien2)**
+- trả về chỉ mục của 1 giá trị: **ten_bien.index(gia_tri)** 
