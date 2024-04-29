@@ -54,7 +54,7 @@
 - thêm vào cuối list: **ten_list.append(gia_tri_can_them)**.
 - lấy phần tử và loại bỏ chính phần tử đó trong list: **ten_list.pop(vi_tri_bo)** nếu không truyền chỉ số sẽ auto là chỉ số cuối
 - sắp xếp các phần tử trong list theo thứ tự tăng dần: **ten_list.sort()**
-- sắp xếp các phần tử trong list theo thứ tự giảm dần: **ten_list.reverse()**
+- sắp xếp các phần tử trong list theo thứ tự giảm dần: **ten_list.sort(reverse=True)**
 - chú ý:<br> ![image](https://github.com/nbn-03/Python/assets/98254107/21113fd2-06c4-404d-bf9c-d40a328116f0)
 ### f. Dictionary
 - là 1 tập hợp các cặp **key-value với key là chỉ mục** không có thứ tự, không thể sắp xếp, có thể thay đổi (key cố định và value được thay đổi).
