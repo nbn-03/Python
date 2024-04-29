@@ -32,7 +32,7 @@
 - ví dụ: <br>![image](https://github.com/nbn-03/Python/assets/98254107/338e4117-5c62-4997-b3d6-b64ecee92cd3)
 - chỉ mục được đặt trong [ ]
 - ví dụ: <br>![image](https://github.com/nbn-03/Python/assets/98254107/aa1c8be9-1471-4ac9-90d1-fe7db1f5c530)<br>![image](https://github.com/nbn-03/Python/assets/98254107/a36583f0-6f36-4c55-aef2-b8e0b12fe409)
-- slicing là tính năng cho phép bạn lấy 1 phần gồm nhiều kí tự (phần tử) trong chuỗi. lệnh: **ten_chuoi[start:stop:step]**. nếu không truyền đối số cho stop và step và start nó sẽ tự động stop: vị trí cuối của chuỗi, step: 1, start: vị trí bắt đầu. đảo ngược chuỗi thì step là số âm.
+- slicing là tính năng cho phép bạn lấy 1 phần gồm nhiều kí tự (phần tử) trong chuỗi. lệnh: **ten_chuoi[start:stop:step]**. nếu không truyền đối số cho stop và step và start nó sẽ tự động stop: chỉ số cuối của chuỗi, step: 1, start: chỉ số bắt đầu. đảo ngược chuỗi thì step là số âm.
 - câu lệnh để in ra màn hình: **print()**. print sẽ tự động xuống dòng khi thực hiện câu lệnh. \n - xuống dòng. \t sử dụng tab
 - câu lệnh đo độ dài của chuỗi: **len(ten_chuoi)**
 - xử lí chuỗi trong python khác java là với java có thể dùng dấu cộng "+" để nối các kiểu dữ liệu với nhau để tạo thành 1 chuỗi. với python để nối chuỗi cần phải ép kiểu thành KDL String để nối chuỗi. ngoài ra trong python còn có phép nhân "*" => để nhân các chuỗi giống nhau; phép so sánh "< > <= >= ==" để so sánh chuỗi (với java so sánh chuỗi cần phương thức hỗ trợ).
@@ -52,7 +52,7 @@
 - nối list sư dụng phép cộng "+". ví dụ: <br> ![image](https://github.com/nbn-03/Python/assets/98254107/116b3167-5512-4872-a447-32aa265a4548)
 - có sự khác biệt là với chuỗi không thể thay đổi được phần tử trong chuỗi (vẫn có cách dùng phương thức replace) nhưng tại list thì có thể thay đối các phần tử. ví dụ: <br> ![image](https://github.com/nbn-03/Python/assets/98254107/6741ca7f-c82f-46e8-aa6c-169b82a4471c)
 - thêm vào cuối list: **ten_list.append(gia_tri_can_them)**.
-- lấy phần tử và loại bỏ chính phần tử đó trong list: **ten_list.pop(vi_tri_bo)** nếu không truyền vị trí sẽ auto là vị trí cuối
+- lấy phần tử và loại bỏ chính phần tử đó trong list: **ten_list.pop(vi_tri_bo)** nếu không truyền chỉ số sẽ auto là chỉ số cuối
 - sắp xếp các phần tử trong list theo thứ tự tăng dần: **ten_list.sort()**
 - sắp xếp các phần tử trong list theo thứ tự giảm dần: **ten_list.reverse()**
 - chú ý:<br> ![image](https://github.com/nbn-03/Python/assets/98254107/21113fd2-06c4-404d-bf9c-d40a328116f0)
@@ -115,7 +115,7 @@
 ### d. mở rộng
 - **range(start,stop,step)**. nếu chỉ có stop thì start = 0 và step = 1. lưu ý: **< stop**.
 - từ câu lệnh range tạo thành 1 list, set, tuple: **loai(range(strat,stop,step))**
-- tích hợp truy xuất ra cả vị trí phần tử và giá trị: <br> ![image](https://github.com/nbn-03/Python/assets/98254107/ba4f1325-defc-4fb2-afb6-9cbfa0825dc4) <br> **không chỉ chuỗi mà còn list, tuple, set, dictionary**
+- tích hợp truy xuất ra cả chỉ số phần tử và giá trị: <br> ![image](https://github.com/nbn-03/Python/assets/98254107/ba4f1325-defc-4fb2-afb6-9cbfa0825dc4) <br> **không chỉ chuỗi mà còn list, tuple, set, dictionary**
 - <br> ![image](https://github.com/nbn-03/Python/assets/98254107/747070a7-b015-48ee-a6f7-bd107fc155ca) <br> ![image](https://github.com/nbn-03/Python/assets/98254107/70406ac3-d397-4c69-a2d9-d5d12bc10b67)
 - có thể dung **in** để kiểm tra phân tử có nằm trong chuỗi, list,... hay không. ví dụ: <br> ![image](https://github.com/nbn-03/Python/assets/98254107/492a201c-6997-48c4-913b-9bc9b5b7090c)
 - max, min trong chuỗi, list,...: **max(ten)**' **min(ten)**
@@ -289,7 +289,7 @@
 ### f. regular expressions
 - câu lệnh: **import re**
 - câu lệnh **in** để tìm chuỗi con trong chuỗi lớn kết quả trả về true hoặc false
-- **re.search(chuoi_con, chuoi_lon)**: kết quả trả về lần xuất hiện đầu tiên của chuỗi con trong chuỗi lớn nếu có sẽ là (vị trí bắt đầu+1, vị trí kết thúc) và 1 số thông tin khác, nếu không thì sẽ là None
+- **re.search(chuoi_con, chuoi_lon)**: kết quả trả về lần xuất hiện đầu tiên của chuỗi con trong chuỗi lớn nếu có sẽ là (chỉ số bắt đầu+1, chỉ số kết thúc) và 1 số thông tin khác, nếu không thì sẽ là None
   - ten_bien = re.search(chuoi_con, chuoi_lon)
   - để truy cập lấy dữ liệu sử dụng: **ten_bien.span()** -> tuple; **ten_bien.start()**, **ten_bien.end()** -> int 
 - **re.findall(chuoi_con, chuoi_lon)**: trả về các lần xuất hiện của chuỗi con trong chuỗi lớn -> list
