@@ -400,4 +400,4 @@
 - xóa 1 giá trị trong list: **ten_bien.remove(gia_tri)** nếu có 2 giá trị trở lên sẽ xóa giá trị đầu tiên
 - **chú ý:** trong list không thể gán list đã sửa đổi cho 1 list khác mà sẽ trực tiếp thay đổi trên list vì vậy để không ảnh hương đến list ban đầu ta có thể thực hiện sao chép **ten_bien2 = ten_bien1.copy()**
 ## Tổng kết.
-- **qua 13 bài học vừa qua đã cung cấp nền cơ bản về python để người học phát triển. python là một ngôn ngữ bậc cao ứng dụng rất nhiều trong công việc, cuộc sống vì vậy mỗi người học python không thể nắm hết toàn bộ kiến thức về python chỉ có thể mở rộng thêm kiến thức, hiểu biết trong quá trình làm việc với python. tại link github trên đầu ngoài cơ bản có nhắc đến 1 số chức năng của python mang lại: web scraping; pdf; image; GUI; email**
+- **qua 13 bài học vừa qua đã cung cấp nền cơ bản về python để người học phát triển. python là một ngôn ngữ bậc cao ứng dụng rất nhiều trong công việc, cuộc sống vì vậy mỗi người học python không thể nắm hết toàn bộ kiến thức về python chỉ có thể mở rộng thêm kiến thức, hiểu biết trong quá trình làm việc với python.**
