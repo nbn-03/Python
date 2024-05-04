@@ -1,6 +1,6 @@
 # Python
 ## 1. tổng quan cho người mới với python
-- https://github.com/Pierian-Data/Complete-Python-3-Bootcamp
+- tài liệu tham khảo: https://github.com/Pierian-Data/Complete-Python-3-Bootcamp
 - **vì là tổng quát lại nên sẽ không nhắc đươc hết các hàm, các phương thức vì vậy còn rất nhiều hàm, phương thức khác nhau (GPT; Google)**
 - windows command line:
   - hiển thị các thư mục và file trong đường dẫn: dir
