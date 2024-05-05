@@ -276,7 +276,7 @@
 - hằng số euler: **math.e**
 - **math.log(hang_so, co_so)** nếu không truyền cơ số sẽ auto là **math.e**
 - câu lệnh: **import random**
-- **random.randint(start, end)**: sinh ra số nguyên bất kì trong phạm vi đề ra
+- **random.randint(start, end)**: sinh ra số nguyên bất kì trong phạm vi đề ra tính cả start và end
 - **random.seed(chi_so)**: được sử dụng trong tạo số ngẫu nhiên. đảm bảo với với 1 giá trị truyền vào một seed sẽ cố định với một số hoặc bộ số random. bất kì lần nào chạy cùng 1 giá trị seed sẽ tạo ra cùng 1 số hoặc bộ số
 - **random.choice(ten)**: dùng với list và tuple để random 1 số trong bộ số đó
 - **random.choises(ten, k = so_phan_tu)**: random ra 1 list có so_phan_tu và các phần tử có thể trùng lặp nhau
