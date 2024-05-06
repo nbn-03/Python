@@ -362,6 +362,7 @@
 - **chú ý**: nếu dạng thập phân có dấu "," thì phần sau dấu "," sẽ nhân cho 2 đến bao giờ sau dấu "," bằng 0 ví dụ: 55,875 = 110111,111
 - hàm mũ: **pow(a,b)** update lên có hàm (a^b)%c **pow(a,b,c)**
 ### b. strings
+- lấy bảng chữ cái: <br> ![image](https://github.com/nbn-03/Python-for-beginner/assets/98254107/f38dbfb2-8801-42f1-90a4-5864bb36dc39)
 - viết hoa chữ đầu tiên của chuỗi: **ten_bien.capitalize()**
 - viết hoa toàn bộ chuỗi: **ten_bien.upper()**
 - viết thường toàn bộ chuỗi: **ten_bien.lower()**
