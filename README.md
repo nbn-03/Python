@@ -358,6 +358,8 @@
 ### a. numbers
 - chuyển sang thập lục: **hex(số thập phân)**
 - chuyển sang nhị phân: **bin(số tập phân)**
+- chuyển về dạng thập phân: **int("số cần chuyển", dạng hiện tại của số cần chuyển viết dưới dạng số)**
+- **chú ý**: nếu dạng thập phân có dấu "," thì phần sau dấu "," sẽ nhân cho 2 đến bao giờ sau dấu "," bằng 0 ví dụ: 55,875 = 110111,111
 - hàm mũ: **pow(a,b)** update lên có hàm (a^b)%c **pow(a,b,c)**
 ### b. strings
 - viết hoa chữ đầu tiên của chuỗi: **ten_bien.capitalize()**
