@@ -56,6 +56,7 @@
 - sắp xếp các phần tử trong list theo thứ tự tăng dần: **ten_list.sort()**
 - sắp xếp các phần tử trong list theo thứ tự giảm dần: **ten_list.sort(reverse=True)**
 - đảo ngược list: **ten_bien.reverse()**
+- một list chứa phần tử dạng String để ghép lại thành 1 chuỗi: **ki_tu.join(ten_list)** trong đó ki_tu là kí tự phân cách các phần từ trong list khi ghép lại thành 1 chuỗi
 - chú ý:<br> ![image](https://github.com/nbn-03/Python/assets/98254107/21113fd2-06c4-404d-bf9c-d40a328116f0)
 ### f. Dictionary
 - là 1 tập hợp các cặp **key-value với key là chỉ mục** không có thứ tự, không thể sắp xếp, có thể thay đổi (key cố định và value được thay đổi).
