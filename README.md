@@ -373,7 +373,7 @@
 - đặt chuỗi ở giữa: **ten_bien.center(number, chuoi)** trong đó number là số phần tử của toàn bộ chuỗi khi muốn căn chuỗi chính ra giữa, chuoi là chuỗi ở 2 bên để căn chuỗi chính nằm giữa nếu không truyền thì sẽ được hiểu là dấu space
 - **ten_bien.isalnum()** trả về true là chuỗi chỉ chứa chữ và số
 - **ten_bien.isalpha()** trả về true nếu chuỗi chỉ có chữ cái
-- **ten_bien.isdigit()** trả về chuỗi chỉ có kí tự số
+- **ten_bien.isdigit()** trả về true nếu chuỗi chỉ có kí tự số
 - **ten_bien.islower()** trả về true nếu chuỗi chỉ có chữ thường không có chữ hoa
 - **ten_bien.isupper()** trả về true nếu chuỗi chỉ có chữ hoa không có chữ thường
 - **ten_bien.isspace()** trả về true nếu chuỗi chỉ có dấu space
