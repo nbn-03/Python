@@ -99,6 +99,8 @@
 - ghi file: **ten_doi_tuong.write(noi_dung)**
 - đọc toàn bộ file và lưu mỗi dòng là 1 phần tử của list: **ten_doi_tuong.readlines()** chú ý lưu cả dấu xuống dòng
 - tại trong file cũng sẽ có chỉ mục bắt đầu từ 0 vì vậy các phương thức có thể sử dụng đến chỉ mục
+### **lưu ý:**
+- 
 ## 3. toán tủ so sánh trong python
 - ![image](https://github.com/nbn-03/Python/assets/98254107/b16ca2df-5443-4303-8700-b2d8ff73a576)
 - **and**: và; **or**: hoặc; **not**: phủ định (giống với ! trong java và C)
