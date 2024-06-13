@@ -102,7 +102,7 @@
 ### **lưu ý:**
 - với câu lệnh **print** sẽ tự động xuống dòng do sẽ được thêm vào **\n** để thay đổi ta có thể dùng **print(...,end = "thay thế cho \n")**
 - toán tử * dùng với list, set, tuple được gọi là unpacking operator. Nó được sử dụng để giải nén các phần tử thành các đối số riêng lẻ.
-  - tại đây có câu lệnh: **print(\*a,sep = "\n")** được hieur là giải nén các phần tử và in ra mỗi phần tử viết tại 1 dòng 
+  - tại đây có câu lệnh: **print(\*a,sep = "\n")** được hieur là giải nén các phần tử trong a và in ra mỗi phần tử viết tại 1 dòng 
 ## 3. toán tủ so sánh trong python
 - ![image](https://github.com/nbn-03/Python/assets/98254107/b16ca2df-5443-4303-8700-b2d8ff73a576)
 - **and**: và; **or**: hoặc; **not**: phủ định (giống với ! trong java và C)
