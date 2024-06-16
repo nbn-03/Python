@@ -50,7 +50,7 @@
 - số phần tử của list: **len(ten_list)**
 - **truy xuất phần tử trong list sẽ giống với các phần tử trong chuỗi**
 - nối list sư dụng phép cộng "+". ví dụ: <br> ![image](https://github.com/nbn-03/Python/assets/98254107/116b3167-5512-4872-a447-32aa265a4548)
-- có sự khác biệt là với chuỗi không thể thay đổi được phần tử trong chuỗi (vẫn có cách dùng phương thức replace-cú pháp: **chuoi.replace(vitricu,vitrimoi)**) nhưng tại list thì có thể thay đối các phần tử. ví dụ: <br> ![image](https://github.com/nbn-03/Python/assets/98254107/6741ca7f-c82f-46e8-aa6c-169b82a4471c)
+- có sự khác biệt là với chuỗi không thể thay đổi được phần tử trong chuỗi (phương thức replace-cú pháp: **chuoi.replace(vitricu,vitrimoi)** sẽ thay thế toàn bộ kí tự cũ thành kí tự mới) nhưng tại list thì có thể thay đối các phần tử. ví dụ: <br> ![image](https://github.com/nbn-03/Python/assets/98254107/6741ca7f-c82f-46e8-aa6c-169b82a4471c)
 - thêm vào cuối list: **ten_list.append(gia_tri_can_them)**.
 - lấy phần tử và loại bỏ chính phần tử đó trong list: **ten_list.pop(vi_tri_bo)** nếu không truyền chỉ số sẽ auto là chỉ số cuối
 - sắp xếp các phần tử trong list theo thứ tự tăng dần: **ten_list.sort()**
